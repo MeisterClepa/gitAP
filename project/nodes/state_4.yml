@@ -1,0 +1,19 @@
+---
+id: "state_4"
+nodeName: "IMAP Email"
+nodeType: "TRIGGER_IMAP"
+position:
+  x: 321
+  "y": 779
+nextStep: "state_8"
+parameters: !<TRIGGER_IMAP>
+  filterRule:
+    mailBoxName: "INBOX"
+    readAction: "MARK_AS_READ"
+    downloadAttachments: false
+    fetchOnlyNewEmails: true
+    andFilters:
+    - filterFieldType: "SENT_DATE_AFTER"
+      not: false
+      value: "2026-03-20T14:23:25.628Z"
+    orFilters: []

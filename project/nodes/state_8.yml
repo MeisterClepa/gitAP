@@ -1,0 +1,11 @@
+---
+id: "state_8"
+nodeName: "Условие"
+nodeType: "CONDITION"
+position:
+  x: 711
+  "y": 665
+nextStep: "state_6"
+parameters: !<CONDITION>
+  condition: "text == \"hello\""
+  falseStep: "state_7"

@@ -1,11 +1,11 @@
 ---
-exportVersion: "1"
-exportedAt: "2026-03-20T13:44:02.189219527Z"
-projectId: "git_empty-1000001-AsX"
-projectName: "git_empty-1000001-AsX"
+exportVersion: "2"
+exportedAt: "2026-03-20T14:25:10.115247830Z"
+projectId: "for-1000001-GhG"
+projectName: "for-1000001-GhG"
 accountId: 1000001
-language: null
-timezone: null
+language: "ru"
+timezone: "Europe/Moscow"
 importInstructions: "This archive contains an Agent Platform project export.\n\nIMPORTANT:\
   \ Sensitive data (credentials, API keys) are NOT included in this export.\nAfter\
   \ import, you will need to:\n1. Fill in credential placeholders in credentials.json\n\

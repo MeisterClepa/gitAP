@@ -1,0 +1,19 @@
+---
+id: "state_7"
+nodeName: "add"
+nodeType: "FUNCTION"
+position:
+  x: 1081
+  "y": 447
+nextStep: "state_9"
+parameters: !<FUNCTION>
+  functionId: "69bd58333788ed3903b91e06"
+  isTool: false
+  isSystem: false
+  parameters:
+    firstNumber: !<NUMBER>
+      value: null
+      filledAi: false
+    secondNumber: !<NUMBER>
+      value: null
+      filledAi: false

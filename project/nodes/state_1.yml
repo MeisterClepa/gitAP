@@ -1,0 +1,10 @@
+---
+id: "state_1"
+nodeName: "Вебхук"
+nodeType: "TRIGGER_WEBHOOK"
+position:
+  x: 263
+  "y": 243
+nextStep: null
+parameters: !<TRIGGER_WEBHOOK>
+  url: "https://dev27.lo.test-ai.net/api/text-campaign-service/scenario-triggers/d1daef99-079e-44b6-90e4-5dba6c06c01f/invoke"

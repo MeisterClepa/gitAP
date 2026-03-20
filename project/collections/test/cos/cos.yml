@@ -1,0 +1,15 @@
+---
+id: "69bd58333788ed3903b91e16"
+name: "cos"
+originName: "cos"
+collectionName: "test"
+mcpIntegrationKey: "1000001-test-fho"
+description: "Calculates the cosine of a number in radians"
+responseDescription: null
+parameters:
+- name: "number"
+  type: "NUMBER"
+  required: true
+  description: "The number in radians to find the cosine of"
+  properties: null
+  items: null

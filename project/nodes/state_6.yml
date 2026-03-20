@@ -1,0 +1,28 @@
+---
+id: "state_6"
+nodeName: "второй"
+nodeType: "AGENT"
+position:
+  x: 1121
+  "y": 684
+nextStep: "state_7"
+parameters: !<AGENT>
+  systemPromts:
+    role: "второй"
+    goal: "второй"
+    instructions: "второй"
+    queryOverride: ""
+  llmSettings:
+    maxTokens: 4000
+    temperature: 0.6
+    topP: 1.0
+    frequencyPenalty: 0.0
+    presencePenalty: 0.0
+    verboseMode: false
+  llmModelKey: "1000001-open_ai_gpt52pro-kpc"
+  tools: []
+  handoffAgents:
+    allowedAny: false
+    allowedAgentNodeIds:
+    - "state_5"
+  stayInAgent: false

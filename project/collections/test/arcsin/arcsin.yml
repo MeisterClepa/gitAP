@@ -1,0 +1,15 @@
+---
+id: "69bd58333788ed3903b91e15"
+name: "arcsin"
+originName: "arcsin"
+collectionName: "test"
+mcpIntegrationKey: "1000001-test-fho"
+description: "Calculates the arcsine of a number in radians"
+responseDescription: null
+parameters:
+- name: "number"
+  type: "NUMBER"
+  required: true
+  description: "The number to find the arcsine of"
+  properties: null
+  items: null
