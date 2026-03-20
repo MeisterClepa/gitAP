@@ -1,0 +1,13 @@
+---
+exportVersion: "1"
+exportedAt: "2026-03-20T13:24:58.017731917Z"
+projectId: "test-1000001-RPd"
+projectName: "test-1000001-RPd"
+accountId: 1000001
+language: null
+timezone: null
+importInstructions: "This archive contains an Agent Platform project export.\n\nIMPORTANT:\
+  \ Sensitive data (credentials, API keys) are NOT included in this export.\nAfter\
+  \ import, you will need to:\n1. Fill in credential placeholders in credentials.json\n\
+  2. Set up LLM integration keys referenced in agent nodes\n3. Verify all integrations\
+  \ are properly connected\n\nSee detailed import instructions in the documentation."
