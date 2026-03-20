@@ -1,0 +1,35 @@
+---
+id: "state_Agent"
+nodeName: "Агент"
+nodeType: "AGENT"
+position:
+  x: 844
+  "y": -290
+nextStep: ""
+parameters: !<AGENT>
+  systemPromts:
+    role: "Помощник"
+    goal: "Выполни задание, которое тебе дал пользователь"
+    instructions: "Если пользователь просит найти новости:\n1. Вызови функцию searchArticles\
+      \ и передай термин на английском языке в качестве параметра.\n2. Когда получ\
+      ишь новости, составь один абзац текста со всей информацией.\n3. Переведи на\
+      \ русский язык, подпиши, за какой период новости, и приложи список ссылок.\n\
+      4. Отправь пользователю.\n\nЕсли пользователь просит краткий обзор новостей\
+      \ за последнее время:\n1. Проанализируй последние сообщения в чате.\n2. Сост\
+      авь один абзац текста с основными событиями, переведи на русский язык. Ссылк\
+      и и даты не включай.\n3. Отправь пользователю."
+    queryOverride: null
+  llmSettings:
+    maxTokens: 4000
+    temperature: 0.6
+    topP: 1.0
+    frequencyPenalty: 0.0
+    presencePenalty: 0.0
+    verboseMode: true
+  llmModelKey: "modelForLLM"
+  tools:
+  - "state_searchArticles"
+  handoffAgents:
+    allowedAny: false
+    allowedAgentNodeIds: []
+  stayInAgent: false

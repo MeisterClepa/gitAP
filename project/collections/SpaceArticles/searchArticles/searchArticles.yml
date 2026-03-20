@@ -1,0 +1,24 @@
+---
+id: "searchArticlesFunc"
+name: "searchArticles"
+collectionName: "SpaceArticles"
+description: "Найти последние статьи по нужной теме"
+code: "// Отправляем запрос, чтобы получить статьи по термину\nreturn Http.get({\n\
+  url: \"https://api.spaceflightnewsapi.net/v4/articles/\",\nparams: {\n    // Пер\
+  едаем в API-запрос параметр query\n    search: query,\n    ordering: \"-published_at\"\
+  \n},\nheaders: {}\n})\n.then(function (response) {\nvar body = typeof response.body\
+  \ === \"string\" ? JSON.parse(response.body) : response.body;\n\n// Сохраняем ну\
+  жные данные о статьях\nvar articles = (body.results || []).map(function (a) {\n\
+  \    return {\n    title: a.title,\n    summary: a.summary,\n    url: a.url,\n \
+  \   publishedAt: a.published_at\n    };\n});\n\n// Если статей нет\nif (articles.length\
+  \ === 0) {\n    return \"No data\";\n}\n\nreturn JSON.stringify(articles);\n})\n\
+  .catch(function (err) {\nreturn \"Error fetching articles: \" + err;\n});"
+responseDescription: "Функция получает релевантные статьи из Spaceflight News API\
+  \ и возвращает их данные."
+parameters:
+- name: "query"
+  type: "string"
+  required: false
+  description: "Термин на английском языке, по которому нужно найти статьи"
+  properties: null
+  items: null
