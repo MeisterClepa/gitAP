@@ -1,0 +1,9 @@
+--- !<MCP>
+key: "mcpExa"
+type: "MCP"
+credentialKey: null
+projectShortName: null
+name: "Exa"
+collectionName: "Exa"
+url: "https://mcp.exa.ai/mcp"
+toolsCount: 0
