@@ -1,0 +1,13 @@
+---
+id: "state_SendNews"
+nodeName: "sendNews"
+nodeType: "FUNCTION"
+position:
+  x: 831
+  "y": 379
+nextStep: "state_LlmSendText"
+parameters: !<FUNCTION>
+  functionId: "sendNewsFunc"
+  isTool: false
+  isSystem: false
+  parameters: {}
