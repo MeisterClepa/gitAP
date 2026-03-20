@@ -1,0 +1,23 @@
+---
+id: "sendNewsFunc"
+name: "sendNews"
+collectionName: "SpaceArticles"
+description: "Получить последние новости и составить пост"
+code: "// Получаем дату и время, которые были день назад в формате ISO\nvar oneDayAgoISO\
+  \ = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString();\n\n// Отправляем з\
+  апрос, чтобы получить статьи, опубликованные за последний день\nreturn Http.get({\n\
+  \  url: \"https://api.spaceflightnewsapi.net/v4/articles/\",\n  params: {\n    published_at_gte:\
+  \ oneDayAgoISO,\n    ordering: \"-published_at\"\n  },\n  headers: {}\n})\n.then(function\
+  \ (response) {\n  var body = typeof response.body === \"string\" ? JSON.parse(response.body)\
+  \ : response.body;\n\n  var articles = (body.results || []).map(function (a) {\n\
+  \    return {\n      title: a.title,\n      url: a.url,\n      publishedAt: a.published_at\n\
+  \    };\n  });\n\n  // Если статей нет\n  if (articles.length === 0) {\n    return\
+  \ \"☁️ Сегодня ничего нового\";\n  }\n\n  // Формируем текст поста\n  var postText\
+  \ = \"🛰️ Статьи про космос за день:\\n\\n\" +\n    articles.map(function (a) {\n\
+  \      return \"**\" + a.title + \"**\\n\" +\n            \"🔗 \" + a.url + \"\\\
+  n\" +\n            \"🗓 \" + new Date(a.publishedAt).toUTCString();\n    }).join(\"\
+  \\n\\n\");\n\n  return postText;\n})\n.catch(function (err) {\n  return \"Произо\
+  шла ошибка: \" + err;\n});"
+responseDescription: "Функция получает новости про космос за день из Spaceflight News\
+  \ API и возвращает текст поста."
+parameters: []
