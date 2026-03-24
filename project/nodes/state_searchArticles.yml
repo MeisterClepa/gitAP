@@ -5,9 +5,9 @@ nodeType: "FUNCTION"
 position:
   x: 845
   "y": 13
-nextStep: ""
+nextStep: null
 parameters: !<FUNCTION>
-  functionId: "searchArticlesFunc"
+  functionId: "69c2a2fd85a4d32f3a24615d"
   isTool: true
   isSystem: false
   parameters:

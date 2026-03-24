@@ -1,0 +1,15 @@
+---
+id: "69c2a32a85a4d32f3a246177"
+name: "arccos"
+originName: "arccos"
+collectionName: "test"
+mcpIntegrationKey: "1000001-test-fvn"
+description: "Calculates the arccosine of a number in radians"
+responseDescription: null
+parameters:
+- name: "number"
+  type: "NUMBER"
+  required: true
+  description: "The number to find the arccosine of"
+  properties: null
+  items: null

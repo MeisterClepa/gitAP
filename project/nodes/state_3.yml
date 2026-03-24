@@ -1,0 +1,10 @@
+---
+id: "state_3"
+nodeName: "Код"
+nodeType: "CODE"
+position:
+  x: 1707
+  "y": -11
+nextStep: null
+parameters: !<CODE>
+  code: "let b = test.add(5,5)"

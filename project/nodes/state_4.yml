@@ -1,0 +1,66 @@
+---
+id: "state_4"
+nodeName: "Llm.sendRequest"
+nodeType: "FUNCTION"
+position:
+  x: 1222
+  "y": 382
+nextStep: null
+parameters: !<FUNCTION>
+  functionId: "a1ba4083e047c52de353fa93"
+  isTool: false
+  isSystem: true
+  parameters:
+    llmModelKey: !<LLM_MODEL>
+      value: "1000001-open_ai_gpt41-wih"
+      filledAi: false
+    messages: !<ARRAY>
+      value: null
+      items:
+      - !<OBJECT>
+        properties:
+          role: !<STRING>
+            value: "123"
+          text: !<STRING>
+            value: "123"
+          images: !<ARRAY>
+            items:
+            - !<OBJECT>
+              properties:
+                url: !<STRING>
+                  value: "1"
+                description: !<STRING>
+                  value: "1"
+                mimeType: !<STRING>
+                  value: "1с"
+          toolCalls: !<ARRAY>
+            items:
+            - !<OBJECT>
+              properties:
+                id: !<STRING>
+                  value: "12"
+                name: !<STRING>
+                  value: "егор"
+                arguments: !<OBJECT>
+                  properties: {}
+      filledAi: false
+    tools: !<ARRAY>
+      value: null
+      items: []
+      filledAi: false
+    maxCompletionTokens: !<INTEGER>
+      value: "1"
+      filledAi: false
+    temperature: !<NUMBER>
+      value: "1"
+      filledAi: false
+    topP: !<NUMBER>
+      value: "1"
+      filledAi: false
+    responseFormat: !<OBJECT>
+      value: null
+      properties: {}
+      filledAi: false
+    chatId: !<STRING>
+      value: "123"
+      filledAi: false

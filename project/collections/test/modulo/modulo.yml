@@ -1,0 +1,21 @@
+---
+id: "69c2a32a85a4d32f3a24616b"
+name: "modulo"
+originName: "modulo"
+collectionName: "test"
+mcpIntegrationKey: "1000001-test-fvn"
+description: "Divides two numbers and returns the remainder"
+responseDescription: null
+parameters:
+- name: "numerator"
+  type: "NUMBER"
+  required: true
+  description: "The number being divided (numerator)"
+  properties: null
+  items: null
+- name: "denominator"
+  type: "NUMBER"
+  required: true
+  description: "The number to divide by (denominator)"
+  properties: null
+  items: null

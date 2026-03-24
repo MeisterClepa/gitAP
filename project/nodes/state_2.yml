@@ -1,0 +1,11 @@
+---
+id: "state_2"
+nodeName: "Условие"
+nodeType: "CONDITION"
+position:
+  x: 1279
+  "y": -109
+nextStep: "state_SendNews"
+parameters: !<CONDITION>
+  condition: "1 == 1 "
+  falseStep: "state_3"

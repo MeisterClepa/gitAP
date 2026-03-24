@@ -1,0 +1,15 @@
+---
+id: "69c2a32a85a4d32f3a246174"
+name: "sin"
+originName: "sin"
+collectionName: "test"
+mcpIntegrationKey: "1000001-test-fvn"
+description: "Calculates the sine of a number in radians"
+responseDescription: null
+parameters:
+- name: "number"
+  type: "NUMBER"
+  required: true
+  description: "The number in radians to find the sine of"
+  properties: null
+  items: null

@@ -1,0 +1,15 @@
+---
+id: "69c2a32a85a4d32f3a246172"
+name: "ceiling"
+originName: "ceiling"
+collectionName: "test"
+mcpIntegrationKey: "1000001-test-fvn"
+description: "Rounds a number up to the nearest integer"
+responseDescription: null
+parameters:
+- name: "number"
+  type: "NUMBER"
+  required: true
+  description: "The number to round up"
+  properties: null
+  items: null

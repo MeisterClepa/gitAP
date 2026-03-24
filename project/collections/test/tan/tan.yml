@@ -1,0 +1,15 @@
+---
+id: "69c2a32a85a4d32f3a246178"
+name: "tan"
+originName: "tan"
+collectionName: "test"
+mcpIntegrationKey: "1000001-test-fvn"
+description: "Calculates the tangent of a number in radians"
+responseDescription: null
+parameters:
+- name: "number"
+  type: "NUMBER"
+  required: true
+  description: "The number in radians to find the tangent of"
+  properties: null
+  items: null

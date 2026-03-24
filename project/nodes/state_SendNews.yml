@@ -5,9 +5,9 @@ nodeType: "FUNCTION"
 position:
   x: 831
   "y": 379
-nextStep: "state_LlmSendText"
+nextStep: "state_4"
 parameters: !<FUNCTION>
-  functionId: "sendNewsFunc"
+  functionId: "69c2a2fd85a4d32f3a24615e"
   isTool: false
   isSystem: false
   parameters: {}
