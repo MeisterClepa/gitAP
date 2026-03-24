@@ -9,6 +9,6 @@ nextStep: "state_2"
 parameters: !<TRIGGER_SCHEDULE>
   intervalSeconds: 60
   cron: null
-  maxRepeatCount: null
-  endAfterDate: "2026-03-25T15:34:20.682Z"
+  maxRepeatCount: 7
+  endAfterDate: null
   startDateTime: "2026-03-24T15:34:20.682Z"
