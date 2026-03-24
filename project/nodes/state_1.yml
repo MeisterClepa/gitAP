@@ -1,0 +1,27 @@
+---
+id: "state_1"
+nodeName: "Агент"
+nodeType: "AGENT"
+position:
+  x: 526
+  "y": 136
+nextStep: null
+parameters: !<AGENT>
+  systemPromts:
+    role: "привет"
+    goal: "цеоль"
+    instructions: "что-тол"
+    queryOverride: null
+  llmSettings:
+    maxTokens: 12345
+    temperature: 1.0
+    topP: 1.0
+    frequencyPenalty: 0.54
+    presencePenalty: 0.26
+    verboseMode: true
+  llmModelKey: "1000001-deepseek_deepseekv32-vkg"
+  tools: []
+  handoffAgents:
+    allowedAny: false
+    allowedAgentNodeIds: []
+  stayInAgent: true
