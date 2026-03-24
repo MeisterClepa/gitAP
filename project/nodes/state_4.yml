@@ -1,0 +1,16 @@
+---
+id: "state_4"
+nodeName: "Credentials.get"
+nodeType: "FUNCTION"
+position:
+  x: 561
+  "y": 269
+nextStep: null
+parameters: !<FUNCTION>
+  functionId: "6567b42c31d28af3a90d103a"
+  isTool: false
+  isSystem: true
+  parameters:
+    credentialKey: !<STRING>
+      value: null
+      filledAi: false

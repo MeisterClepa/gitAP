@@ -1,0 +1,22 @@
+---
+id: "state_15"
+nodeName: "Telegram.sendText"
+nodeType: "FUNCTION"
+position:
+  x: 1253
+  "y": 870
+nextStep: null
+parameters: !<FUNCTION>
+  functionId: "22b01a9b6c1ff4ad02ada352"
+  isTool: false
+  isSystem: true
+  parameters:
+    credentialKey: !<CREDENTIAL>
+      value: null
+      filledAi: false
+    chatId: !<STRING>
+      value: null
+      filledAi: false
+    text: !<STRING>
+      value: null
+      filledAi: false

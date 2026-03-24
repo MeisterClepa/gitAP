@@ -1,0 +1,26 @@
+---
+id: "state_7"
+nodeName: "Email.send"
+nodeType: "FUNCTION"
+position:
+  x: 600
+  "y": 498
+nextStep: null
+parameters: !<FUNCTION>
+  functionId: "2d0e83acd0863ae64a78b076"
+  isTool: false
+  isSystem: true
+  parameters:
+    smtpIntegration: !<INTEGRATION_SMTP>
+      value: null
+      filledAi: false
+    recipients: !<ARRAY>
+      value: null
+      items: null
+      filledAi: false
+    subject: !<STRING>
+      value: null
+      filledAi: false
+    content: !<STRING>
+      value: null
+      filledAi: false

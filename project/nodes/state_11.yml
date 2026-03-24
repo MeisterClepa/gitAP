@@ -1,0 +1,23 @@
+---
+id: "state_11"
+nodeName: "ProjectRouter.callProject"
+nodeType: "FUNCTION"
+position:
+  x: 943
+  "y": 659
+nextStep: null
+parameters: !<FUNCTION>
+  functionId: "b6640a37da5de38434307ed3"
+  isTool: false
+  isSystem: true
+  parameters:
+    token: !<STRING>
+      value: null
+      filledAi: false
+    query: !<STRING>
+      value: null
+      filledAi: false
+    customData: !<OBJECT>
+      value: null
+      properties: null
+      filledAi: false

@@ -1,0 +1,24 @@
+---
+id: "state_8"
+nodeName: "Http.get"
+nodeType: "FUNCTION"
+position:
+  x: 885
+  "y": 465
+nextStep: null
+parameters: !<FUNCTION>
+  functionId: "897c68f0ddd732aec90ad8d6"
+  isTool: false
+  isSystem: true
+  parameters:
+    url: !<STRING>
+      value: null
+      filledAi: false
+    params: !<OBJECT>
+      value: null
+      properties: null
+      filledAi: false
+    headers: !<OBJECT>
+      value: null
+      properties: null
+      filledAi: false

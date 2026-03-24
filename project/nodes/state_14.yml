@@ -1,0 +1,16 @@
+---
+id: "state_14"
+nodeName: "SessionDb.get"
+nodeType: "FUNCTION"
+position:
+  x: 944
+  "y": 868
+nextStep: null
+parameters: !<FUNCTION>
+  functionId: "da714632ed519bddd3a5440c"
+  isTool: false
+  isSystem: true
+  parameters:
+    documentKey: !<STRING>
+      value: null
+      filledAi: false

@@ -1,0 +1,19 @@
+---
+id: "state_5"
+nodeName: "Db.get"
+nodeType: "FUNCTION"
+position:
+  x: 1160
+  "y": 99
+nextStep: null
+parameters: !<FUNCTION>
+  functionId: "370e0cfc9bd77f5b022a9133"
+  isTool: false
+  isSystem: true
+  parameters:
+    dbIntegration: !<INTEGRATION_DB>
+      value: null
+      filledAi: false
+    documentKey: !<STRING>
+      value: null
+      filledAi: false

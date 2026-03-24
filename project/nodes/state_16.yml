@@ -1,0 +1,25 @@
+---
+id: "state_16"
+nodeName: "Tts.synthesize"
+nodeType: "FUNCTION"
+position:
+  x: 626
+  "y": -156
+nextStep: null
+parameters: !<FUNCTION>
+  functionId: "bd6c97bd878890a92f094036"
+  isTool: false
+  isSystem: true
+  parameters:
+    ttsIntegrationKey: !<STRING>
+      value: null
+      filledAi: false
+    text: !<STRING>
+      value: null
+      filledAi: false
+    languageCode: !<STRING>
+      value: null
+      filledAi: false
+    audioFormat: !<STRING>
+      value: null
+      filledAi: false

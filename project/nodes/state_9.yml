@@ -1,0 +1,40 @@
+---
+id: "state_9"
+nodeName: "Llm.sendRequest"
+nodeType: "FUNCTION"
+position:
+  x: 1198
+  "y": 475
+nextStep: null
+parameters: !<FUNCTION>
+  functionId: "a1ba4083e047c52de353fa93"
+  isTool: false
+  isSystem: true
+  parameters:
+    llmModelKey: !<LLM_MODEL>
+      value: null
+      filledAi: false
+    messages: !<ARRAY>
+      value: null
+      items: null
+      filledAi: false
+    tools: !<ARRAY>
+      value: null
+      items: null
+      filledAi: false
+    maxCompletionTokens: !<INTEGER>
+      value: null
+      filledAi: false
+    temperature: !<NUMBER>
+      value: null
+      filledAi: false
+    topP: !<NUMBER>
+      value: null
+      filledAi: false
+    responseFormat: !<OBJECT>
+      value: null
+      properties: null
+      filledAi: false
+    chatId: !<STRING>
+      value: null
+      filledAi: false

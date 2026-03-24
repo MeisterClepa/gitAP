@@ -1,0 +1,22 @@
+---
+id: "state_12"
+nodeName: "Rag.retrieveChunks"
+nodeType: "FUNCTION"
+position:
+  x: 1239
+  "y": 637
+nextStep: null
+parameters: !<FUNCTION>
+  functionId: "cf9b44f3c44087baa9597a11"
+  isTool: false
+  isSystem: true
+  parameters:
+    ragIntegration: !<INTEGRATION_RAG>
+      value: null
+      filledAi: false
+    query: !<STRING>
+      value: null
+      filledAi: false
+    historyMessageLimit: !<INTEGER>
+      value: null
+      filledAi: false

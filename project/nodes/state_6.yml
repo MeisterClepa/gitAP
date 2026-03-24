@@ -1,0 +1,13 @@
+---
+id: "state_6"
+nodeName: "Dialer.getCaller"
+nodeType: "FUNCTION"
+position:
+  x: 1172
+  "y": 275
+nextStep: null
+parameters: !<FUNCTION>
+  functionId: "19a64ce1bb35b3f67eb0de43"
+  isTool: false
+  isSystem: true
+  parameters: {}

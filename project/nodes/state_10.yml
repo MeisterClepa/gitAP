@@ -1,0 +1,16 @@
+---
+id: "state_10"
+nodeName: "Log.info"
+nodeType: "FUNCTION"
+position:
+  x: 649
+  "y": 730
+nextStep: null
+parameters: !<FUNCTION>
+  functionId: "439962248be31937cebefd8d"
+  isTool: false
+  isSystem: true
+  parameters:
+    message: !<STRING>
+      value: null
+      filledAi: false
