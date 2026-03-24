@@ -5,7 +5,7 @@ nodeType: "FUNCTION"
 position:
   x: 1150
   "y": 98
-nextStep: null
+nextStep: "state_6"
 parameters: !<FUNCTION>
   functionId: "638b9db65f3b1def095c90f6"
   isTool: false
