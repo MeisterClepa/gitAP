@@ -1,0 +1,10 @@
+---
+id: "state_4"
+nodeName: "Сообщение"
+nodeType: "TRIGGER_MESSAGE"
+position:
+  x: 824
+  "y": -83
+nextStep: "state_2"
+parameters: !<TRIGGER_MESSAGE>
+  placeholder: null
