@@ -12,5 +12,5 @@ parameters: !<FUNCTION>
   isSystem: true
   parameters:
     text: !<STRING>
-      value: "  русский язык, верни только перевод в ответе: \" + Context.getLastFunctionResult()}}"
+      value: "123cd"
       filledAi: false
