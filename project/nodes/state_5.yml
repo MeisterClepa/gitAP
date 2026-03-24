@@ -1,0 +1,24 @@
+---
+id: "state_5"
+nodeName: "Http.get"
+nodeType: "FUNCTION"
+position:
+  x: 600
+  "y": -514
+nextStep: null
+parameters: !<FUNCTION>
+  functionId: "897c68f0ddd732aec90ad8d6"
+  isTool: false
+  isSystem: true
+  parameters:
+    url: !<STRING>
+      value: "https://webhook.site/8388a106-300a-4340-920e-b278cdceb3a0"
+      filledAi: false
+    params: !<OBJECT>
+      value: null
+      properties: {}
+      filledAi: false
+    headers: !<OBJECT>
+      value: null
+      properties: {}
+      filledAi: false
