@@ -1,0 +1,16 @@
+---
+id: "state_addCompanyToCrm"
+nodeName: "add_company_to_crm"
+nodeType: "FUNCTION"
+position:
+  x: 1439
+  "y": 369
+nextStep: null
+parameters: !<FUNCTION>
+  functionId: "addCompanyToCrmFunc"
+  isTool: true
+  isSystem: false
+  parameters:
+    name: !<STRING>
+      value: "null"
+      filledAi: false

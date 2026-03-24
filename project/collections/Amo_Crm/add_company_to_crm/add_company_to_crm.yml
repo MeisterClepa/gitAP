@@ -1,0 +1,21 @@
+---
+id: "addCompanyToCrmFunc"
+name: "add_company_to_crm"
+collectionName: "Amo_Crm"
+description: "Adds a new company to amo CRM"
+code: "const URL = \"<your amo crm URL>/api/v4/companies\"\nconst TOKEN = \"<your\
+  \ amo crm access token>\"\n\nreturn Http.post({\n    url: URL,\n    params: {},\n\
+  \    headers: {\n        \"Authorization\": `Bearer ${TOKEN}`,\n        \"Content-Type\"\
+  : \"application/json\"\n    },\n    body: [ \n        { \n            \"name\":\
+  \ name,\n            \"_embedded\": { \"tags\": [{ \"name\": \"New client\" }] }\n\
+  \        }\n    ]\n})\n.then(function (response) {\n    return response;\n})\n.catch(function\
+  \ (err) {\n    return \"Error adding company to CRM \" + err;\n});"
+responseDescription: "Boolean value: true if the company added to amo CRM successfully,\
+  \ false if not"
+parameters:
+- name: "name"
+  type: "string"
+  required: false
+  description: "name of the company"
+  properties: null
+  items: null
