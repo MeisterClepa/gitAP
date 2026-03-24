@@ -5,7 +5,7 @@ nodeType: "TRIGGER_IMAP"
 position:
   x: 854
   "y": 492
-nextStep: "state_2"
+nextStep: null
 parameters: !<TRIGGER_IMAP>
   filterRule:
     mailBoxName: "INBOX"
