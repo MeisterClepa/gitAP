@@ -32,4 +32,4 @@ parameters: !<AGENT>
   handoffAgents:
     allowedAny: false
     allowedAgentNodeIds: []
-  stayInAgent: false
+  stayInAgent: true
