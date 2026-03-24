@@ -20,8 +20,10 @@ parameters: !<AGENT>
     presencePenalty: 0.26
     verboseMode: true
   llmModelKey: "1000001-deepseek_deepseekv32-vkg"
-  tools: []
+  tools:
+  - "state_3"
   handoffAgents:
-    allowedAny: true
-    allowedAgentNodeIds: []
+    allowedAny: false
+    allowedAgentNodeIds:
+    - "state_2"
   stayInAgent: false
