@@ -5,13 +5,13 @@ nodeType: "AGENT"
 position:
   x: 526
   "y": 136
-nextStep: null
+nextStep: "state_2"
 parameters: !<AGENT>
   systemPromts:
     role: "привет"
     goal: "цеоль"
     instructions: "что-тол"
-    queryOverride: null
+    queryOverride: "{{asdasda}}"
   llmSettings:
     maxTokens: 12345
     temperature: 1.0
@@ -22,6 +22,6 @@ parameters: !<AGENT>
   llmModelKey: "1000001-deepseek_deepseekv32-vkg"
   tools: []
   handoffAgents:
-    allowedAny: false
+    allowedAny: true
     allowedAgentNodeIds: []
-  stayInAgent: true
+  stayInAgent: false
