@@ -3,8 +3,8 @@ id: "state_3"
 nodeName: "Планировщик"
 nodeType: "TRIGGER_SCHEDULE"
 position:
-  x: 709
-  "y": 131
+  x: 674
+  "y": 75
 nextStep: "state_2"
 parameters: !<TRIGGER_SCHEDULE>
   intervalSeconds: 60
