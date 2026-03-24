@@ -3,8 +3,8 @@ id: "state_1"
 nodeName: "Вебхук"
 nodeType: "TRIGGER_WEBHOOK"
 position:
-  x: 746
-  "y": 104
+  x: 664
+  "y": 42
 nextStep: "state_2"
 parameters: !<TRIGGER_WEBHOOK>
-  url: "https://dev27.lo.test-ai.net/api/text-campaign-service/scenario-triggers/c7011a35-b512-4f7f-add1-3229f78b7e25/invoke"
+  url: "https://dev27.lo.test-ai.net/api/text-campaign-service/scenario-triggers/d02c59e9-00b2-484f-95e3-3291347d3796/invoke"

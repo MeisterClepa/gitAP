@@ -1,8 +1,8 @@
 ---
-exportVersion: "13"
-exportedAt: "2026-03-24T15:59:46.582235401Z"
-projectId: "per_node-1000001-VOG"
-projectName: "per_node-1000001-VOG"
+exportVersion: "2"
+exportedAt: "2026-03-24T16:05:45.367884818Z"
+projectId: "test-1000001-CjP"
+projectName: "test-1000001-CjP"
 accountId: 1000001
 language: "ru"
 timezone: "Europe/Moscow"

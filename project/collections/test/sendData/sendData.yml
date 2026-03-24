@@ -1,0 +1,14 @@
+---
+id: "69c2b6457260ef75f242e060"
+name: "sendData"
+collectionName: "test"
+description: "sendData"
+code: null
+responseDescription: "Возращает ответ от get запроса, в  виде объекта js"
+parameters:
+- name: "12"
+  type: "NUMBER"
+  required: true
+  description: "привет"
+  properties: null
+  items: null
