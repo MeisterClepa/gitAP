@@ -5,7 +5,7 @@ nodeType: "TRIGGER_SCHEDULE"
 position:
   x: 394
   "y": 261
-nextStep: "state_SendNews"
+nextStep: null
 parameters: !<TRIGGER_SCHEDULE>
   intervalSeconds: null
   cron: "0 0 9 * * ?"
