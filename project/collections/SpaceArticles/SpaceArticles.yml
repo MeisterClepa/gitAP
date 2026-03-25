@@ -1,0 +1,5 @@
+---
+name: "SpaceArticles"
+functionIds:
+- "searchArticlesFunc"
+- "sendNewsFunc"

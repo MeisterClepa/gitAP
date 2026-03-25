@@ -1,0 +1,10 @@
+---
+id: "state_WebhooTrigger"
+nodeName: "Вебхук"
+nodeType: "TRIGGER_WEBHOOK"
+position:
+  x: 392
+  "y": 491
+nextStep: "state_SendNews"
+parameters: !<TRIGGER_WEBHOOK>
+  url: null
