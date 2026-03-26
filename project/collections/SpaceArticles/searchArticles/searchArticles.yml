@@ -1,5 +1,5 @@
 ---
-id: "searchArticlesFunc"
+id: "69c534f78a4bc74c25b14a82"
 name: "searchArticles"
 collectionName: "SpaceArticles"
 description: "Найти последние статьи по нужной теме"
@@ -8,7 +8,7 @@ responseDescription: "Функция получает релевантные с�
   \ и возвращает их данные."
 parameters:
 - name: "query"
-  type: "string"
+  type: "STRING"
   required: false
   description: "Термин на английском языке, по которому нужно найти статьи"
   properties: null
