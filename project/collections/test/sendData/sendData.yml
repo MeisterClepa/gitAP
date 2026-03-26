@@ -1,0 +1,26 @@
+---
+id: "69c54bce8a4bc74c25b14ae9"
+name: "sendData"
+collectionName: "test"
+description: "sendData"
+code: null
+responseDescription: "sendData"
+parameters:
+- name: "12"
+  type: "OBJECT"
+  required: true
+  description: "привет"
+  properties:
+  - name: "hello"
+    type: "OBJECT"
+    required: true
+    description: "hello"
+    properties:
+    - name: "test"
+      type: "NUMBER"
+      required: true
+      description: "123"
+      properties: null
+      items: null
+    items: null
+  items: null

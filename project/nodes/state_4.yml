@@ -1,0 +1,41 @@
+---
+id: "state_4"
+nodeName: "Агент"
+nodeType: "AGENT"
+position:
+  x: 1135
+  "y": -42
+nextStep: null
+parameters: !<AGENT>
+  systemPromts:
+    role: "123"
+    goal: "123"
+    instructions: "123"
+    queryOverride: "123"
+  llmSettings:
+    maxTokens: 4000
+    temperature: 0.6
+    topP: 1.0
+    frequencyPenalty: 0.0
+    presencePenalty: 0.0
+    verboseMode: true
+  llmModelKey: "1000001-open_ai_gpt40125prev-oki"
+  tools: []
+  handoffAgents:
+    allowedAny: true
+    allowedAgentNodeIds: []
+  stayInAgent: false
+  telephonyConfig:
+    enabled: true
+    llmResponseTimeoutMs: 10000
+    bargeInConfig:
+      bargeIn: "FORCED"
+      bargeInTrigger: "FINAL"
+      noInterruptTime: 123
+    fillersPhraseConfig:
+      activationDelayMs: 10002
+      fillerPhrasesList:
+      - "123"
+  enableContext: true
+  chatHistoryLimit: 503
+  sequentialToolCallsLimit: 5
