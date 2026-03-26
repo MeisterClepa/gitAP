@@ -1,0 +1,15 @@
+---
+id: "69c525e38a4bc74c25b14a46"
+name: "round"
+originName: "round"
+collectionName: "test"
+mcpIntegrationKey: "1000001-test-mbq"
+description: "Rounds a number to the nearest integer"
+responseDescription: null
+parameters:
+- name: "number"
+  type: "NUMBER"
+  required: true
+  description: "The number to round"
+  properties: null
+  items: null

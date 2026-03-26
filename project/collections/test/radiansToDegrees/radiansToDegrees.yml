@@ -1,0 +1,15 @@
+---
+id: "69c525e38a4bc74c25b14a4d"
+name: "radiansToDegrees"
+originName: "radiansToDegrees"
+collectionName: "test"
+mcpIntegrationKey: "1000001-test-mbq"
+description: "Converts a radian value to its equivalent in degrees"
+responseDescription: null
+parameters:
+- name: "number"
+  type: "NUMBER"
+  required: true
+  description: "The number in radians to convert to degrees"
+  properties: null
+  items: null
