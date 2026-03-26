@@ -18,3 +18,4 @@ parameters: !<FUNCTION>
       value: "{{\"Переведи пост полностью на русский язык, верни только перевод в\
         \ ответе: \" + Context.getLastFunctionResult()}}"
       filledAi: false
+  contextConfig: null
