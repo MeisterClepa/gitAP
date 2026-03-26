@@ -7,8 +7,16 @@ position:
   "y": 379
 nextStep: "state_LlmSendText"
 parameters: !<FUNCTION>
-  functionId: "69c534f78a4bc74c25b14a83"
+  functionId: "69c536b88a4bc74c25b14a8d"
   isTool: false
   isSystem: false
   parameters: {}
-  contextConfig: null
+  contextConfig:
+    enabled: true
+    key: "null"
+    valuePrefix: "Аккаунт Пользователя"
+    handoffAgents:
+      allowedAny: false
+      allowedAgentNodeIds:
+      - "state_Agent"
+    putIfError: true
