@@ -5,7 +5,7 @@ nodeType: "AGENT"
 position:
   x: 844
   "y": -290
-nextStep: ""
+nextStep: null
 parameters: !<AGENT>
   systemPromts:
     role: "Помощник"
@@ -26,10 +26,14 @@ parameters: !<AGENT>
     frequencyPenalty: 0.0
     presencePenalty: 0.0
     verboseMode: true
-  llmModelKey: "modelForLLM"
+  llmModelKey: "1000001-open_ai_gpt41-arm"
   tools:
   - "state_searchArticles"
   handoffAgents:
     allowedAny: false
     allowedAgentNodeIds: []
   stayInAgent: false
+  telephonyConfig: null
+  enableContext: false
+  chatHistoryLimit: 50
+  sequentialToolCallsLimit: 5
