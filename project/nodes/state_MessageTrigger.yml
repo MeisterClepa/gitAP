@@ -3,8 +3,8 @@ id: "state_MessageTrigger"
 nodeName: "Сообщение"
 nodeType: "TRIGGER_MESSAGE"
 position:
-  x: 387
-  "y": -64
+  x: 431
+  "y": -289
 nextStep: "state_Agent"
 parameters: !<TRIGGER_MESSAGE>
   placeholder: null
