@@ -14,3 +14,4 @@ parameters: !<FUNCTION>
     query: !<STRING>
       value: ""
       filledAi: true
+  contextConfig: null
