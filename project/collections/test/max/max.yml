@@ -1,0 +1,21 @@
+---
+id: "69c68ce62605341f32037465"
+name: "max"
+originName: "max"
+collectionName: "test"
+mcpIntegrationKey: "1000001-test-mzi"
+description: "Finds the maximum value from a list of numbers"
+responseDescription: null
+parameters:
+- name: "numbers"
+  type: "ARRAY"
+  required: true
+  description: "Array of numbers to find the maximum of"
+  properties: null
+  items:
+    name: ""
+    type: "NUMBER"
+    required: false
+    description: ""
+    properties: null
+    items: null

@@ -1,0 +1,21 @@
+---
+id: "69c68ce62605341f32037460"
+name: "modulo"
+originName: "modulo"
+collectionName: "test"
+mcpIntegrationKey: "1000001-test-mzi"
+description: "Divides two numbers and returns the remainder"
+responseDescription: null
+parameters:
+- name: "numerator"
+  type: "NUMBER"
+  required: true
+  description: "The number being divided (numerator)"
+  properties: null
+  items: null
+- name: "denominator"
+  type: "NUMBER"
+  required: true
+  description: "The number to divide by (denominator)"
+  properties: null
+  items: null

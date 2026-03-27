@@ -1,0 +1,21 @@
+---
+id: "69c68ce62605341f3203745b"
+name: "add"
+originName: "add"
+collectionName: "test"
+mcpIntegrationKey: "1000001-test-mzi"
+description: "Adds two numbers together"
+responseDescription: null
+parameters:
+- name: "firstNumber"
+  type: "NUMBER"
+  required: true
+  description: "The first addend"
+  properties: null
+  items: null
+- name: "secondNumber"
+  type: "NUMBER"
+  required: true
+  description: "The second addend"
+  properties: null
+  items: null

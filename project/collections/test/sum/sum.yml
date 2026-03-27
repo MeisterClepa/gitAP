@@ -1,0 +1,21 @@
+---
+id: "69c68ce62605341f3203745f"
+name: "sum"
+originName: "sum"
+collectionName: "test"
+mcpIntegrationKey: "1000001-test-mzi"
+description: "Adds any number of numbers together"
+responseDescription: null
+parameters:
+- name: "numbers"
+  type: "ARRAY"
+  required: true
+  description: "Array of numbers to sum"
+  properties: null
+  items:
+    name: ""
+    type: "NUMBER"
+    required: false
+    description: ""
+    properties: null
+    items: null
