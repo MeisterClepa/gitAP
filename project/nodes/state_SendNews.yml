@@ -7,7 +7,7 @@ position:
   "y": 379
 nextStep: "state_LlmSendText"
 parameters: !<FUNCTION>
-  functionId: "sendNewsFunc"
+  functionId: "69c67a48833804370ae48daa"
   isTool: false
   isSystem: false
   parameters: {}
