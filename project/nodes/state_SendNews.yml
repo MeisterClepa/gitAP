@@ -7,7 +7,7 @@ position:
   "y": 379
 nextStep: "state_LlmSendText"
 parameters: !<FUNCTION>
-  functionId: "69c683ac2605341f32037427"
+  functionId: "69c68b422605341f3203743f"
   isTool: false
   isSystem: false
   parameters: {}
