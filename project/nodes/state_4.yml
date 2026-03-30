@@ -19,7 +19,7 @@ parameters: !<AGENT>
     frequencyPenalty: 0.0
     presencePenalty: 0.0
     verboseMode: true
-  llmModelKey: "1000001-deepseek_deepseekv32-wxt"
+  llmModelKey: "1000001-deepseek_deepseekv32-vms"
   tools: []
   handoffAgents:
     allowedAny: false

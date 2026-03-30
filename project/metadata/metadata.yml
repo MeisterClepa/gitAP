@@ -1,8 +1,8 @@
 ---
-exportVersion: "5"
-exportedAt: "2026-03-30T08:24:36.945185045Z"
-projectId: "test_afgent_switch-1000001-zjO"
-projectName: "test_afgent_switch-1000001-zjO"
+exportVersion: "1"
+exportedAt: "2026-03-30T08:24:52.871846368Z"
+projectId: "test-1000001-kVs"
+projectName: "test-1000001-kVs"
 accountId: 1000001
 language: "ru"
 timezone: "Europe/Moscow"
