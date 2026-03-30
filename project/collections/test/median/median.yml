@@ -1,0 +1,21 @@
+---
+id: "69ca45b3b8ede01d44ace232"
+name: "median"
+originName: "median"
+collectionName: "test"
+mcpIntegrationKey: "1000001-test-hhl"
+description: "Calculates the median of a list of numbers"
+responseDescription: null
+parameters:
+- name: "numbers"
+  type: "ARRAY"
+  required: true
+  description: "Array of numbers to find the median of"
+  properties: null
+  items:
+    name: ""
+    type: "NUMBER"
+    required: false
+    description: ""
+    properties: null
+    items: null

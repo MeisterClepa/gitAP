@@ -1,0 +1,15 @@
+---
+id: "69ca45b3b8ede01d44ace240"
+name: "degreesToRadians"
+originName: "degreesToRadians"
+collectionName: "test"
+mcpIntegrationKey: "1000001-test-hhl"
+description: "Converts a degree value to its equivalent in radians"
+responseDescription: null
+parameters:
+- name: "number"
+  type: "NUMBER"
+  required: true
+  description: "The number in degrees to convert to radians"
+  properties: null
+  items: null

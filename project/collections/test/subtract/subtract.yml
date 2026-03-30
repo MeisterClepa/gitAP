@@ -1,0 +1,21 @@
+---
+id: "69ca45b3b8ede01d44ace22c"
+name: "subtract"
+originName: "subtract"
+collectionName: "test"
+mcpIntegrationKey: "1000001-test-hhl"
+description: "Subtracts the second number from the first number"
+responseDescription: null
+parameters:
+- name: "minuend"
+  type: "NUMBER"
+  required: true
+  description: "The number to subtract from (minuend)"
+  properties: null
+  items: null
+- name: "subtrahend"
+  type: "NUMBER"
+  required: true
+  description: "The number being subtracted (subtrahend)"
+  properties: null
+  items: null

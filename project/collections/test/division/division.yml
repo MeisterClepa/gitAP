@@ -1,0 +1,21 @@
+---
+id: "69ca45b3b8ede01d44ace22e"
+name: "division"
+originName: "division"
+collectionName: "test"
+mcpIntegrationKey: "1000001-test-hhl"
+description: "Divides the first number by the second number"
+responseDescription: null
+parameters:
+- name: "numerator"
+  type: "NUMBER"
+  required: true
+  description: "The number being divided (numerator)"
+  properties: null
+  items: null
+- name: "denominator"
+  type: "NUMBER"
+  required: true
+  description: "The number to divide by (denominator)"
+  properties: null
+  items: null

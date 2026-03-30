@@ -1,0 +1,21 @@
+---
+id: "69ca45b3b8ede01d44ace22d"
+name: "multiply"
+originName: "multiply"
+collectionName: "test"
+mcpIntegrationKey: "1000001-test-hhl"
+description: "Multiplies two numbers together"
+responseDescription: null
+parameters:
+- name: "firstNumber"
+  type: "NUMBER"
+  required: true
+  description: "The first number"
+  properties: null
+  items: null
+- name: "SecondNumber"
+  type: "NUMBER"
+  required: true
+  description: "The second number"
+  properties: null
+  items: null
