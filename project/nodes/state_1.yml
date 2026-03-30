@@ -1,0 +1,31 @@
+---
+id: "state_1"
+nodeName: "Агент"
+nodeType: "AGENT"
+position:
+  x: 703
+  "y": -50
+nextStep: "state_3"
+parameters: !<AGENT>
+  systemPromts:
+    role: "123"
+    goal: "123"
+    instructions: "123"
+    queryOverride: "123"
+  llmSettings:
+    maxTokens: 4000
+    temperature: 0.6
+    topP: 1.0
+    frequencyPenalty: 0.0
+    presencePenalty: 0.0
+    verboseMode: true
+  llmModelKey: "1000001-deepseek_deepseekv32-wxt"
+  tools: []
+  handoffAgents:
+    allowedAny: false
+    allowedAgentNodeIds: []
+  stayInAgent: false
+  telephonyConfig: null
+  enableContext: true
+  chatHistoryLimit: 50
+  sequentialToolCallsLimit: 5

@@ -1,0 +1,8 @@
+--- !<LLM>
+key: "1000001-deepseek_deepseekv32-wxt"
+type: "LLM"
+credentialKey: null
+projectShortName: "test_afgent_switch-1000001-zjO"
+name: "DEEPSEEK - deepseek-v3.2"
+provider: "DEEPSEEK"
+model: "just-ai/deepseek/deepseek/deepseek-v3.2"

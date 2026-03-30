@@ -1,0 +1,20 @@
+---
+id: "state_3"
+nodeName: "Asr.recognize"
+nodeType: "FUNCTION"
+position:
+  x: 1237
+  "y": -94
+nextStep: null
+parameters: !<FUNCTION>
+  functionId: "30def03212f9e1e19f3e6622"
+  isTool: false
+  isSystem: true
+  parameters:
+    asrIntegrationKey: !<STRING>
+      value: null
+      filledAi: false
+    audioUrl: !<STRING>
+      value: null
+      filledAi: false
+  contextConfig: null
