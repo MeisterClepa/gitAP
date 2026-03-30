@@ -1,0 +1,21 @@
+---
+id: "state_LlmSendText"
+nodeName: "Llm.sendText"
+nodeType: "FUNCTION"
+position:
+  x: 1191
+  "y": 376
+nextStep: "state_SendText"
+parameters: !<FUNCTION>
+  functionId: "f6669500a86e3e91da27687a"
+  isTool: false
+  isSystem: true
+  parameters:
+    llmModelKey: !<LLM_MODEL>
+      value: "modelForLLM"
+      filledAi: false
+    text: !<STRING>
+      value: "{{\"Переведи пост полностью на русский язык, верни только перевод в\
+        \ ответе: \" + Context.getLastFunctionResult()}}"
+      filledAi: false
+  contextConfig: null

@@ -1,0 +1,9 @@
+---
+id: "69ca4095b8ede01d44ace218"
+name: "sendNews"
+collectionName: "SpaceArticles"
+description: "Получить последние новости и составить пост"
+code: null
+responseDescription: "Функция получает новости про космос за день из Spaceflight News\
+  \ API и возвращает текст поста."
+parameters: []
