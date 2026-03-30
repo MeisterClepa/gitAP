@@ -1,5 +1,5 @@
 ---
 name: "SpaceArticles"
 functionIds:
-- "searchArticlesFunc"
-- "sendNewsFunc"
+- "69ca3446b8ede01d44ace17e"
+- "69ca3446b8ede01d44ace17f"

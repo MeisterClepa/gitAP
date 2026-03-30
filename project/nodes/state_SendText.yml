@@ -14,3 +14,4 @@ parameters: !<FUNCTION>
     text: !<STRING>
       value: "{{Context.getLastFunctionResult()}}"
       filledAi: false
+  contextConfig: null
