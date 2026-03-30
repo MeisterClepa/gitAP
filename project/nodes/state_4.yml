@@ -1,17 +1,17 @@
 ---
-id: "state_1"
+id: "state_4"
 nodeName: "Агент"
 nodeType: "AGENT"
 position:
-  x: 703
-  "y": -50
-nextStep: "state_3"
+  x: 936
+  "y": 291
+nextStep: null
 parameters: !<AGENT>
   systemPromts:
     role: "123"
     goal: "123"
-    instructions: "123"
-    queryOverride: "123"
+    instructions: "132"
+    queryOverride: ""
   llmSettings:
     maxTokens: 4000
     temperature: 0.6
@@ -23,8 +23,7 @@ parameters: !<AGENT>
   tools: []
   handoffAgents:
     allowedAny: false
-    allowedAgentNodeIds:
-    - "state_4"
+    allowedAgentNodeIds: []
   stayInAgent: false
   telephonyConfig: null
   enableContext: true
