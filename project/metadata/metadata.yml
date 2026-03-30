@@ -1,11 +1,11 @@
 ---
 exportVersion: "1"
-exportedAt: "2026-03-25T11:02:49.084716586Z"
-projectId: "dasd-1000001-FmQ"
-projectName: "dasd-1000001-FmQ"
+exportedAt: "2026-03-30T08:16:26.217724279Z"
+projectId: "test_afgent_switch-1000001-zjO"
+projectName: "test_afgent_switch-1000001-zjO"
 accountId: 1000001
-language: null
-timezone: null
+language: "ru"
+timezone: "Europe/Moscow"
 importInstructions: "This archive contains an Agent Platform project export.\n\nIMPORTANT:\
   \ Sensitive data (credentials, API keys) are NOT included in this export.\nAfter\
   \ import, you will need to:\n1. Fill in credential placeholders in credentials.json\n\
