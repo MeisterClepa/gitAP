@@ -22,8 +22,9 @@ parameters: !<AGENT>
   llmModelKey: "1000001-deepseek_deepseekv32-wxt"
   tools: []
   handoffAgents:
-    allowedAny: true
-    allowedAgentNodeIds: []
+    allowedAny: false
+    allowedAgentNodeIds:
+    - "state_4"
   stayInAgent: false
   telephonyConfig: null
   enableContext: true
