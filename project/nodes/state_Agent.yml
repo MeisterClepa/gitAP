@@ -26,7 +26,7 @@ parameters: !<AGENT>
     frequencyPenalty: 0.0
     presencePenalty: 0.0
     verboseMode: true
-  llmModelKey: "1000001-open_ai_gpt41-ccl"
+  llmModelKey: "1000001-open_ai_gpt41-xpm"
   tools:
   - "state_searchArticles"
   handoffAgents:

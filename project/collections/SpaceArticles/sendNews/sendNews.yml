@@ -1,5 +1,5 @@
 ---
-id: "69ca3446b8ede01d44ace17f"
+id: "69ca34d8b8ede01d44ace18e"
 name: "sendNews"
 collectionName: "SpaceArticles"
 description: "Получить последние новости и составить пост"
