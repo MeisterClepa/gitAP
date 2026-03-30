@@ -1,0 +1,32 @@
+---
+id: "state_3"
+nodeName: "Агент"
+nodeType: "AGENT"
+position:
+  x: 927
+  "y": -264
+nextStep: null
+parameters: !<AGENT>
+  systemPromts:
+    role: null
+    goal: null
+    instructions: null
+    queryOverride: null
+  llmSettings:
+    maxTokens: null
+    temperature: 0.6
+    topP: 1.0
+    frequencyPenalty: 0.0
+    presencePenalty: 0.0
+    verboseMode: true
+  llmModelKey: null
+  tools:
+  - "state_1"
+  handoffAgents:
+    allowedAny: false
+    allowedAgentNodeIds: []
+  stayInAgent: false
+  telephonyConfig: null
+  enableContext: true
+  chatHistoryLimit: 50
+  sequentialToolCallsLimit: 5
