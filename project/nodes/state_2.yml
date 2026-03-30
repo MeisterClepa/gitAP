@@ -1,0 +1,17 @@
+---
+id: "state_2"
+nodeName: "floor"
+nodeType: "FUNCTION"
+position:
+  x: 1010
+  "y": 188
+nextStep: null
+parameters: !<FUNCTION>
+  functionId: "69ca45b3b8ede01d44ace236"
+  isTool: false
+  isSystem: false
+  parameters:
+    number: !<NUMBER>
+      value: null
+      filledAi: false
+  contextConfig: null
