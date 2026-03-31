@@ -1,10 +1,10 @@
 ---
-id: state_1
+id: state_3
 name: searchArticles
 position:
-  x: 1343
-  "y": -171
-next-step: state_2
+  x: 1358
+  "y": -55
+next-step: null
 parameters:
   function-id: searchArticles
   type: USER

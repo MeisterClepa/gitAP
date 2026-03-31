@@ -4,7 +4,7 @@ name: Агент
 position:
   x: 844
   "y": -290
-next-step: state_1
+next-step: state_2
 parameters:
   llm-model-key: 1000001-open_ai_gpt41-itu
   llm-model-settings:
