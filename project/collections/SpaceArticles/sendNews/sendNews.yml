@@ -1,5 +1,5 @@
 ---
-id: "sendNewsFunc"
+id: "sendNews"
 name: "sendNews"
 collectionName: "SpaceArticles"
 description: "Получить последние новости и составить пост"

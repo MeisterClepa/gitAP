@@ -7,7 +7,8 @@ position:
   "y": 379
 nextStep: "state_LlmSendText"
 parameters: !<FUNCTION>
-  functionId: "sendNewsFunc"
+  functionId: "SpaceArticles.sendNews"
   isTool: false
   isSystem: false
   parameters: {}
+  contextConfig: null
