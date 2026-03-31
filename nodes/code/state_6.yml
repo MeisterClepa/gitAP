@@ -2,7 +2,7 @@
 id: state_6
 name: Код
 position:
-  x: 4
-  "y": -364
+  x: 37
+  "y": -507
 next-step: state_5
 parameters: {}
