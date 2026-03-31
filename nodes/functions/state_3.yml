@@ -1,0 +1,18 @@
+---
+id: state_3
+name: searchArticles
+position:
+  x: 1291
+  "y": 55
+next-step: state_SendText
+parameters:
+  function-id: searchArticles
+  type: USER
+  collection-name: SpaceArticles
+  is-tool: false
+  parameters:
+    query:
+      type: STRING
+      value: null
+      filled-ai: false
+  context-config: null
