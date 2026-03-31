@@ -4,7 +4,7 @@ name: Агент
 position:
   x: 844
   "y": -290
-next-step: state_SendText
+next-step: state_4
 parameters:
   llm-model-key: 1000001-deepseek_deepseekv32-kdd
   llm-model-settings:
