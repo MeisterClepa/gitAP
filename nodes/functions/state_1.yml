@@ -4,7 +4,7 @@ name: searchArticles
 position:
   x: 1299
   "y": -79
-next-step: null
+next-step: state_2
 parameters:
   function-id: searchArticles
   type: USER
