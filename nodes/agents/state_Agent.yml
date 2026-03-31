@@ -4,7 +4,7 @@ name: Агент
 position:
   x: 844
   "y": -290
-next-step: null
+next-step: state_7
 parameters:
   llm-model-key: 1000001-deepseek_deepseekv32-lnz
   llm-model-settings:
