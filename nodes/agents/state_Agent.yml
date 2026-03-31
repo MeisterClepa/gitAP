@@ -4,11 +4,11 @@ name: Агент
 position:
   x: 844
   "y": -290
-next-step: state_2
+next-step: state_SendText
 parameters:
-  llm-model-key: 1000001-open_ai_gpt41-itu
+  llm-model-key: 1000001-deepseek_deepseekv32-kdd
   llm-model-settings:
-    max-tokens: 4000
+    max-tokens: 1234
     temperature: 0.6
     top-p: 1.0
     frequency-penalty: 0.0
@@ -33,8 +33,18 @@ parameters:
   handoff-agents:
     allowed-any: false
     allowed-agent-node-ids: []
-  stay-in-agent: false
-  telephony-config: null
-  enable-context: false
-  chat-history-limit: 50
+  stay-in-agent: true
+  telephony-config:
+    enabled: true
+    llm-response-timeout-ms: 321
+    barge-in-config:
+      barge-in: FORCED
+      barge-in-trigger: INTERIM
+      no-interrupt-time: 456
+    fillers-phrase-config:
+      activation-delay-ms: 567
+      filler-phrases-list:
+      - курлык
+  enable-context: true
+  chat-history-limit: 555
   sequential-tool-calls-limit: 5
