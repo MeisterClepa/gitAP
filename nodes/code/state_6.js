@@ -1,0 +1,1 @@
+let b = test.add({firstNumber: 5, secondNumber: 5})
