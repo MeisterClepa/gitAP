@@ -1,0 +1,14 @@
+---
+id: state_SendNews
+name: sendNews
+position:
+  x: 831
+  "y": 379
+next-step: state_LlmSendText
+parameters:
+  function-id: sendNews
+  type: USER
+  collection-name: SpaceArticles
+  is-tool: false
+  parameters: {}
+  context-config: null
