@@ -6,4 +6,4 @@ position:
   "y": 489
 next-step: state_SendNews
 parameters:
-  url: https://test23.lo.test-ai.net/api/text-campaign-service/scenario-triggers/26ca9ced-54b8-4adf-8e22-1ff3da5037e0/invoke
+  url: https://test23.lo.test-ai.net/api/text-campaign-service/scenario-triggers/d9b1ffff-b6a9-4b7c-962f-f4c4f213ef97/invoke

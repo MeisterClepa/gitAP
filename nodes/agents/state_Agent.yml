@@ -4,9 +4,9 @@ name: Агент
 position:
   x: 844
   "y": -290
-next-step: state_4
+next-step: null
 parameters:
-  llm-model-key: 1000001-deepseek_deepseekv32-kdd
+  llm-model-key: 1000001-deepseek_deepseekv32-lnz
   llm-model-settings:
     max-tokens: 1234
     temperature: 0.6
