@@ -4,7 +4,7 @@ name: Условие
 position:
   x: 1208
   y: -247
-next-step: state_2
+next-step: null
 parameters:
   condition: null
   false-step: state_SendText

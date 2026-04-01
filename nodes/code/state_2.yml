@@ -1,8 +1,0 @@
----
-id: state_2
-name: Код
-position:
-  x: 1566
-  y: -53
-next-step: state_3
-parameters: {}
