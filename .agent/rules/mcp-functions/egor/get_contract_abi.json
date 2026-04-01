@@ -1,0 +1,14 @@
+{
+  "type" : "object",
+  "properties" : {
+    "chain_id" : {
+      "type" : "string",
+      "description" : "The ID of the blockchain"
+    },
+    "address" : {
+      "type" : "string",
+      "description" : "Smart contract address"
+    }
+  },
+  "required" : [ "chain_id", "address" ]
+}

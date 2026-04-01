@@ -146,6 +146,22 @@ JSON Schemas for MCP tool functions are in `.agent/rules/mcp-functions/`:
 - `MathMcp/arctan` — [schema](.agent/rules/mcp-functions/MathMcp/arctan.json)
 - `MathMcp/radiansToDegrees` — [schema](.agent/rules/mcp-functions/MathMcp/radiansToDegrees.json)
 - `MathMcp/degreesToRadians` — [schema](.agent/rules/mcp-functions/MathMcp/degreesToRadians.json)
+- `egor/unlock_blockchain_analysis` — [schema](.agent/rules/mcp-functions/egor/unlock_blockchain_analysis.json)
+- `egor/get_chains_list` — [schema](.agent/rules/mcp-functions/egor/get_chains_list.json)
+- `egor/get_block_info` — [schema](.agent/rules/mcp-functions/egor/get_block_info.json)
+- `egor/get_block_number` — [schema](.agent/rules/mcp-functions/egor/get_block_number.json)
+- `egor/get_address_by_ens_name` — [schema](.agent/rules/mcp-functions/egor/get_address_by_ens_name.json)
+- `egor/get_address_info` — [schema](.agent/rules/mcp-functions/egor/get_address_info.json)
+- `egor/get_tokens_by_address` — [schema](.agent/rules/mcp-functions/egor/get_tokens_by_address.json)
+- `egor/nft_tokens_by_address` — [schema](.agent/rules/mcp-functions/egor/nft_tokens_by_address.json)
+- `egor/lookup_token_by_symbol` — [schema](.agent/rules/mcp-functions/egor/lookup_token_by_symbol.json)
+- `egor/get_contract_abi` — [schema](.agent/rules/mcp-functions/egor/get_contract_abi.json)
+- `egor/inspect_contract_code` — [schema](.agent/rules/mcp-functions/egor/inspect_contract_code.json)
+- `egor/read_contract` — [schema](.agent/rules/mcp-functions/egor/read_contract.json)
+- `egor/get_transaction_info` — [schema](.agent/rules/mcp-functions/egor/get_transaction_info.json)
+- `egor/get_transactions_by_address` — [schema](.agent/rules/mcp-functions/egor/get_transactions_by_address.json)
+- `egor/get_token_transfers_by_address` — [schema](.agent/rules/mcp-functions/egor/get_token_transfers_by_address.json)
+- `egor/direct_api_call` — [schema](.agent/rules/mcp-functions/egor/direct_api_call.json)
 
 ## Rules
 
