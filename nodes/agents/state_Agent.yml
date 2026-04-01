@@ -6,13 +6,13 @@ position:
   y: -290
 next-step: state_1
 parameters:
-  llm-model-key: 1000175-open_ai_gpt41-ors
+  llm-model-key: 1000175-deepseek_deepseekv32-ugx
   llm-model-settings:
-    max-tokens: 4000
-    temperature: 0.6
-    top-p: 1.0
-    frequency-penalty: 0.0
-    presence-penalty: 0.0
+    max-tokens: 1234
+    temperature: 0.34
+    top-p: 0.31
+    frequency-penalty: 0.47
+    presence-penalty: 0.64
     verbose-mode: true
   system-promts:
     role: Помощник
@@ -28,13 +28,13 @@ parameters:
       1. Проанализируй последние сообщения в чате.
       2. Составь один абзац текста с основными событиями, переведи на русский язык. Ссылки и даты не включай.
       3. Отправь пользователю.
-    query-override: ""
+    query-override: null
   tools:
   - state_searchArticles
   handoff-agents:
     allowed-any: false
     allowed-agent-node-ids: []
-  stay-in-agent: false
+  stay-in-agent: true
   telephony-config:
     enabled: true
     llm-response-timeout-ms: 10000
@@ -48,4 +48,4 @@ parameters:
       - курлык
   enable-context: true
   chat-history-limit: 3213
-  sequential-tool-calls-limit: 5
+  sequential-tool-calls-limit: 1
