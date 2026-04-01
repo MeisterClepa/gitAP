@@ -6,7 +6,7 @@ All YAML files use **kebab-case** field naming.
 ## Project Info
 
 - Schema version: `1.0`
-- Project key: `test-1000001-Xmn`
+- Project key: `test2-1000001-kzV`
 - Language: `ru`
 - Engine version: `1`
 
@@ -137,28 +137,6 @@ JSON Schemas for MCP tool functions are in `.agent/rules/mcp-functions/`:
 - `test/arctan` — [schema](.agent/rules/mcp-functions/test/arctan.json)
 - `test/radiansToDegrees` — [schema](.agent/rules/mcp-functions/test/radiansToDegrees.json)
 - `test/degreesToRadians` — [schema](.agent/rules/mcp-functions/test/degreesToRadians.json)
-- `bright/add` — [schema](.agent/rules/mcp-functions/bright/add.json)
-- `bright/subtract` — [schema](.agent/rules/mcp-functions/bright/subtract.json)
-- `bright/multiply` — [schema](.agent/rules/mcp-functions/bright/multiply.json)
-- `bright/division` — [schema](.agent/rules/mcp-functions/bright/division.json)
-- `bright/sum` — [schema](.agent/rules/mcp-functions/bright/sum.json)
-- `bright/modulo` — [schema](.agent/rules/mcp-functions/bright/modulo.json)
-- `bright/mean` — [schema](.agent/rules/mcp-functions/bright/mean.json)
-- `bright/median` — [schema](.agent/rules/mcp-functions/bright/median.json)
-- `bright/mode` — [schema](.agent/rules/mcp-functions/bright/mode.json)
-- `bright/min` — [schema](.agent/rules/mcp-functions/bright/min.json)
-- `bright/max` — [schema](.agent/rules/mcp-functions/bright/max.json)
-- `bright/floor` — [schema](.agent/rules/mcp-functions/bright/floor.json)
-- `bright/ceiling` — [schema](.agent/rules/mcp-functions/bright/ceiling.json)
-- `bright/round` — [schema](.agent/rules/mcp-functions/bright/round.json)
-- `bright/sin` — [schema](.agent/rules/mcp-functions/bright/sin.json)
-- `bright/arcsin` — [schema](.agent/rules/mcp-functions/bright/arcsin.json)
-- `bright/cos` — [schema](.agent/rules/mcp-functions/bright/cos.json)
-- `bright/arccos` — [schema](.agent/rules/mcp-functions/bright/arccos.json)
-- `bright/tan` — [schema](.agent/rules/mcp-functions/bright/tan.json)
-- `bright/arctan` — [schema](.agent/rules/mcp-functions/bright/arctan.json)
-- `bright/radiansToDegrees` — [schema](.agent/rules/mcp-functions/bright/radiansToDegrees.json)
-- `bright/degreesToRadians` — [schema](.agent/rules/mcp-functions/bright/degreesToRadians.json)
 - `MathMcp/add` — [schema](.agent/rules/mcp-functions/MathMcp/add.json)
 - `MathMcp/subtract` — [schema](.agent/rules/mcp-functions/MathMcp/subtract.json)
 - `MathMcp/multiply` — [schema](.agent/rules/mcp-functions/MathMcp/multiply.json)

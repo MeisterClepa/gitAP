@@ -8,7 +8,7 @@ next-step: null
 parameters:
   function-id: add
   type: MCP
-  collection-name: bright
+  collection-name: test
   is-tool: false
   parameters:
     firstNumber:
