@@ -1,14 +1,14 @@
 ---
-id: state_1
+id: state_2
 name: add
 position:
-  x: 1180
-  y: -79
+  x: 1152
+  y: 93
 next-step: null
 parameters:
   function-id: add
   type: MCP
-  collection-name: test
+  collection-name: bright
   is-tool: false
   parameters:
     firstNumber:
