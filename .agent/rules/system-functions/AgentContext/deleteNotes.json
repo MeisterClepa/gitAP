@@ -1,0 +1,10 @@
+{
+  "type" : "object",
+  "properties" : {
+    "agentId" : {
+      "type" : "string",
+      "description" : "Optional agent ID or 'all'. If 'all', deletes notes from all contexts"
+    }
+  },
+  "required" : [ ]
+}
