@@ -6,7 +6,7 @@ position:
   y: -290
 next-step: state_1
 parameters:
-  llm-model-key: 1000175-deepseek_deepseekv32-uxc
+  llm-model-key: null
   llm-model-settings:
     max-tokens: 1234
     temperature: 0.34

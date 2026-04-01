@@ -6,7 +6,7 @@ All YAML files use **kebab-case** field naming.
 ## Project Info
 
 - Schema version: `1.0`
-- Project key: `e_efremov-1000175-BYq`
+- Project key: `juj-1000175-jHI`
 - Language: `ru`
 - Engine version: `1`
 

@@ -2,8 +2,8 @@
 id: state_searchArticles
 name: searchArticles
 position:
-  x: 865
-  y: 17
+  x: 843
+  y: -19
 next-step: null
 parameters:
   function-id: searchArticles
