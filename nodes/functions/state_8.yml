@@ -1,0 +1,22 @@
+---
+id: state_8
+name: add
+position:
+  x: 1362
+  y: 93
+next-step: null
+parameters:
+  function-id: add
+  type: MCP
+  collection-name: bright
+  is-tool: false
+  parameters:
+    firstNumber:
+      type: NUMBER
+      value: null
+      filled-ai: false
+    secondNumber:
+      type: NUMBER
+      value: null
+      filled-ai: false
+  context-config: null
