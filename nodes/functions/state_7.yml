@@ -1,0 +1,22 @@
+---
+id: state_7
+name: Db.get
+position:
+  x: 946
+  y: -519
+next-step: null
+parameters:
+  function-id: 370e0cfc9bd77f5b022a9133
+  type: SYSTEM
+  collection-name: null
+  is-tool: false
+  parameters:
+    dbIntegration:
+      type: INTEGRATION_DB
+      value: null
+      filled-ai: false
+    documentKey:
+      type: STRING
+      value: news
+      filled-ai: false
+  context-config: null
