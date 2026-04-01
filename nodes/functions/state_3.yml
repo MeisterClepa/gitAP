@@ -1,0 +1,25 @@
+---
+id: state_3
+name: searchArticles
+position:
+  x: 1898
+  y: -67
+next-step: state_4
+parameters:
+  function-id: searchArticles
+  type: USER
+  collection-name: SpaceArticles
+  is-tool: false
+  parameters:
+    query:
+      type: STRING
+      value: 123
+      filled-ai: false
+  context-config:
+    enabled: true
+    key: "null"
+    value-prefix: Аккаунт Пользователя
+    handoff-agents:
+      allowed-any: true
+      allowed-agent-node-ids: []
+    put-if-error: true

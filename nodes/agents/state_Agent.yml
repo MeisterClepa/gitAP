@@ -4,7 +4,7 @@ name: Агент
 position:
   x: 844
   y: -290
-next-step: null
+next-step: state_1
 parameters:
   llm-model-key: 1000175-open_ai_gpt41-ors
   llm-model-settings:
@@ -28,14 +28,24 @@ parameters:
       1. Проанализируй последние сообщения в чате.
       2. Составь один абзац текста с основными событиями, переведи на русский язык. Ссылки и даты не включай.
       3. Отправь пользователю.
-    query-override: null
+    query-override: ""
   tools:
   - state_searchArticles
   handoff-agents:
     allowed-any: false
     allowed-agent-node-ids: []
   stay-in-agent: false
-  telephony-config: null
+  telephony-config:
+    enabled: true
+    llm-response-timeout-ms: 10000
+    barge-in-config:
+      barge-in: FORCED
+      barge-in-trigger: INTERIM
+      no-interrupt-time: 321
+    fillers-phrase-config:
+      activation-delay-ms: 678
+      filler-phrases-list:
+      - курлык
   enable-context: false
   chat-history-limit: 50
   sequential-tool-calls-limit: 5
