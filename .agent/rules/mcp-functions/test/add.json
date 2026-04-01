@@ -1,0 +1,14 @@
+{
+  "type" : "object",
+  "properties" : {
+    "firstNumber" : {
+      "type" : "number",
+      "description" : "The first addend"
+    },
+    "secondNumber" : {
+      "type" : "number",
+      "description" : "The second addend"
+    }
+  },
+  "required" : [ "firstNumber", "secondNumber" ]
+}
