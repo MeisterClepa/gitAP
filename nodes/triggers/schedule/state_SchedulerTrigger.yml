@@ -2,8 +2,8 @@
 id: state_SchedulerTrigger
 name: Планировщик
 position:
-  x: 360
-  y: 67
+  x: 269
+  y: 193
 next-step: state_SendNews
 parameters:
   interval-seconds: null
