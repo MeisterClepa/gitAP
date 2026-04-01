@@ -1,0 +1,22 @@
+---
+id: state_1
+name: AgentContext.addNote
+position:
+  x: 1252
+  "y": -168
+next-step: null
+parameters:
+  function-id: acd8314ae0819f2e2089d060
+  type: SYSTEM
+  collection-name: null
+  is-tool: false
+  parameters:
+    text:
+      type: STRING
+      value: null
+      filled-ai: false
+    agentId:
+      type: STRING
+      value: null
+      filled-ai: false
+  context-config: null
