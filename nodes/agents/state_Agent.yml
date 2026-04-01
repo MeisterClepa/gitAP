@@ -46,6 +46,6 @@ parameters:
       activation-delay-ms: 678
       filler-phrases-list:
       - курлык
-  enable-context: false
-  chat-history-limit: 50
+  enable-context: true
+  chat-history-limit: 3213
   sequential-tool-calls-limit: 5
