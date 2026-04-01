@@ -1,0 +1,10 @@
+{
+  "type" : "object",
+  "properties" : {
+    "number" : {
+      "type" : "number",
+      "description" : "The number to round"
+    }
+  },
+  "required" : [ "number" ]
+}
