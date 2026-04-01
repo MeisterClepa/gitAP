@@ -1,0 +1,14 @@
+{
+  "type" : "object",
+  "properties" : {
+    "numbers" : {
+      "type" : "array",
+      "description" : "Array of numbers to find the maximum of",
+      "items" : {
+        "type" : "number",
+        "description" : ""
+      }
+    }
+  },
+  "required" : [ "numbers" ]
+}

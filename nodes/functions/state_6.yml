@@ -3,7 +3,7 @@ id: state_6
 name: add
 position:
   x: 1393
-  "y": -410
+  y: -410
 next-step: null
 parameters:
   function-id: add

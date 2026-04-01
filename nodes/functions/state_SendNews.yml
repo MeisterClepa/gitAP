@@ -3,7 +3,7 @@ id: state_SendNews
 name: sendNews
 position:
   x: 831
-  "y": 379
+  y: 379
 next-step: state_LlmSendText
 parameters:
   function-id: sendNews

@@ -3,7 +3,7 @@ id: state_searchArticles
 name: searchArticles
 position:
   x: 845
-  "y": 13
+  y: 13
 next-step: null
 parameters:
   function-id: searchArticles
