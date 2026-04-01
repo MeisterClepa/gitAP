@@ -146,6 +146,22 @@ JSON Schemas for MCP tool functions are in `.agent/rules/mcp-functions/`:
 - `MathMcp/arctan` — [schema](.agent/rules/mcp-functions/MathMcp/arctan.json)
 - `MathMcp/radiansToDegrees` — [schema](.agent/rules/mcp-functions/MathMcp/radiansToDegrees.json)
 - `MathMcp/degreesToRadians` — [schema](.agent/rules/mcp-functions/MathMcp/degreesToRadians.json)
+- `bright/unlock_blockchain_analysis` — [schema](.agent/rules/mcp-functions/bright/unlock_blockchain_analysis.json)
+- `bright/get_chains_list` — [schema](.agent/rules/mcp-functions/bright/get_chains_list.json)
+- `bright/get_block_info` — [schema](.agent/rules/mcp-functions/bright/get_block_info.json)
+- `bright/get_block_number` — [schema](.agent/rules/mcp-functions/bright/get_block_number.json)
+- `bright/get_address_by_ens_name` — [schema](.agent/rules/mcp-functions/bright/get_address_by_ens_name.json)
+- `bright/get_address_info` — [schema](.agent/rules/mcp-functions/bright/get_address_info.json)
+- `bright/get_tokens_by_address` — [schema](.agent/rules/mcp-functions/bright/get_tokens_by_address.json)
+- `bright/nft_tokens_by_address` — [schema](.agent/rules/mcp-functions/bright/nft_tokens_by_address.json)
+- `bright/lookup_token_by_symbol` — [schema](.agent/rules/mcp-functions/bright/lookup_token_by_symbol.json)
+- `bright/get_contract_abi` — [schema](.agent/rules/mcp-functions/bright/get_contract_abi.json)
+- `bright/inspect_contract_code` — [schema](.agent/rules/mcp-functions/bright/inspect_contract_code.json)
+- `bright/read_contract` — [schema](.agent/rules/mcp-functions/bright/read_contract.json)
+- `bright/get_transaction_info` — [schema](.agent/rules/mcp-functions/bright/get_transaction_info.json)
+- `bright/get_transactions_by_address` — [schema](.agent/rules/mcp-functions/bright/get_transactions_by_address.json)
+- `bright/get_token_transfers_by_address` — [schema](.agent/rules/mcp-functions/bright/get_token_transfers_by_address.json)
+- `bright/direct_api_call` — [schema](.agent/rules/mcp-functions/bright/direct_api_call.json)
 
 ## Rules
 

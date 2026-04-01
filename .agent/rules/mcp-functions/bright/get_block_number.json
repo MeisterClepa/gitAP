@@ -1,0 +1,14 @@
+{
+  "type" : "object",
+  "properties" : {
+    "chain_id" : {
+      "type" : "string",
+      "description" : "The ID of the blockchain"
+    },
+    "datetime" : {
+      "type" : "string",
+      "description" : "ISO 8601 date/time to find the block for. If omitted, returns latest block."
+    }
+  },
+  "required" : [ "chain_id" ]
+}

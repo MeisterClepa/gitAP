@@ -1,0 +1,18 @@
+{
+  "type" : "object",
+  "properties" : {
+    "chain_id" : {
+      "type" : "string",
+      "description" : "The ID of the blockchain"
+    },
+    "address" : {
+      "type" : "string",
+      "description" : "Wallet address"
+    },
+    "cursor" : {
+      "type" : "string",
+      "description" : "Pagination cursor from previous response"
+    }
+  },
+  "required" : [ "chain_id", "address" ]
+}
