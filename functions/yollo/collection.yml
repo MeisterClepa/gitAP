@@ -5,3 +5,7 @@ dependencies:
   version: 1.0.1-lol
   code-name: lol
   description: "Just lol, rofl, wtf, etc !!11!!1!"
+- key: qw
+  version: 1.0.1
+  code-name: qw
+  description: Quoted word literals!
