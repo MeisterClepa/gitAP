@@ -1,0 +1,90 @@
+---
+key: 1000175-neiro-1000175-MdV-12875
+credential-key: null
+name: Чат-виджет
+type: CHAT_WIDGET
+is-auto-deploy: true
+operator-channel-key: null
+settings:
+  type: CHAT_WIDGET
+  chatWidgetParams:
+    theme: defaultv3
+    position: right
+    percentage: 100
+    widgetOptions:
+      showLogo: false
+      logo: ""
+      percentage: 100
+      headline:
+        show: false
+        text: ""
+      names:
+        show: false
+        assistantName: ""
+        userName: ""
+        operatorDefaultName: null
+      sendBtn:
+        show: false
+      blockForm:
+        show: false
+      avatar:
+        show: false
+        assistantAvatarUrl: ""
+        operatorAvatarUrl: ""
+        size: 24
+        userAvatarUrl: ""
+      linkPreview:
+        show: true
+      fileUpload:
+        show: false
+        uploadErrorMessage: ""
+        tooBigFileMessage: ""
+      position: right
+      involvement:
+        enabled: false
+        events: []
+      sessionByUserMessage:
+        show: false
+        welcomemessage: ""
+        delay: 0
+        buttonsShow: false
+        buttons: []
+      positionOffset:
+        bottom: 24
+        right: 24
+      palette:
+        headlineBackgroundColor: '#5A9CED'
+        headlineTextColor: dark
+        chatBackgroundColor: '#FFFFFF'
+        chatBackgroundOpacity: 100
+        userMessageBackgroundColor: '#CBDFF8'
+        userMessageTextColor: dark
+        botMessageBackgroundColor: '#F4F5F5'
+        botMessageTextColor: dark
+        formButtonsColor: '#5A9CED'
+        formTextColor: '#000'
+        avatar: null
+      font: Roboto
+      sizes:
+        font: small
+        avatar: big
+      buttonsSamePlace: false
+      soundNotification:
+        option: none
+        sound: ""
+      embedmentContainer:
+        id: ""
+        enabled: false
+      showCloseButton: false
+      showSpinner: true
+      hidePoweredByJustAI: false
+      copySource: null
+      captions:
+        inputPlaceholder: ""
+      bubble:
+        show: false
+        delay: 10
+        bubbletext: ""
+        mobileBubbletext: ""
+      isAutoDeploy: null
+  chatWidgetScriptUrl: https://ky2.gw.test-ai.net/chatadapter/chatwidget/YZQVcLFG:9449fc86bd1f687e8ffcc1b18bce4b30cf01efac/justwidget.js
