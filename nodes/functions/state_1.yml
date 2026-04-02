@@ -13,7 +13,7 @@ parameters:
   parameters:
     dbIntegration:
       type: INTEGRATION_DB
-      value: 1000175-test-ljn
+      value: null
       filled-ai: false
     documentKey:
       type: STRING
