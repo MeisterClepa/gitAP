@@ -1,0 +1,12 @@
+---
+id: sendData
+name: sendData
+description: sendData
+response-description: 123
+parameters:
+- name: hi
+  type: INTEGRATION_DB
+  required: true
+  description: 123
+  properties: null
+  items: null

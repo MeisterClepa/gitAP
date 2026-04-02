@@ -1,0 +1,18 @@
+---
+id: state_1
+name: sendData
+position:
+  x: 511
+  y: 95
+next-step: null
+parameters:
+  function-id: sendData
+  type: USER
+  collection-name: yollo
+  is-tool: false
+  parameters:
+    hi:
+      type: INTEGRATION_DB
+      value: 1000175-test-gsg
+      filled-ai: false
+  context-config: null
