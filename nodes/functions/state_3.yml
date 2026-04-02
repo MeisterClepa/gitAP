@@ -1,0 +1,18 @@
+---
+id: state_3
+name: Credentials.get
+position:
+  x: 384
+  y: -1
+next-step: state_4
+parameters:
+  function-id: 6567b42c31d28af3a90d103a
+  type: SYSTEM
+  collection-name: null
+  is-tool: false
+  parameters:
+    credentialKey:
+      type: STRING
+      value: 1000175-test-rrj
+      filled-ai: false
+  context-config: null

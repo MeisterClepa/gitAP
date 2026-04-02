@@ -2,8 +2,8 @@
 id: state_1
 name: sendData
 position:
-  x: 511
-  y: 95
+  x: 601
+  y: 252
 next-step: null
 parameters:
   function-id: sendData
@@ -13,6 +13,6 @@ parameters:
   parameters:
     hi:
       type: INTEGRATION_DB
-      value: 1000175-test-azq
+      value: null
       filled-ai: false
   context-config: null

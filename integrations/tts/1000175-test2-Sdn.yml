@@ -1,0 +1,8 @@
+---
+key: 1000175-test2-Sdn
+credential-key: 1000175-test-hwq
+name: test2
+provider-type: ZITECH
+settings:
+  type: ZITECH
+  model: Alisher
