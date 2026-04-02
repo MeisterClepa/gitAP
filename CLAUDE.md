@@ -6,7 +6,7 @@ All YAML files use **kebab-case** field naming.
 ## Project Info
 
 - Schema version: `1.0`
-- Project key: `neiro2-1000175-owa`
+- Project key: `neiro-1000175-MdV`
 - Language: `ru`
 - Engine version: `1`
 
@@ -97,6 +97,55 @@ JSON Schemas for available system functions are in `.agent/rules/system-function
 - `Log/trace` — [schema](.agent/rules/system-functions/Log/trace.json)
 - `Log/warn` — [schema](.agent/rules/system-functions/Log/warn.json)
 - `Log/error` — [schema](.agent/rules/system-functions/Log/error.json)
+
+### MCP Functions
+
+JSON Schemas for MCP tool functions are in `.agent/rules/mcp-functions/`:
+
+- `test/add` — [schema](.agent/rules/mcp-functions/test/add.json)
+- `test/subtract` — [schema](.agent/rules/mcp-functions/test/subtract.json)
+- `test/multiply` — [schema](.agent/rules/mcp-functions/test/multiply.json)
+- `test/division` — [schema](.agent/rules/mcp-functions/test/division.json)
+- `test/sum` — [schema](.agent/rules/mcp-functions/test/sum.json)
+- `test/modulo` — [schema](.agent/rules/mcp-functions/test/modulo.json)
+- `test/mean` — [schema](.agent/rules/mcp-functions/test/mean.json)
+- `test/median` — [schema](.agent/rules/mcp-functions/test/median.json)
+- `test/mode` — [schema](.agent/rules/mcp-functions/test/mode.json)
+- `test/min` — [schema](.agent/rules/mcp-functions/test/min.json)
+- `test/max` — [schema](.agent/rules/mcp-functions/test/max.json)
+- `test/floor` — [schema](.agent/rules/mcp-functions/test/floor.json)
+- `test/ceiling` — [schema](.agent/rules/mcp-functions/test/ceiling.json)
+- `test/round` — [schema](.agent/rules/mcp-functions/test/round.json)
+- `test/sin` — [schema](.agent/rules/mcp-functions/test/sin.json)
+- `test/arcsin` — [schema](.agent/rules/mcp-functions/test/arcsin.json)
+- `test/cos` — [schema](.agent/rules/mcp-functions/test/cos.json)
+- `test/arccos` — [schema](.agent/rules/mcp-functions/test/arccos.json)
+- `test/tan` — [schema](.agent/rules/mcp-functions/test/tan.json)
+- `test/arctan` — [schema](.agent/rules/mcp-functions/test/arctan.json)
+- `test/radiansToDegrees` — [schema](.agent/rules/mcp-functions/test/radiansToDegrees.json)
+- `test/degreesToRadians` — [schema](.agent/rules/mcp-functions/test/degreesToRadians.json)
+- `MathMcp/add` — [schema](.agent/rules/mcp-functions/MathMcp/add.json)
+- `MathMcp/subtract` — [schema](.agent/rules/mcp-functions/MathMcp/subtract.json)
+- `MathMcp/multiply` — [schema](.agent/rules/mcp-functions/MathMcp/multiply.json)
+- `MathMcp/division` — [schema](.agent/rules/mcp-functions/MathMcp/division.json)
+- `MathMcp/sum` — [schema](.agent/rules/mcp-functions/MathMcp/sum.json)
+- `MathMcp/modulo` — [schema](.agent/rules/mcp-functions/MathMcp/modulo.json)
+- `MathMcp/mean` — [schema](.agent/rules/mcp-functions/MathMcp/mean.json)
+- `MathMcp/median` — [schema](.agent/rules/mcp-functions/MathMcp/median.json)
+- `MathMcp/mode` — [schema](.agent/rules/mcp-functions/MathMcp/mode.json)
+- `MathMcp/min` — [schema](.agent/rules/mcp-functions/MathMcp/min.json)
+- `MathMcp/max` — [schema](.agent/rules/mcp-functions/MathMcp/max.json)
+- `MathMcp/floor` — [schema](.agent/rules/mcp-functions/MathMcp/floor.json)
+- `MathMcp/ceiling` — [schema](.agent/rules/mcp-functions/MathMcp/ceiling.json)
+- `MathMcp/round` — [schema](.agent/rules/mcp-functions/MathMcp/round.json)
+- `MathMcp/sin` — [schema](.agent/rules/mcp-functions/MathMcp/sin.json)
+- `MathMcp/arcsin` — [schema](.agent/rules/mcp-functions/MathMcp/arcsin.json)
+- `MathMcp/cos` — [schema](.agent/rules/mcp-functions/MathMcp/cos.json)
+- `MathMcp/arccos` — [schema](.agent/rules/mcp-functions/MathMcp/arccos.json)
+- `MathMcp/tan` — [schema](.agent/rules/mcp-functions/MathMcp/tan.json)
+- `MathMcp/arctan` — [schema](.agent/rules/mcp-functions/MathMcp/arctan.json)
+- `MathMcp/radiansToDegrees` — [schema](.agent/rules/mcp-functions/MathMcp/radiansToDegrees.json)
+- `MathMcp/degreesToRadians` — [schema](.agent/rules/mcp-functions/MathMcp/degreesToRadians.json)
 
 ## Rules
 

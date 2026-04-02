@@ -1,0 +1,14 @@
+{
+  "type" : "object",
+  "properties" : {
+    "minuend" : {
+      "type" : "number",
+      "description" : "The number to subtract from (minuend)"
+    },
+    "subtrahend" : {
+      "type" : "number",
+      "description" : "The number being subtracted (subtrahend)"
+    }
+  },
+  "required" : [ "minuend", "subtrahend" ]
+}

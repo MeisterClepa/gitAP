@@ -1,0 +1,14 @@
+{
+  "type" : "object",
+  "properties" : {
+    "numerator" : {
+      "type" : "number",
+      "description" : "The number being divided (numerator)"
+    },
+    "denominator" : {
+      "type" : "number",
+      "description" : "The number to divide by (denominator)"
+    }
+  },
+  "required" : [ "numerator", "denominator" ]
+}

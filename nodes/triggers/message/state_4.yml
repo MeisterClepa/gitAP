@@ -4,6 +4,6 @@ name: Сообщение
 position:
   x: 201
   y: 299
-next-step: null
+next-step: state_3
 parameters:
   placeholder: null
