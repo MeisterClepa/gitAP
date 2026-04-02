@@ -1,0 +1,10 @@
+{
+  "type" : "object",
+  "properties" : {
+    "number" : {
+      "type" : "number",
+      "description" : "The number in degrees to convert to radians"
+    }
+  },
+  "required" : [ "number" ]
+}
