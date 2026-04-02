@@ -1,8 +1,0 @@
---- !<LLM>
-key: "1000001-open_ai_gpt4-dyw"
-type: "LLM"
-credentialKey: "1000001-catvidzet-xfj"
-projectShortName: "test-1000001-CMF"
-name: "OPEN_AI - gpt-4"
-provider: "OPEN_AI"
-model: "gpt-4"
