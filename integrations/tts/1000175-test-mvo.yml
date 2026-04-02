@@ -1,0 +1,8 @@
+---
+key: 1000175-test-mvo
+credential-key: 1000175-123-isd
+name: test
+provider-type: ZITECH
+settings:
+  type: ZITECH
+  model: Amanjol
