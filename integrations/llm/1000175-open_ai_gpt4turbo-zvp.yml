@@ -1,6 +1,6 @@
 ---
-key: 1000175-open_ai_gpt4turbo-xri
-credential-key: 1000175-test-jwt
+key: 1000175-open_ai_gpt4turbo-zvp
+credential-key: 1000175-cyustllm-zjn
 name: OPEN_AI - gpt-4-turbo
 provider: OPEN_AI
 model: gpt-4-turbo

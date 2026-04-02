@@ -13,6 +13,6 @@ parameters:
   parameters:
     credentialKey:
       type: STRING
-      value: 1000175-test-rrj
+      value: 1000175-sip-vjx
       filled-ai: false
   context-config: null
