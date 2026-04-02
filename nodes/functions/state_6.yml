@@ -2,8 +2,8 @@
 id: state_6
 name: Credentials.get
 position:
-  x: 708
-  y: 456
+  x: 657
+  y: 392
 next-step: null
 parameters:
   function-id: 6567b42c31d28af3a90d103a
