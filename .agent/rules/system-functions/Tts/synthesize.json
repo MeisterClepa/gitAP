@@ -1,0 +1,22 @@
+{
+  "type" : "object",
+  "properties" : {
+    "ttsIntegrationKey" : {
+      "type" : "string",
+      "description" : "The key of the text-to-speech integration to use"
+    },
+    "text" : {
+      "type" : "string",
+      "description" : "The text content to convert to speech"
+    },
+    "languageCode" : {
+      "type" : "string",
+      "description" : "Language code for speech synthesis (defaults to 'RU')"
+    },
+    "audioFormat" : {
+      "type" : "string",
+      "description" : "Audio format for the output file (defaults to 'WAV')"
+    }
+  },
+  "required" : [ "ttsIntegrationKey", "text" ]
+}
