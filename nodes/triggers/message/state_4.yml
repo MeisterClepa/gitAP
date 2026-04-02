@@ -1,0 +1,9 @@
+---
+id: state_4
+name: Сообщение
+position:
+  x: 201
+  y: 299
+next-step: null
+parameters:
+  placeholder: null

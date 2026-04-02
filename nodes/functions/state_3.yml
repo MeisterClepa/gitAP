@@ -1,0 +1,18 @@
+---
+id: state_3
+name: Reactions.sendText
+position:
+  x: 1252
+  y: 242
+next-step: null
+parameters:
+  function-id: 638b9db65f3b1def095c90f6
+  type: SYSTEM
+  collection-name: null
+  is-tool: false
+  parameters:
+    text:
+      type: STRING
+      value: "{{JSON.stringify(Context.getLastFunctionResult())}}"
+      filled-ai: false
+  context-config: null
