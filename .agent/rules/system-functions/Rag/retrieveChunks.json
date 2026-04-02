@@ -1,0 +1,14 @@
+{
+  "type" : "object",
+  "properties" : {
+    "query" : {
+      "type" : "string",
+      "description" : "The search query text"
+    },
+    "historyMessageLimit" : {
+      "type" : "integer",
+      "description" : "The maximum number of recent messages from the dialogue history."
+    }
+  },
+  "required" : [ "query" ]
+}
