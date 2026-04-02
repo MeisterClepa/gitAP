@@ -13,6 +13,6 @@ parameters:
   parameters:
     hi:
       type: INTEGRATION_DB
-      value: 1000175-test-gsg
+      value: 1000175-test-azq
       filled-ai: false
   context-config: null
