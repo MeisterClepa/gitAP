@@ -1,0 +1,7 @@
+---
+key: 1000175-custom_qwenqwen3next-lhu
+credential-key: 1000175-custom_llm-aba
+name: CUSTOM - Qwen/Qwen3-Next-80B-A3B-Instruct
+provider: CUSTOM
+model: Qwen/Qwen3-Next-80B-A3B-Instruct
+is-direct-access: true

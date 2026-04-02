@@ -6,7 +6,7 @@ All YAML files use **kebab-case** field naming.
 ## Project Info
 
 - Schema version: `1.0`
-- Project key: `neiro-1000175-MdV`
+- Project key: `neiro2-1000175-owa`
 - Language: `ru`
 - Engine version: `1`
 
@@ -102,28 +102,6 @@ JSON Schemas for available system functions are in `.agent/rules/system-function
 
 JSON Schemas for MCP tool functions are in `.agent/rules/mcp-functions/`:
 
-- `test/add` — [schema](.agent/rules/mcp-functions/test/add.json)
-- `test/subtract` — [schema](.agent/rules/mcp-functions/test/subtract.json)
-- `test/multiply` — [schema](.agent/rules/mcp-functions/test/multiply.json)
-- `test/division` — [schema](.agent/rules/mcp-functions/test/division.json)
-- `test/sum` — [schema](.agent/rules/mcp-functions/test/sum.json)
-- `test/modulo` — [schema](.agent/rules/mcp-functions/test/modulo.json)
-- `test/mean` — [schema](.agent/rules/mcp-functions/test/mean.json)
-- `test/median` — [schema](.agent/rules/mcp-functions/test/median.json)
-- `test/mode` — [schema](.agent/rules/mcp-functions/test/mode.json)
-- `test/min` — [schema](.agent/rules/mcp-functions/test/min.json)
-- `test/max` — [schema](.agent/rules/mcp-functions/test/max.json)
-- `test/floor` — [schema](.agent/rules/mcp-functions/test/floor.json)
-- `test/ceiling` — [schema](.agent/rules/mcp-functions/test/ceiling.json)
-- `test/round` — [schema](.agent/rules/mcp-functions/test/round.json)
-- `test/sin` — [schema](.agent/rules/mcp-functions/test/sin.json)
-- `test/arcsin` — [schema](.agent/rules/mcp-functions/test/arcsin.json)
-- `test/cos` — [schema](.agent/rules/mcp-functions/test/cos.json)
-- `test/arccos` — [schema](.agent/rules/mcp-functions/test/arccos.json)
-- `test/tan` — [schema](.agent/rules/mcp-functions/test/tan.json)
-- `test/arctan` — [schema](.agent/rules/mcp-functions/test/arctan.json)
-- `test/radiansToDegrees` — [schema](.agent/rules/mcp-functions/test/radiansToDegrees.json)
-- `test/degreesToRadians` — [schema](.agent/rules/mcp-functions/test/degreesToRadians.json)
 - `MathMcp/add` — [schema](.agent/rules/mcp-functions/MathMcp/add.json)
 - `MathMcp/subtract` — [schema](.agent/rules/mcp-functions/MathMcp/subtract.json)
 - `MathMcp/multiply` — [schema](.agent/rules/mcp-functions/MathMcp/multiply.json)
@@ -146,6 +124,28 @@ JSON Schemas for MCP tool functions are in `.agent/rules/mcp-functions/`:
 - `MathMcp/arctan` — [schema](.agent/rules/mcp-functions/MathMcp/arctan.json)
 - `MathMcp/radiansToDegrees` — [schema](.agent/rules/mcp-functions/MathMcp/radiansToDegrees.json)
 - `MathMcp/degreesToRadians` — [schema](.agent/rules/mcp-functions/MathMcp/degreesToRadians.json)
+- `test/add` — [schema](.agent/rules/mcp-functions/test/add.json)
+- `test/subtract` — [schema](.agent/rules/mcp-functions/test/subtract.json)
+- `test/multiply` — [schema](.agent/rules/mcp-functions/test/multiply.json)
+- `test/division` — [schema](.agent/rules/mcp-functions/test/division.json)
+- `test/sum` — [schema](.agent/rules/mcp-functions/test/sum.json)
+- `test/modulo` — [schema](.agent/rules/mcp-functions/test/modulo.json)
+- `test/mean` — [schema](.agent/rules/mcp-functions/test/mean.json)
+- `test/median` — [schema](.agent/rules/mcp-functions/test/median.json)
+- `test/mode` — [schema](.agent/rules/mcp-functions/test/mode.json)
+- `test/min` — [schema](.agent/rules/mcp-functions/test/min.json)
+- `test/max` — [schema](.agent/rules/mcp-functions/test/max.json)
+- `test/floor` — [schema](.agent/rules/mcp-functions/test/floor.json)
+- `test/ceiling` — [schema](.agent/rules/mcp-functions/test/ceiling.json)
+- `test/round` — [schema](.agent/rules/mcp-functions/test/round.json)
+- `test/sin` — [schema](.agent/rules/mcp-functions/test/sin.json)
+- `test/arcsin` — [schema](.agent/rules/mcp-functions/test/arcsin.json)
+- `test/cos` — [schema](.agent/rules/mcp-functions/test/cos.json)
+- `test/arccos` — [schema](.agent/rules/mcp-functions/test/arccos.json)
+- `test/tan` — [schema](.agent/rules/mcp-functions/test/tan.json)
+- `test/arctan` — [schema](.agent/rules/mcp-functions/test/arctan.json)
+- `test/radiansToDegrees` — [schema](.agent/rules/mcp-functions/test/radiansToDegrees.json)
+- `test/degreesToRadians` — [schema](.agent/rules/mcp-functions/test/degreesToRadians.json)
 
 ## Rules
 

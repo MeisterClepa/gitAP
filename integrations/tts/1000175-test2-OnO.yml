@@ -1,8 +1,0 @@
----
-key: 1000175-test2-OnO
-credential-key: 1000175-test-kmt
-name: test2
-provider-type: ZITECH
-settings:
-  type: ZITECH
-  model: Asel
