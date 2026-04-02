@@ -1,0 +1,18 @@
+---
+id: state_6
+name: Credentials.get
+position:
+  x: 511
+  y: 400
+next-step: state_3
+parameters:
+  function-id: 6567b42c31d28af3a90d103a
+  type: SYSTEM
+  collection-name: null
+  is-tool: false
+  parameters:
+    credentialKey:
+      type: STRING
+      value: null
+      filled-ai: false
+  context-config: null

@@ -4,7 +4,7 @@ name: Asr.recognize
 position:
   x: 489
   y: 129
-next-step: state_3
+next-step: state_6
 parameters:
   function-id: 30def03212f9e1e19f3e6622
   type: SYSTEM
