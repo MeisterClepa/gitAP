@@ -6,7 +6,7 @@ All YAML files use **kebab-case** field naming.
 ## Project Info
 
 - Schema version: `1.0`
-- Project key: `mcp-1000175-lvS`
+- Project key: `test-1000175-PML`
 - Language: `ru`
 - Engine version: `1`
 
@@ -102,28 +102,28 @@ JSON Schemas for available system functions are in `.agent/rules/system-function
 
 JSON Schemas for MCP tool functions are in `.agent/rules/mcp-functions/`:
 
-- `test/add` — [schema](.agent/rules/mcp-functions/test/add.json)
-- `test/subtract` — [schema](.agent/rules/mcp-functions/test/subtract.json)
-- `test/multiply` — [schema](.agent/rules/mcp-functions/test/multiply.json)
-- `test/division` — [schema](.agent/rules/mcp-functions/test/division.json)
-- `test/sum` — [schema](.agent/rules/mcp-functions/test/sum.json)
-- `test/modulo` — [schema](.agent/rules/mcp-functions/test/modulo.json)
-- `test/mean` — [schema](.agent/rules/mcp-functions/test/mean.json)
-- `test/median` — [schema](.agent/rules/mcp-functions/test/median.json)
-- `test/mode` — [schema](.agent/rules/mcp-functions/test/mode.json)
-- `test/min` — [schema](.agent/rules/mcp-functions/test/min.json)
-- `test/max` — [schema](.agent/rules/mcp-functions/test/max.json)
-- `test/floor` — [schema](.agent/rules/mcp-functions/test/floor.json)
-- `test/ceiling` — [schema](.agent/rules/mcp-functions/test/ceiling.json)
-- `test/round` — [schema](.agent/rules/mcp-functions/test/round.json)
-- `test/sin` — [schema](.agent/rules/mcp-functions/test/sin.json)
-- `test/arcsin` — [schema](.agent/rules/mcp-functions/test/arcsin.json)
-- `test/cos` — [schema](.agent/rules/mcp-functions/test/cos.json)
-- `test/arccos` — [schema](.agent/rules/mcp-functions/test/arccos.json)
-- `test/tan` — [schema](.agent/rules/mcp-functions/test/tan.json)
-- `test/arctan` — [schema](.agent/rules/mcp-functions/test/arctan.json)
-- `test/radiansToDegrees` — [schema](.agent/rules/mcp-functions/test/radiansToDegrees.json)
-- `test/degreesToRadians` — [schema](.agent/rules/mcp-functions/test/degreesToRadians.json)
+- `bright/add` — [schema](.agent/rules/mcp-functions/bright/add.json)
+- `bright/subtract` — [schema](.agent/rules/mcp-functions/bright/subtract.json)
+- `bright/multiply` — [schema](.agent/rules/mcp-functions/bright/multiply.json)
+- `bright/division` — [schema](.agent/rules/mcp-functions/bright/division.json)
+- `bright/sum` — [schema](.agent/rules/mcp-functions/bright/sum.json)
+- `bright/modulo` — [schema](.agent/rules/mcp-functions/bright/modulo.json)
+- `bright/mean` — [schema](.agent/rules/mcp-functions/bright/mean.json)
+- `bright/median` — [schema](.agent/rules/mcp-functions/bright/median.json)
+- `bright/mode` — [schema](.agent/rules/mcp-functions/bright/mode.json)
+- `bright/min` — [schema](.agent/rules/mcp-functions/bright/min.json)
+- `bright/max` — [schema](.agent/rules/mcp-functions/bright/max.json)
+- `bright/floor` — [schema](.agent/rules/mcp-functions/bright/floor.json)
+- `bright/ceiling` — [schema](.agent/rules/mcp-functions/bright/ceiling.json)
+- `bright/round` — [schema](.agent/rules/mcp-functions/bright/round.json)
+- `bright/sin` — [schema](.agent/rules/mcp-functions/bright/sin.json)
+- `bright/arcsin` — [schema](.agent/rules/mcp-functions/bright/arcsin.json)
+- `bright/cos` — [schema](.agent/rules/mcp-functions/bright/cos.json)
+- `bright/arccos` — [schema](.agent/rules/mcp-functions/bright/arccos.json)
+- `bright/tan` — [schema](.agent/rules/mcp-functions/bright/tan.json)
+- `bright/arctan` — [schema](.agent/rules/mcp-functions/bright/arctan.json)
+- `bright/radiansToDegrees` — [schema](.agent/rules/mcp-functions/bright/radiansToDegrees.json)
+- `bright/degreesToRadians` — [schema](.agent/rules/mcp-functions/bright/degreesToRadians.json)
 
 ## Rules
 
