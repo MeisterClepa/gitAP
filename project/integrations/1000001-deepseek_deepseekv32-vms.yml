@@ -1,8 +1,0 @@
---- !<LLM>
-key: "1000001-deepseek_deepseekv32-vms"
-type: "LLM"
-credentialKey: null
-projectShortName: "test-1000001-kVs"
-name: "DEEPSEEK - deepseek-v3.2"
-provider: "DEEPSEEK"
-model: "just-ai/deepseek/deepseek/deepseek-v3.2"
