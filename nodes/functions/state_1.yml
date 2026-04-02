@@ -1,0 +1,22 @@
+---
+id: state_1
+name: add
+position:
+  x: 686
+  y: 181
+next-step: state_2
+parameters:
+  function-id: add
+  type: MCP
+  collection-name: test
+  is-tool: false
+  parameters:
+    firstNumber:
+      type: NUMBER
+      value: null
+      filled-ai: false
+    secondNumber:
+      type: NUMBER
+      value: null
+      filled-ai: false
+  context-config: null
