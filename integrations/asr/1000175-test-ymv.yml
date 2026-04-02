@@ -1,0 +1,8 @@
+---
+key: 1000175-test-ymv
+credential-key: 1000175-test-kmt
+name: test
+provider-type: ZITECH
+settings:
+  type: ZITECH
+  model: telephony_short

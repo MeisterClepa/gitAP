@@ -4,7 +4,7 @@ name: Credentials.get
 position:
   x: 511
   y: 400
-next-step: state_3
+next-step: null
 parameters:
   function-id: 6567b42c31d28af3a90d103a
   type: SYSTEM
