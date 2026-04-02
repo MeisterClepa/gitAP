@@ -1,0 +1,11 @@
+---
+description: yollo
+dependencies:
+- key: ax
+  version: 0.2.2
+  code-name: ax
+  description: A simple logging library
+- key: hop
+  version: 0.1.0
+  code-name: hop
+  description: A Hop Socket client for Node.js

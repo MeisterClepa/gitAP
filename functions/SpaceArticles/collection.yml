@@ -1,0 +1,11 @@
+---
+description: null
+dependencies:
+- key: ax
+  version: 0.2.2
+  code-name: ax
+  description: A simple logging library
+- key: lol
+  version: 1.0.1-lol
+  code-name: lol
+  description: "Just lol, rofl, wtf, etc !!11!!1!"
