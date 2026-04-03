@@ -1,0 +1,7 @@
+---
+description: yollo
+dependencies:
+- key: lol
+  version: 1.0.101-lol
+  code-name: lol
+  description: "Just lol, rofl, wtf, etc !!11!!1!"
