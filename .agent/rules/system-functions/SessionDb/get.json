@@ -1,0 +1,10 @@
+{
+  "type" : "object",
+  "properties" : {
+    "documentKey" : {
+      "type" : "string",
+      "description" : "Document key"
+    }
+  },
+  "required" : [ "documentKey" ]
+}
