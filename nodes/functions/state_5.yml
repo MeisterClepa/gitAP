@@ -4,7 +4,7 @@ name: Telegram.sendText
 position:
   x: 792
   y: 549
-next-step: state_4
+next-step: state_6
 parameters:
   function-id: 22b01a9b6c1ff4ad02ada352
   type: SYSTEM

@@ -1,0 +1,18 @@
+---
+id: state_7
+name: Reactions.sendText
+position:
+  x: 1239
+  y: 684
+next-step: null
+parameters:
+  function-id: 638b9db65f3b1def095c90f6
+  type: SYSTEM
+  collection-name: null
+  is-tool: true
+  parameters:
+    text:
+      type: STRING
+      value: null
+      filled-ai: true
+  context-config: null

@@ -1,0 +1,31 @@
+---
+id: state_6
+name: Агент
+position:
+  x: 1211
+  y: 402
+next-step: state_8
+parameters:
+  llm-model-key: null
+  llm-model-settings:
+    max-tokens: null
+    temperature: 0.6
+    top-p: 1.0
+    frequency-penalty: 0.0
+    presence-penalty: 0.0
+    verbose-mode: true
+  system-promts:
+    role: null
+    goal: null
+    instructions: null
+    query-override: null
+  tools:
+  - state_7
+  handoff-agents:
+    allowed-any: false
+    allowed-agent-node-ids: []
+  stay-in-agent: false
+  telephony-config: null
+  enable-context: true
+  chat-history-limit: 50
+  sequential-tool-calls-limit: 5
