@@ -2,8 +2,8 @@
 id: state_1
 name: Сообщение
 position:
-  x: 637
-  y: 171
+  x: 661
+  y: 89
 next-step: null
 parameters:
   placeholder: null
