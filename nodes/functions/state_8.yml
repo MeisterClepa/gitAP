@@ -2,8 +2,8 @@
 id: state_8
 name: Reactions.sendText
 position:
-  x: 1589
-  y: 360
+  x: 1474
+  y: 185
 next-step: null
 parameters:
   function-id: 638b9db65f3b1def095c90f6
