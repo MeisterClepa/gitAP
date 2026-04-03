@@ -11,9 +11,9 @@ parameters:
   description: "Термин на английском языке, по которому нужно найти статьи"
   properties: null
   items: null
-- name: fwe
-  type: INTEGER
-  required: true
-  description: cb
+- name: gfg
+  type: STRING
+  required: false
+  description: "Термин на английском языке, по которому нужно найти статьи"
   properties: null
   items: null
