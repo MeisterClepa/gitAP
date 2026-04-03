@@ -4,7 +4,7 @@ url: "https://api.spaceflightnewsapi.net/v4/articles/",
 params: {
     // Передаем в API-запрос параметр query
     search: query,
-    ordering: "-published_at"
+    ordering: "-published_at233"
 },
 headers: {}
 })
