@@ -12,8 +12,8 @@ parameters:
   properties: null
   items: null
 - name: gfg
-  type: STRING
+  type: INTEGER
   required: false
-  description: "курлык"
+  description: тест
   properties: null
   items: null

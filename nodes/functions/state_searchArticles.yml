@@ -16,7 +16,7 @@ parameters:
       value: 213
       filled-ai: false
     gfg:
-      type: STRING
-      value: null
+      type: INTEGER
+      value: 23
       filled-ai: false
   context-config: null
