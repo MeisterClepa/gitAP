@@ -1,0 +1,14 @@
+---
+id: state_3
+name: Context.getAccountId
+position:
+  x: 1264
+  y: -33
+next-step: state_4
+parameters:
+  function-id: 9d89b4aa3c72318958d5bf43
+  type: SYSTEM
+  collection-name: null
+  is-tool: false
+  parameters: {}
+  context-config: null

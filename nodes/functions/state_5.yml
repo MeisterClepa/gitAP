@@ -1,21 +1,25 @@
 ---
-id: state_2
-name: Asr.recognize
+id: state_5
+name: Telegram.sendText
 position:
-  x: 889
-  y: -86
-next-step: state_3
+  x: 792
+  y: 549
+next-step: state_4
 parameters:
-  function-id: 30def03212f9e1e19f3e6622
+  function-id: 22b01a9b6c1ff4ad02ada352
   type: SYSTEM
   collection-name: null
   is-tool: false
   parameters:
-    asrIntegrationKey:
+    credentialKey:
+      type: CREDENTIAL
+      value: null
+      filled-ai: false
+    chatId:
       type: STRING
       value: null
       filled-ai: false
-    audioUrl:
+    text:
       type: STRING
       value: null
       filled-ai: false

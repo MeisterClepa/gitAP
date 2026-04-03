@@ -1,0 +1,10 @@
+---
+id: state_4
+name: Условие
+position:
+  x: 793
+  y: 180
+next-step: state_5
+parameters:
+  condition: null
+  false-step: state_5
