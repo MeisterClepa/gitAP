@@ -12,7 +12,7 @@ parameters:
   properties: null
   items: null
 - name: gfg
-  type: integer
+  type: INTEGER
   required: false
   description: "Термин на английском языке, по которому нужно найти статьи"
   properties: null
