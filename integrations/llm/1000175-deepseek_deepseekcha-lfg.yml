@@ -1,7 +1,0 @@
----
-key: 1000175-deepseek_deepseekcha-lfg
-credential-key: null
-name: DEEPSEEK - deepseek-chat-v3-0324
-provider: DEEPSEEK
-model: just-ai/deepseek/deepseek/deepseek-chat-v3-0324
-is-direct-access: false

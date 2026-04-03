@@ -23,7 +23,7 @@ Integrations are stored in `integrations/<type>/` directories. Each integration 
 | `is-tls-enabled` | boolean | yes | Whether TLS is enabled |  |
 | `key` | string | yes | Unique integration key |  |
 | `name` | string | yes | Human-readable integration name |  |
-| `port` | number | yes | SMTP server port | 587 |
+| `port` | number | no | SMTP server port | 587 |
 | `sender` | string | yes | Sender email address | bot@example.com |
 
 ## LLM Integration (`integrations/llm/`)
@@ -102,8 +102,11 @@ Integrations are stored in `integrations/<type>/` directories. Each integration 
 | YAML Field | Type | Required | Description | Example |
 |------------|------|----------|-------------|---------|
 | `credential-key` | string | no | Reference to credential used for authentication |  |
+| `host` | string | yes | IMAP server hostname |  |
+| `is-ssl-enabled` | boolean | yes | Whether SSL is enabled for the connection |  |
 | `key` | string | yes | Unique integration key |  |
 | `name` | string | yes | Human-readable integration name |  |
+| `port` | number | yes | IMAP server port | 993 |
 
 ## Jayguard (`integrations/jayguard/`)
 
