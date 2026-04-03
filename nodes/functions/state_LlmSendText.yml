@@ -13,7 +13,7 @@ parameters:
   parameters:
     llmModelKey:
       type: LLM_MODEL
-      value: modelForLLM
+      value: 1000175-open_ai_gpt41-bvj
       filled-ai: false
     text:
       type: STRING

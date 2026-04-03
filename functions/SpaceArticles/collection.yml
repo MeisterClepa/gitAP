@@ -1,0 +1,11 @@
+---
+description: null
+dependencies:
+- key: ax
+  version: 0.1.8
+  code-name: ax
+  description: A simple logging library
+- key: vx
+  version: 0.0.1
+  code-name: vx
+  description: Test execution environment
