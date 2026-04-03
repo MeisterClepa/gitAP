@@ -1,0 +1,13 @@
+---
+key: 1000175-test-FEt
+credential-key: 1000175-test-sup
+name: test
+provider-type: ELEVENLABS
+settings:
+  type: ELEVENLABS
+  voiceId: fgh
+  modelId: eleven_turbo_v2_5
+  stability: 0.5
+  similarityBoost: 0.5
+  style: 0.5
+  speed: 1.0
