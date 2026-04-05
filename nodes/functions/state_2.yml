@@ -2,8 +2,8 @@
 id: state_2
 name: AgentContext.addNote
 position:
-  x: 978
-  y: 105
+  x: 720
+  y: 62
 next-step: null
 parameters:
   type: SYSTEM
