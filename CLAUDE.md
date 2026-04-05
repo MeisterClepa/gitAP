@@ -98,6 +98,33 @@ JSON Schemas for available system functions are in `.agent/rules/system-function
 - `Log/warn` — [schema](.agent/rules/system-functions/Log/warn.json)
 - `Log/error` — [schema](.agent/rules/system-functions/Log/error.json)
 
+### MCP Functions
+
+JSON Schemas for MCP tool functions are in `.agent/rules/mcp-functions/`:
+
+- `mcpSearch/add` — [schema](.agent/rules/mcp-functions/mcpSearch/add.json)
+- `mcpSearch/subtract` — [schema](.agent/rules/mcp-functions/mcpSearch/subtract.json)
+- `mcpSearch/multiply` — [schema](.agent/rules/mcp-functions/mcpSearch/multiply.json)
+- `mcpSearch/division` — [schema](.agent/rules/mcp-functions/mcpSearch/division.json)
+- `mcpSearch/sum` — [schema](.agent/rules/mcp-functions/mcpSearch/sum.json)
+- `mcpSearch/modulo` — [schema](.agent/rules/mcp-functions/mcpSearch/modulo.json)
+- `mcpSearch/mean` — [schema](.agent/rules/mcp-functions/mcpSearch/mean.json)
+- `mcpSearch/median` — [schema](.agent/rules/mcp-functions/mcpSearch/median.json)
+- `mcpSearch/mode` — [schema](.agent/rules/mcp-functions/mcpSearch/mode.json)
+- `mcpSearch/min` — [schema](.agent/rules/mcp-functions/mcpSearch/min.json)
+- `mcpSearch/max` — [schema](.agent/rules/mcp-functions/mcpSearch/max.json)
+- `mcpSearch/floor` — [schema](.agent/rules/mcp-functions/mcpSearch/floor.json)
+- `mcpSearch/ceiling` — [schema](.agent/rules/mcp-functions/mcpSearch/ceiling.json)
+- `mcpSearch/round` — [schema](.agent/rules/mcp-functions/mcpSearch/round.json)
+- `mcpSearch/sin` — [schema](.agent/rules/mcp-functions/mcpSearch/sin.json)
+- `mcpSearch/arcsin` — [schema](.agent/rules/mcp-functions/mcpSearch/arcsin.json)
+- `mcpSearch/cos` — [schema](.agent/rules/mcp-functions/mcpSearch/cos.json)
+- `mcpSearch/arccos` — [schema](.agent/rules/mcp-functions/mcpSearch/arccos.json)
+- `mcpSearch/tan` — [schema](.agent/rules/mcp-functions/mcpSearch/tan.json)
+- `mcpSearch/arctan` — [schema](.agent/rules/mcp-functions/mcpSearch/arctan.json)
+- `mcpSearch/radiansToDegrees` — [schema](.agent/rules/mcp-functions/mcpSearch/radiansToDegrees.json)
+- `mcpSearch/degreesToRadians` — [schema](.agent/rules/mcp-functions/mcpSearch/degreesToRadians.json)
+
 ## Rules
 
 - Do NOT modify `manifest.yml` unless you know what you are doing.

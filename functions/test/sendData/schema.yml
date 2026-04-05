@@ -1,0 +1,12 @@
+---
+id: sendData
+name: sendData
+description: sendData
+response-description: sendData
+parameters:
+- name: query
+  type: STRING
+  required: true
+  description: привет
+  properties: null
+  items: null

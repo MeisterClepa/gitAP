@@ -1,0 +1,18 @@
+---
+id: state_6
+name: AgentContext.deleteNotes
+position:
+  x: 1290
+  y: 278
+next-step: null
+parameters:
+  type: SYSTEM
+  collection: AgentContext
+  function: deleteNotes
+  is-tool: false
+  parameters:
+    agentId:
+      type: STRING
+      value: null
+      filled-ai: false
+  context-config: null

@@ -1,0 +1,7 @@
+---
+description: otp
+dependencies:
+- key: axios
+  version: 0.2.1
+  code-name: axios
+  description: Promise based HTTP client for the browser and node.js

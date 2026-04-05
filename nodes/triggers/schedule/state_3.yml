@@ -1,0 +1,13 @@
+---
+id: state_3
+name: Планировщик
+position:
+  x: 361
+  y: 318
+next-step: state_7
+parameters:
+  interval-seconds: null
+  cron: null
+  max-repeat-count: null
+  end-after-date: null
+  start-date-time: null

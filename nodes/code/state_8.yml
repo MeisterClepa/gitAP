@@ -1,0 +1,8 @@
+---
+id: state_8
+name: Код
+position:
+  x: 1481
+  y: 550
+next-step: state_6
+parameters: {}

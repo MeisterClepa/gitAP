@@ -1,0 +1,9 @@
+---
+id: state_2
+name: Вебхук
+position:
+  x: 375
+  y: 89
+next-step: state_1
+parameters:
+  url: https://ky2.lo.test-ai.net/api/text-campaign-service/scenario-triggers/920af3e6-d3d2-4851-9f5a-5ebf16900519/invoke

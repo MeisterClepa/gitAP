@@ -1,0 +1,10 @@
+---
+id: state_7
+name: Условие
+position:
+  x: 900
+  y: 488
+next-step: state_8
+parameters:
+  condition: 1 == 1
+  false-step: null
