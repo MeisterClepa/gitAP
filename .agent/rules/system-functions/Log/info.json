@@ -4,6 +4,12 @@
     "message" : {
       "type" : "string",
       "description" : "The message to log"
+    },
+    "data" : {
+      "type" : "object",
+      "description" : "Optional additional data to log",
+      "properties" : { },
+      "required" : [ ]
     }
   },
   "required" : [ "message" ]
