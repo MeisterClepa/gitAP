@@ -4,7 +4,7 @@ name: Агент
 position:
   x: 900
   y: 17
-next-step: state_5
+next-step: null
 parameters:
   llm-model-key: null
   llm-model-settings:
