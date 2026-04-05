@@ -2,7 +2,7 @@
 id: state_2
 name: AgentContext.addNote
 position:
-  x: 720
+  x: 850
   y: 62
 next-step: null
 parameters:
