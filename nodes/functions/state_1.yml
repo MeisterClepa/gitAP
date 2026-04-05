@@ -2,8 +2,8 @@
 id: state_1
 name: Db.get
 position:
-  x: 597
-  y: 181
+  x: 712
+  y: 128
 next-step: null
 parameters:
   type: SYSTEM
@@ -13,7 +13,7 @@ parameters:
   parameters:
     dbIntegration:
       type: INTEGRATION_DB
-      value: 1000001-test-ohj
+      value: 1000001-test-xjf
       filled-ai: false
     documentKey:
       type: STRING
