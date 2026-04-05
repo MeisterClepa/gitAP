@@ -1,0 +1,10 @@
+{
+  "type" : "object",
+  "properties" : {
+    "text" : {
+      "type" : "string",
+      "description" : "Optional text message to send when hanging up on non-telephony channels"
+    }
+  },
+  "required" : [ ]
+}
