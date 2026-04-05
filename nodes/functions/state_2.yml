@@ -2,8 +2,8 @@
 id: state_2
 name: Asr.recognize
 position:
-  x: 985
-  y: 72
+  x: 1029
+  y: 126
 next-step: null
 parameters:
   type: SYSTEM
