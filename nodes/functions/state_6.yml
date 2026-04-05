@@ -2,8 +2,8 @@
 id: state_6
 name: AgentContext.deleteNotes
 position:
-  x: 1428
-  y: 322
+  x: 1290
+  y: 278
 next-step: null
 parameters:
   type: SYSTEM
