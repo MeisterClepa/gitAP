@@ -1,0 +1,22 @@
+{
+  "type" : "object",
+  "properties" : {
+    "recipients" : {
+      "type" : "array",
+      "description" : "Email address(es) of the recipient(s)",
+      "items" : {
+        "type" : "string",
+        "description" : ""
+      }
+    },
+    "subject" : {
+      "type" : "string",
+      "description" : "Email subject line"
+    },
+    "content" : {
+      "type" : "string",
+      "description" : "Email body content (HTML supported)"
+    }
+  },
+  "required" : [ "recipients", "subject", "content" ]
+}
