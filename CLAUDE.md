@@ -6,7 +6,7 @@ All YAML files use **kebab-case** field naming.
 ## Project Info
 
 - Schema version: `1.0`
-- Project key: `db_dubl-1000175-nGG`
+- Project key: `test-1000175-NFT`
 - Language: `ru`
 - Engine version: `1`
 
