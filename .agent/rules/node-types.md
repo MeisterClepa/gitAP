@@ -52,12 +52,12 @@ Executes a user-defined or system function.
 
 | YAML Field | Type | Required | Description | Example |
 |------------|------|----------|-------------|---------|
-| `collection-name` | string | no | Name of the collection this function belongs to |  |
+| `collection` | string | no | Name of the collection this function belongs to |  |
 | `context-config` | functioncontextconfig | no | Configuration for storing function result in conversation context |  |
-| `function-id` | string | yes | ID of the function to call |  |
+| `function` | string | yes | Function name |  |
 | `is-tool` | boolean | yes | Whether this function is exposed as a tool for LLM agent |  |
 | `parameters` | map | no | Map of parameter name to parameter value with type info |  |
-| `type` | string | yes | Function source type: USER or SYSTEM | USER |
+| `type` | string | yes | Function source type: USER, SYSTEM oк MCP | USER |
 
 ### Function Context Config
 

@@ -15,6 +15,12 @@
       "properties" : { },
       "required" : [ ]
     },
+    "headers" : {
+      "type" : "object",
+      "description" : "HTTP headers",
+      "properties" : { },
+      "required" : [ ]
+    },
     "body" : {
       "type" : "object",
       "description" : "Request body",
