@@ -13,7 +13,7 @@ parameters:
   parameters:
     dbIntegration:
       type: INTEGRATION_DB
-      value: 1000001-test-xjf
+      value: 1000001-test-wcu
       filled-ai: false
     documentKey:
       type: STRING
