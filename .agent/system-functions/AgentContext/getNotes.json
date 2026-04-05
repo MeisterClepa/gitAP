@@ -1,0 +1,10 @@
+{
+  "type" : "object",
+  "properties" : {
+    "agentId" : {
+      "type" : "string",
+      "description" : "Optional agent ID. If not provided, returns only common notes"
+    }
+  },
+  "required" : [ ]
+}
