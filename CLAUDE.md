@@ -6,7 +6,7 @@ All YAML files use **kebab-case** field naming.
 ## Project Info
 
 - Schema version: `1.0`
-- Project key: `git_creds-1000175-Vwc`
+- Project key: `e_efremov-1000175-yyR`
 - Language: `ru`
 - Engine version: `1`
 
