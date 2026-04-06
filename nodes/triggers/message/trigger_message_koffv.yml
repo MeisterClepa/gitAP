@@ -1,0 +1,9 @@
+---
+id: trigger_message_koffv
+name: Сообщение
+position:
+  x: 520
+  y: -22
+next-step: agent_isyzl
+parameters:
+  placeholder: null
