@@ -1,7 +1,8 @@
 ---
-key: 1000001-imap-ojf
+key: 1000001-imap-xyn
 credential-key: ""
 name: test
 host: sandbox.smtp.mailtrap.io
 port: 587
 is-ssl-enabled: false
+origin-key: 1000001-imap-ojf

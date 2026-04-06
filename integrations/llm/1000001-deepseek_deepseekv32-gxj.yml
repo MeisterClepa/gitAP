@@ -1,7 +1,8 @@
 ---
-key: 1000001-deepseek_deepseekv32-dfx
+key: 1000001-deepseek_deepseekv32-gxj
 credential-key: null
 name: DEEPSEEK - deepseek-v3.2-speciale
 provider: DEEPSEEK
 model: just-ai/deepseek/deepseek/deepseek-v3.2-speciale
 is-direct-access: false
+origin-key: 1000001-deepseek_deepseekv32-dfx

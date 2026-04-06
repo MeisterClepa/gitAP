@@ -1,8 +1,0 @@
----
-key: 1000001-creds_ints-1000001-est-1172
-credential-key: null
-name: Chat API
-type: CHAT_API
-is-auto-deploy: true
-operator-channel-key: null
-settings: null

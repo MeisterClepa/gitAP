@@ -1,0 +1,10 @@
+---
+id: condition_zekfv
+name: Условие
+position:
+  x: 951
+  y: 178
+next-step: null
+parameters:
+  condition: null
+  false-step: null
