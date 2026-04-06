@@ -1,0 +1,7 @@
+---
+key: 1000001-imap-des
+credential-key: ""
+name: test
+host: sandbox.smtp.mailtrap.io
+port: 587
+is-ssl-enabled: false
