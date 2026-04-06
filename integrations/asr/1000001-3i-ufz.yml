@@ -1,0 +1,8 @@
+---
+key: 1000001-3i-ufz
+credential-key: 1000001-test-nyc
+name: 3i
+provider-type: ZITECH
+settings:
+  type: ZITECH
+  model: telephony_short

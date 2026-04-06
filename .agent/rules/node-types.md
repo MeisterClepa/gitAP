@@ -71,7 +71,9 @@ Executes a user-defined or system function.
 
 ## Code Node (`nodes/code/`)
 
-Executes custom JavaScript code. The code is stored in a separate `.js` file alongside the `.yml` file.
+Executes custom JavaScript code. Each code node is stored in its own subdirectory `nodes/code/<node-id>/`:
+- `schema.yml` — node metadata (id, name, position, next-step)
+- `code.js` — JavaScript implementation (optional)
 
 ## Condition Node (`nodes/conditions/`)
 
