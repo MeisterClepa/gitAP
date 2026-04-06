@@ -1,0 +1,16 @@
+{
+  "type" : "object",
+  "properties" : {
+    "method" : {
+      "type" : "string",
+      "description" : "HTTP method to use for the request"
+    },
+    "body" : {
+      "type" : "object",
+      "description" : "Request body to send",
+      "properties" : { },
+      "required" : [ ]
+    }
+  },
+  "required" : [ "method", "body" ]
+}
