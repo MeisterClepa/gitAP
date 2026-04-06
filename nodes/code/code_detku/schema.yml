@@ -4,5 +4,5 @@ name: Код
 position:
   x: 1306
   y: 394
-next-step: null
+next-step: function_asr_recognize_rwidm
 parameters: {}

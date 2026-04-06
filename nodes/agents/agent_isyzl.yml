@@ -1,0 +1,30 @@
+---
+id: agent_isyzl
+name: Агент
+position:
+  x: 1202
+  y: -175
+next-step: function_asr_recognize_rwidm
+parameters:
+  llm-model-key: 1000001-open_ai_gpt41-ddb
+  llm-model-settings:
+    max-tokens: 4000
+    temperature: 0.6
+    top-p: 1.0
+    frequency-penalty: 0.0
+    presence-penalty: 0.0
+    verbose-mode: true
+  system-promts:
+    role: 123
+    goal: 123
+    instructions: ""
+    query-override: ""
+  tools: []
+  handoff-agents:
+    allowed-any: false
+    allowed-agent-node-ids: []
+  stay-in-agent: false
+  telephony-config: null
+  enable-context: true
+  chat-history-limit: 50
+  sequential-tool-calls-limit: 5

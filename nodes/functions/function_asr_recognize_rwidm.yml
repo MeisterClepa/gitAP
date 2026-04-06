@@ -1,0 +1,22 @@
+---
+id: function_asr_recognize_rwidm
+name: Asr.recognize
+position:
+  x: 1741
+  y: 270
+next-step: null
+parameters:
+  type: SYSTEM
+  collection: Asr
+  function: recognize
+  is-tool: false
+  parameters:
+    asrIntegrationKey:
+      type: STRING
+      value: null
+      filled-ai: false
+    audioUrl:
+      type: STRING
+      value: null
+      filled-ai: false
+  context-config: null
