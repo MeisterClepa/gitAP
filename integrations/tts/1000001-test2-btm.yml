@@ -1,0 +1,8 @@
+---
+key: 1000001-test2-btm
+credential-key: 1000001-test-esg
+name: test2
+provider-type: ZITECH
+settings:
+  type: ZITECH
+  model: Amanjol

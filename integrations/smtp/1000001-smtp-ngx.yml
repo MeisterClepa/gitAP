@@ -1,0 +1,10 @@
+---
+key: 1000001-smtp-ngx
+credential-key: null
+name: smtp
+host: ""
+port: null
+sender: ""
+is-ssl-enabled: false
+is-tls-enabled: false
+is-direct-access: false
