@@ -1,0 +1,8 @@
+---
+key: 1000001-3i-xCh
+credential-key: 1000001-test-pem
+name: 3i
+provider-type: ZITECH
+settings:
+  type: ZITECH
+  model: telephony_short
