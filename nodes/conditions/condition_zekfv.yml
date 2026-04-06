@@ -4,7 +4,7 @@ name: Условие
 position:
   x: 951
   y: 178
-next-step: null
+next-step: code_detku
 parameters:
   condition: null
   false-step: null
