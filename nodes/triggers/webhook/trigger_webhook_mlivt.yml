@@ -6,4 +6,4 @@ position:
   y: -259
 next-step: condition_zekfv
 parameters:
-  url: https://dev27.lo.test-ai.net/api/text-campaign-service/scenario-triggers/52eed5a7-6b93-42c7-9191-205572db84e7/invoke
+  url: https://dev27.lo.test-ai.net/api/text-campaign-service/scenario-triggers/9e5c1a6e-1031-487e-8a9e-5a0bdbfa5d86/invoke

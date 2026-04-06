@@ -1,0 +1,8 @@
+---
+key: 1000001-test-Ejv
+credential-key: 1000001-test-kbc
+name: test
+provider-type: ZITECH
+settings:
+  type: ZITECH
+  model: telephony_short

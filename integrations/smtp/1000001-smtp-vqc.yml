@@ -1,5 +1,5 @@
 ---
-key: 1000001-smtp-ngx
+key: 1000001-smtp-vqc
 credential-key: null
 name: smtp
 host: ""
@@ -8,3 +8,4 @@ sender: ""
 is-ssl-enabled: false
 is-tls-enabled: false
 is-direct-access: false
+origin-key: 1000001-smtp-ngx

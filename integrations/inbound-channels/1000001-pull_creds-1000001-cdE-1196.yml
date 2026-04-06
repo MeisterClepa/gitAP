@@ -1,8 +1,8 @@
 ---
-key: 1000001-creds_ints-1000001-est-1190
+key: 1000001-pull_creds-1000001-cdE-1196
 credential-key: null
-name: Чат-виджет
-type: CHAT_WIDGET
+name: Chat API
+type: CHAT_API
 is-auto-deploy: true
 operator-channel-key: null
 settings: null
