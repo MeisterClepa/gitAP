@@ -1,0 +1,18 @@
+{
+  "type" : "object",
+  "properties" : {
+    "chatId" : {
+      "type" : "string",
+      "description" : "The chat ID to send the audio to"
+    },
+    "audioUrl" : {
+      "type" : "string",
+      "description" : "URL of the audio file to send"
+    },
+    "caption" : {
+      "type" : "string",
+      "description" : "Optional caption for the audio (supports HTML formatting)"
+    }
+  },
+  "required" : [ "chatId", "audioUrl" ]
+}
