@@ -1,0 +1,30 @@
+---
+id: function_db_put_kwnlw
+name: Db.put
+position:
+  x: 814
+  y: 571
+next-step: null
+parameters:
+  type: SYSTEM
+  collection: Db
+  function: put
+  is-tool: false
+  parameters:
+    dbIntegration:
+      type: INTEGRATION_DB
+      value: 1000001-eantonenko-nap
+      filled-ai: false
+    documentKey:
+      type: STRING
+      value: TestGit
+      filled-ai: false
+    value:
+      type: OBJECT
+      value: null
+      properties:
+        "34":
+          type: STRING
+          value: 333
+      filled-ai: false
+  context-config: null
