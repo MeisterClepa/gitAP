@@ -6,7 +6,7 @@ position:
   y: -290
 next-step: null
 parameters:
-  llm-model-key: 1000001-open_ai_gpt5chat-rmv
+  llm-model-key: 1000001-open_ai_gpt5chat-twn
   llm-model-settings:
     max-tokens: 4000
     temperature: 0.6
