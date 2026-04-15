@@ -4,6 +4,6 @@ name: Вебхук
 position:
   x: 241
   y: 350
-next-step: function_test_add_gmdgl
+next-step: null
 parameters:
-  url: /api/text-campaign-service/scenario-triggers/bfe62006-c0e1-4a7d-b559-ea9c74c4b4d5/invoke
+  url: /api/text-campaign-service/scenario-triggers/74b2ad0d-75c4-498e-924b-0ec2de141684/invoke
