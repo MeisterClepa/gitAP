@@ -1,0 +1,13 @@
+{
+  "description" : "Rounds a number up to the nearest integer",
+  "input" : {
+    "type" : "object",
+    "properties" : {
+      "number" : {
+        "type" : "number",
+        "description" : "The number to round up"
+      }
+    },
+    "required" : [ "number" ]
+  }
+}

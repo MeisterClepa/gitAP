@@ -1,0 +1,9 @@
+---
+id: trigger_message_qkcde
+name: Сообщение
+position:
+  x: 221
+  y: 248
+next-step: function_test_add_gmdgl
+parameters:
+  placeholder: null

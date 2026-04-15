@@ -1,0 +1,13 @@
+---
+id: trigger_schedule_dplzi
+name: Планировщик
+position:
+  x: 249
+  y: 105
+next-step: function_test_add_gmdgl
+parameters:
+  interval-seconds: null
+  cron: null
+  max-repeat-count: null
+  end-after-date: null
+  start-date-time: null

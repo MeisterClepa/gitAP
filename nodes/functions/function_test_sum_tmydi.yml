@@ -1,0 +1,19 @@
+---
+id: function_test_sum_tmydi
+name: sum
+position:
+  x: 1288
+  y: 217
+next-step: function_agentcontext_addnote_svuhf
+parameters:
+  type: MCP
+  collection: test
+  function: sum
+  is-tool: false
+  parameters:
+    numbers:
+      type: ARRAY
+      value: null
+      items: null
+      filled-ai: false
+  context-config: null

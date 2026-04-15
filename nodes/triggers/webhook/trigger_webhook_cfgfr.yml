@@ -1,0 +1,9 @@
+---
+id: trigger_webhook_cfgfr
+name: Вебхук
+position:
+  x: 241
+  y: 350
+next-step: function_test_add_gmdgl
+parameters:
+  url: /api/text-campaign-service/scenario-triggers/bfe62006-c0e1-4a7d-b559-ea9c74c4b4d5/invoke

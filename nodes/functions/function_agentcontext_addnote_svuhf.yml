@@ -1,0 +1,22 @@
+---
+id: function_agentcontext_addnote_svuhf
+name: AgentContext.addNote
+position:
+  x: 1647
+  y: 263
+next-step: condition_vbyma
+parameters:
+  type: SYSTEM
+  collection: AgentContext
+  function: addNote
+  is-tool: false
+  parameters:
+    text:
+      type: STRING
+      value: null
+      filled-ai: false
+    agentId:
+      type: STRING
+      value: null
+      filled-ai: false
+  context-config: null

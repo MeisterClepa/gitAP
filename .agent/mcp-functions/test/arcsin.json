@@ -1,0 +1,13 @@
+{
+  "description" : "Calculates the arcsine of a number in radians",
+  "input" : {
+    "type" : "object",
+    "properties" : {
+      "number" : {
+        "type" : "number",
+        "description" : "The number to find the arcsine of"
+      }
+    },
+    "required" : [ "number" ]
+  }
+}

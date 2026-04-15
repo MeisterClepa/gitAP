@@ -1,0 +1,10 @@
+---
+id: condition_vbyma
+name: Условие
+position:
+  x: 1796
+  y: 467
+next-step: code_wequn
+parameters:
+  condition: null
+  false-step: null
