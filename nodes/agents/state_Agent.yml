@@ -28,7 +28,7 @@ parameters:
       1. Проанализируй последние сообщения в чате.
       2. Составь один абзац текста с основными событиями, переведи на русский язык. Ссылки и даты не включай.
       3. Отправь пользователю.
-    query-override: ""
+    query-override: null
   tools:
   - state_searchArticles
   handoff-agents:
