@@ -71,7 +71,9 @@ Executes a user-defined or system function.
 
 ## Code Node (`nodes/code/`)
 
-Executes custom JavaScript code. The code is stored in a separate `.js` file alongside the `.yml` file.
+Executes custom JavaScript code. Each code node is stored in its own subdirectory `nodes/code/<node-id>/`:
+- `schema.yml` — node metadata (id, name, position, next-step)
+- `code.js` — JavaScript implementation (optional)
 
 ## Condition Node (`nodes/conditions/`)
 
@@ -107,3 +109,9 @@ Triggers when a user sends a message. No additional parameters.
 | YAML Field | Type | Required | Description | Example |
 |------------|------|----------|-------------|---------|
 | `filter-rule` | map | no | Email filter rules for IMAP trigger |  |
+
+## Rules
+
+- Node IDs must be unique across the entire project.
+- `next-step` fields reference other node IDs to define the execution flow.
+- Agent node `tools` list references node IDs of function/code nodes that are available as tools.

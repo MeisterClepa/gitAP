@@ -1,4 +1,4 @@
-# Integrations Format
+# Integrations
 
 Integrations are stored in `integrations/<type>/` directories. Each integration is a separate YAML file named `<key>.yml`.
 
@@ -115,3 +115,15 @@ Integrations are stored in `integrations/<type>/` directories. Each integration 
 | `credential-key` | string | no | Reference to credential used for authentication |  |
 | `key` | string | yes | Unique integration key |  |
 | `name` | string | yes | Human-readable integration name |  |
+
+## Credentials
+
+Credentials are stored in `credentials/<group>/<key>.yml`. They contain only metadata — actual secrets are never stored in files.
+
+| YAML Field | Type | Required | Description | Example |
+|------------|------|----------|-------------|---------|
+| `group` | string | no | Credential group | LLM |
+| `key` | string | yes | Unique credential key used for referencing | openai-cred |
+| `name` | string | yes | Human-readable credential name | OpenAI API Key |
+| `sub-group` | string | no | Credential sub-group | OPEN_AI |
+| `type` | string | yes | Credential type (e.g. API_KEY, OAUTH2) | API_KEY |

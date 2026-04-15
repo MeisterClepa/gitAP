@@ -1,4 +1,4 @@
-# User Functions Format
+# User Functions
 
 User functions are stored in `functions/<collection-name>/<function-name>/` directories.
 Each function directory contains:
@@ -24,7 +24,7 @@ Each function directory contains:
 | `name` | string | yes | Parameter name | email |
 | `properties` | list | no | Nested properties for OBJECT type parameters |  |
 | `required` | boolean | yes | Whether the parameter is required |  |
-| `type` | string | yes | Parameter type: STRING, NUMBER, INTEGER, BOOLEAN, OBJECT, ARRAY | STRING |
+| `type` | string | yes | Parameter type: STRING, NUMBER, INTEGER, BOOLEAN, OBJECT, ARRAY, CREDENTIAL, LLM_MODEL, INTEGRATION_DB, INTEGRATION_SMTP, INTEGRATION_RAG | STRING |
 
 ### Parameter Types
 
@@ -36,3 +36,12 @@ Each function directory contains:
 | `BOOLEAN` | True/false |
 | `OBJECT` | Nested object (use `properties` to define fields) |
 | `ARRAY` | Array (use `items` to define element type) |
+| `CREDENTIAL` | Reference to a credential key |
+| `LLM_MODEL` | Reference to an LLM integration |
+| `INTEGRATION_DB` | Reference to a database integration |
+| `INTEGRATION_SMTP` | Reference to an SMTP integration |
+| `INTEGRATION_RAG` | Reference to a RAG integration |
+
+## Rules
+
+- Function code is always in JavaScript and stored in separate `.js` files.
