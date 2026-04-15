@@ -1,7 +1,0 @@
----
-key: 1000001-open_ai_gpt5chat-twn
-credential-key: 1000001-test-agn
-name: OPEN_AI - gpt-5-chat
-provider: OPEN_AI
-model: gpt-5-chat
-is-direct-access: true
