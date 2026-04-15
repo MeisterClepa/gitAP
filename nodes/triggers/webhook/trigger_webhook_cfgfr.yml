@@ -6,4 +6,4 @@ position:
   y: 350
 next-step: null
 parameters:
-  url: /api/text-campaign-service/scenario-triggers/74b2ad0d-75c4-498e-924b-0ec2de141684/invoke
+  url: https://lts-ha-ap01.lo.test-ai.net/api/text-campaign-service/scenario-triggers/37ec5cc3-e2c3-496f-a1de-8bc4f0b46a58/invoke
