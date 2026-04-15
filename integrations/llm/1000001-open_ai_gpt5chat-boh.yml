@@ -1,6 +1,6 @@
 ---
-key: 1000001-open_ai_gpt5chat-rmv
-credential-key: 1000001-test-nnu
+key: 1000001-open_ai_gpt5chat-boh
+credential-key: 1000001-test-tpg
 name: OPEN_AI - gpt-5-chat
 provider: OPEN_AI
 model: gpt-5-chat
