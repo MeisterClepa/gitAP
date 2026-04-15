@@ -2,8 +2,8 @@
 id: trigger_message_dgckv
 name: Сообщение
 position:
-  x: 527
-  y: 168
+  x: 587
+  y: 149
 next-step: null
 parameters:
   placeholder: null
