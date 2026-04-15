@@ -1,0 +1,12 @@
+---
+id: sendData
+name: sendData
+description: Новый телефонный канал
+response-description: 123
+parameters:
+- name: hi
+  type: NUMBER
+  required: true
+  description: "Термин на английском языке, по которому нужно найти статьи"
+  properties: null
+  items: null

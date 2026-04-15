@@ -1,0 +1,13 @@
+{
+  "description" : "Calculates the arctangent of a number in radians",
+  "input" : {
+    "type" : "object",
+    "properties" : {
+      "number" : {
+        "type" : "number",
+        "description" : "The number to find the arctangent of"
+      }
+    },
+    "required" : [ "number" ]
+  }
+}

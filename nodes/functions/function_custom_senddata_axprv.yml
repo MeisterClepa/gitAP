@@ -1,0 +1,18 @@
+---
+id: function_custom_senddata_axprv
+name: sendData
+position:
+  x: 358
+  y: -275
+next-step: null
+parameters:
+  type: USER
+  collection: custom
+  function: sendData
+  is-tool: false
+  parameters:
+    hi:
+      type: NUMBER
+      value: null
+      filled-ai: false
+  context-config: null
