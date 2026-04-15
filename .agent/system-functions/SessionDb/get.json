@@ -1,10 +1,17 @@
 {
-  "type" : "object",
-  "properties" : {
-    "documentKey" : {
-      "type" : "string",
-      "description" : "Document key"
-    }
+  "description" : "Finds a single document by documentKey",
+  "input" : {
+    "type" : "object",
+    "properties" : {
+      "documentKey" : {
+        "type" : "string",
+        "description" : "Document key"
+      }
+    },
+    "required" : [ "documentKey" ]
   },
-  "required" : [ "documentKey" ]
+  "output" : {
+    "type" : [ "object", "null" ],
+    "description" : "Found document or null if no matching document exists"
+  }
 }

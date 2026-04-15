@@ -1,14 +1,21 @@
 {
-  "type" : "object",
-  "properties" : {
-    "url" : {
-      "type" : "string",
-      "description" : "URL of the video"
+  "description" : "Sends a video as a response",
+  "input" : {
+    "type" : "object",
+    "properties" : {
+      "url" : {
+        "type" : "string",
+        "description" : "URL of the video"
+      },
+      "name" : {
+        "type" : "string",
+        "description" : "Name of the video file"
+      }
     },
-    "name" : {
-      "type" : "string",
-      "description" : "Name of the video file"
-    }
+    "required" : [ "url" ]
   },
-  "required" : [ "url" ]
+  "output" : {
+    "type" : "null",
+    "description" : "No return value"
+  }
 }

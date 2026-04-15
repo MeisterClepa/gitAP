@@ -6,4 +6,4 @@ position:
   y: 491
 next-step: state_SendNews
 parameters:
-  url: /api/text-campaign-service/scenario-triggers/05dc7d89-d134-4006-882b-4da945b88840/invoke
+  url: /api/text-campaign-service/scenario-triggers/861621ac-8875-4451-accd-ce3fe8507dc7/invoke

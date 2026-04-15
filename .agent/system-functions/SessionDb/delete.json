@@ -1,10 +1,17 @@
 {
-  "type" : "object",
-  "properties" : {
-    "documentKey" : {
-      "type" : "string",
-      "description" : "Document key"
-    }
+  "description" : "Deletes a document by documentKey",
+  "input" : {
+    "type" : "object",
+    "properties" : {
+      "documentKey" : {
+        "type" : "string",
+        "description" : "Document key"
+      }
+    },
+    "required" : [ "documentKey" ]
   },
-  "required" : [ "documentKey" ]
+  "output" : {
+    "type" : "object",
+    "description" : "Operation result"
+  }
 }

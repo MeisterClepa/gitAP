@@ -1,26 +1,37 @@
 {
-  "type" : "object",
-  "properties" : {
-    "filters" : {
-      "type" : "object",
-      "description" : "Filter criteria",
-      "properties" : { },
-      "required" : [ ]
+  "description" : "Finds documents with filtering and pagination options",
+  "input" : {
+    "type" : "object",
+    "properties" : {
+      "dbIntegration" : {
+        "type" : "string",
+        "description" : ""
+      },
+      "filters" : {
+        "type" : "object",
+        "description" : "Filter criteria",
+        "properties" : { },
+        "required" : [ ]
+      },
+      "sort" : {
+        "type" : "object",
+        "description" : "Sort specification",
+        "properties" : { },
+        "required" : [ ]
+      },
+      "limit" : {
+        "type" : "number",
+        "description" : "Maximum number of documents to return"
+      },
+      "skip" : {
+        "type" : "number",
+        "description" : "Number of documents to skip"
+      }
     },
-    "sort" : {
-      "type" : "object",
-      "description" : "Sort specification",
-      "properties" : { },
-      "required" : [ ]
-    },
-    "limit" : {
-      "type" : "number",
-      "description" : "Maximum number of documents to return"
-    },
-    "skip" : {
-      "type" : "number",
-      "description" : "Number of documents to skip"
-    }
+    "required" : [ "dbIntegration" ]
   },
-  "required" : [ ]
+  "output" : {
+    "type" : "array",
+    "description" : "Array of found documents"
+  }
 }
