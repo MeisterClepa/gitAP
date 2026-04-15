@@ -1,0 +1,8 @@
+---
+key: 1000001-open_ai_gpt5chat-shf
+credential-key: 1000001-test-btd
+name: OPEN_AI - gpt-5-chat
+provider: OPEN_AI
+model: gpt-5-chat
+is-direct-access: true
+origin-key: 1000001-open_ai_gpt5chat-ngs

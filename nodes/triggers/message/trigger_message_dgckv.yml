@@ -1,0 +1,9 @@
+---
+id: trigger_message_dgckv
+name: Сообщение
+position:
+  x: 527
+  y: 168
+next-step: null
+parameters:
+  placeholder: null
