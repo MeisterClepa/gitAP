@@ -1,8 +1,0 @@
----
-key: 1000001--IvL
-credential-key: 1000001-test-eke
-name: аср
-provider-type: ZITECH
-settings:
-  type: ZITECH
-  model: telephony_short

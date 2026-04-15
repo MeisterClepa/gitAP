@@ -1,7 +1,0 @@
----
-description: yol
-dependencies:
-- key: npm
-  version: 11.12.1
-  code-name: npm
-  description: a package manager for JavaScript
