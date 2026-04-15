@@ -1,6 +1,6 @@
 ---
-key: 1000001-open_ai_gpt41-xui
-credential-key: 1000001-test-tpg
+key: 1000001-open_ai_gpt41-gga
+credential-key: 1000001-test-xvu
 name: OPEN_AI - gpt-4.1
 provider: OPEN_AI
 model: gpt-4.1
