@@ -6,4 +6,4 @@ position:
   y: 89
 next-step: state_1
 parameters:
-  url: https://dev27.lo.test-ai.net/api/text-campaign-service/scenario-triggers/bfedcd56-9f64-4960-b9c5-3cb261c06993/invoke
+  url: https://dev27.lo.test-ai.net/api/text-campaign-service/scenario-triggers/835c260f-120d-41f5-abca-38569bde27ea/invoke

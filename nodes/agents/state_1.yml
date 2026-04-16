@@ -2,8 +2,8 @@
 id: state_1
 name: Агент
 position:
-  x: 876
-  y: -103
+  x: 586
+  y: -119
 next-step: state_5
 parameters:
   llm-model-key: null
