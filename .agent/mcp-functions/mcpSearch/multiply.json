@@ -1,0 +1,17 @@
+{
+  "description" : "Multiplies two numbers together",
+  "input" : {
+    "type" : "object",
+    "properties" : {
+      "firstNumber" : {
+        "type" : "number",
+        "description" : "The first number"
+      },
+      "SecondNumber" : {
+        "type" : "number",
+        "description" : "The second number"
+      }
+    },
+    "required" : [ "firstNumber", "SecondNumber" ]
+  }
+}
