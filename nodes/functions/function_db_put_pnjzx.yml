@@ -1,0 +1,30 @@
+---
+id: function_db_put_pnjzx
+name: Db.put
+position:
+  x: 941
+  y: 243
+next-step: null
+parameters:
+  type: SYSTEM
+  collection: Db
+  function: put
+  is-tool: false
+  parameters:
+    dbIntegration:
+      type: INTEGRATION_DB
+      value: 1000001-eantonenko-dhz
+      filled-ai: false
+    documentKey:
+      type: STRING
+      value: WORKFLOW211
+      filled-ai: false
+    value:
+      type: OBJECT
+      value: null
+      properties:
+        "11":
+          type: STRING
+          value: 123
+      filled-ai: false
+  context-config: null

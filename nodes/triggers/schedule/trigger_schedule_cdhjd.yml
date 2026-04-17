@@ -1,0 +1,13 @@
+---
+id: trigger_schedule_cdhjd
+name: Планировщик
+position:
+  x: 566
+  y: 200
+next-step: function_db_put_pnjzx
+parameters:
+  interval-seconds: null
+  cron: null
+  max-repeat-count: null
+  end-after-date: null
+  start-date-time: null
