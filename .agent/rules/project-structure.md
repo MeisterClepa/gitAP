@@ -6,24 +6,25 @@ This document describes the directory layout of an Agent Platform project.
 <project-root>/
 ├── manifest.yml                    # Project manifest (schema version, project key)
 ├── settings.yml                    # Project settings (language, engine version)
-├── credentials.yml                 # Credential metadata (no secrets)
 ├── CLAUDE.md                       # AI assistant instructions (this project)
 ├── .agent/
+│   ├── system-functions/           # JSON Schemas for system functions
+│   ├── mcp-functions/              # JSON Schemas for MCP functions
 │   └── rules/                      # Detailed format documentation
 │       ├── project-structure.md    # This file
 │       ├── node-types.md           # Node types and their fields
-│       ├── functions-format.md     # User function format
-│       ├── integrations-format.md  # Integration formats
-│       ├── system-functions/       # JSON Schemas for system functions
-│       └── mcp-functions/          # JSON Schemas for MCP functions
+│       ├── user-functions.md       # User function format
+│       ├── integrations.md         # Integration and credential formats
+│       └── function-list.md        # List of all available functions
 ├── nodes/
 │   ├── agents/                     # LLM agent nodes
 │   │   └── <node-id>.yml
 │   ├── functions/                  # Function call nodes
 │   │   └── <node-id>.yml
 │   ├── code/                       # Custom JavaScript code nodes
-│   │   ├── <node-id>.yml
-│   │   └── <node-id>.js           # Code stored separately
+│   │   └── <node-id>/
+│   │       ├── schema.yml          # Node definition
+│   │       └── code.js             # JavaScript implementation
 │   ├── conditions/                 # Conditional branching nodes
 │   │   └── <node-id>.yml
 │   └── triggers/                   # Trigger nodes (entry points)
@@ -48,6 +49,9 @@ This document describes the directory layout of an Agent Platform project.
 │   ├── tts/                        # Text-to-Speech
 │   ├── imap/                       # IMAP email integrations
 │   └── jayguard/                   # Jayguard security integrations
+└── credentials/
+    └── <group>/                    # Credential group (e.g. llm, smtp, other)
+        └── <key>.yml               # Credential metadata (no secrets)
 ```
 
 ## Key Concepts
@@ -57,4 +61,8 @@ This document describes the directory layout of an Agent Platform project.
 - **Trigger nodes** are entry points — they start a scenario when an event occurs.
 - **Functions** contain reusable business logic written in JavaScript.
 - **Integrations** connect the project to external services (LLMs, email, databases, etc.).
-- **Credentials** are referenced by key — actual secrets are managed outside the file structure.
+- **Credentials** are stored in `credentials/<group>/<key>.yml` — actual secrets are managed outside the file structure.
+
+## Rules
+
+- Do NOT modify `manifest.yml` unless you know what you are doing.
