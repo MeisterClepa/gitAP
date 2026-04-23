@@ -1,0 +1,23 @@
+---
+id: function_agentcontext_addnote_pwowi
+name: AgentContext.addNote
+position:
+  x: 1250
+  y: -46
+next-step: null
+parameters:
+  type: USER
+  collection: ""
+  function: addNote
+  is-tool: false
+  parameters:
+    text:
+      type: STRING
+      value: "{{Context.getLastFunctionResult()}}"
+      filled-ai: false
+    agentIds:
+      type: ARRAY
+      value: null
+      items: []
+      filled-ai: false
+  context-config: null
