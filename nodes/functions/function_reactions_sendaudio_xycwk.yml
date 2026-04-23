@@ -1,0 +1,22 @@
+---
+id: function_reactions_sendaudio_xycwk
+name: Reactions.sendAudio
+position:
+  x: 1040
+  y: 29
+next-step: null
+parameters:
+  type: USER
+  collection: ""
+  function: sendAudio
+  is-tool: false
+  parameters:
+    url:
+      type: STRING
+      value: 123
+      filled-ai: false
+    name:
+      type: STRING
+      value: 123
+      filled-ai: false
+  context-config: null
