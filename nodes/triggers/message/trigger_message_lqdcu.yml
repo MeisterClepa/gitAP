@@ -1,0 +1,9 @@
+---
+id: trigger_message_lqdcu
+name: Сообщение
+position:
+  x: 773
+  y: 194
+next-step: function_agentcontext_putvalue_zyvtz
+parameters:
+  placeholder: null
