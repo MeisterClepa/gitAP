@@ -1,0 +1,7 @@
+---
+key: 1000001-deepseek_deepseekv32-ceq
+credential-key: null
+name: DEEPSEEK - deepseek-v3.2
+provider: DEEPSEEK
+model: just-ai/deepseek/deepseek/deepseek-v3.2
+is-direct-access: false

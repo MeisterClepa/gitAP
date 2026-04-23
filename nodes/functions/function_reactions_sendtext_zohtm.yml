@@ -1,0 +1,18 @@
+---
+id: function_reactions_sendtext_zohtm
+name: Reactions.sendText
+position:
+  x: 1238
+  y: 187
+next-step: null
+parameters:
+  type: SYSTEM
+  collection: Reactions
+  function: sendText
+  is-tool: false
+  parameters:
+    text:
+      type: STRING
+      value: 123
+      filled-ai: false
+  context-config: null
