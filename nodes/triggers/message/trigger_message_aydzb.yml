@@ -1,0 +1,9 @@
+---
+id: trigger_message_aydzb
+name: Сообщение
+position:
+  x: 576
+  y: 138
+next-step: agent_sednq
+parameters:
+  placeholder: null
