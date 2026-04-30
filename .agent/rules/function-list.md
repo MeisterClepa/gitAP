@@ -180,6 +180,53 @@ For detailed info about parameters and response, read the corresponding file.
 - `Log.error` — Logs an error message
   Schema: .agent/system-functions/Log/error.json
 
+## MCP Functions
+
+- `test.add` — Adds two numbers together
+  Schema: .agent/mcp-functions/test/add.json
+- `test.subtract` — Subtracts the second number from the first number
+  Schema: .agent/mcp-functions/test/subtract.json
+- `test.multiply` — Multiplies two numbers together
+  Schema: .agent/mcp-functions/test/multiply.json
+- `test.division` — Divides the first number by the second number
+  Schema: .agent/mcp-functions/test/division.json
+- `test.sum` — Adds any number of numbers together
+  Schema: .agent/mcp-functions/test/sum.json
+- `test.modulo` — Divides two numbers and returns the remainder
+  Schema: .agent/mcp-functions/test/modulo.json
+- `test.mean` — Calculates the arithmetic mean of a list of numbers
+  Schema: .agent/mcp-functions/test/mean.json
+- `test.median` — Calculates the median of a list of numbers
+  Schema: .agent/mcp-functions/test/median.json
+- `test.mode` — Finds the most common number in a list of numbers
+  Schema: .agent/mcp-functions/test/mode.json
+- `test.min` — Finds the minimum value from a list of numbers
+  Schema: .agent/mcp-functions/test/min.json
+- `test.max` — Finds the maximum value from a list of numbers
+  Schema: .agent/mcp-functions/test/max.json
+- `test.floor` — Rounds a number down to the nearest integer
+  Schema: .agent/mcp-functions/test/floor.json
+- `test.ceiling` — Rounds a number up to the nearest integer
+  Schema: .agent/mcp-functions/test/ceiling.json
+- `test.round` — Rounds a number to the nearest integer
+  Schema: .agent/mcp-functions/test/round.json
+- `test.sin` — Calculates the sine of a number in radians
+  Schema: .agent/mcp-functions/test/sin.json
+- `test.arcsin` — Calculates the arcsine of a number in radians
+  Schema: .agent/mcp-functions/test/arcsin.json
+- `test.cos` — Calculates the cosine of a number in radians
+  Schema: .agent/mcp-functions/test/cos.json
+- `test.arccos` — Calculates the arccosine of a number in radians
+  Schema: .agent/mcp-functions/test/arccos.json
+- `test.tan` — Calculates the tangent of a number in radians
+  Schema: .agent/mcp-functions/test/tan.json
+- `test.arctan` — Calculates the arctangent of a number in radians
+  Schema: .agent/mcp-functions/test/arctan.json
+- `test.radiansToDegrees` — Converts a radian value to its equivalent in degrees
+  Schema: .agent/mcp-functions/test/radiansToDegrees.json
+- `test.degreesToRadians` — Converts a degree value to its equivalent in radians
+  Schema: .agent/mcp-functions/test/degreesToRadians.json
+
 ## User Functions
 
 - `SpaceArticles.searchArticles` — Найти последние статьи по нужной теме

@@ -1,0 +1,18 @@
+---
+id: function_reactions_sendtext_azgbs
+name: Reactions.sendText
+position:
+  x: 1179
+  y: -276
+next-step: null
+parameters:
+  type: SYSTEM
+  collection: Reactions
+  function: sendText
+  is-tool: false
+  parameters:
+    text:
+      type: STRING
+      value: "{{previousResult}}"
+      filled-ai: false
+  context-config: null

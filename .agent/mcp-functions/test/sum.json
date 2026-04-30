@@ -1,0 +1,17 @@
+{
+  "description" : "Adds any number of numbers together",
+  "input" : {
+    "type" : "object",
+    "properties" : {
+      "numbers" : {
+        "type" : "array",
+        "description" : "Array of numbers to sum",
+        "items" : {
+          "type" : "number",
+          "description" : ""
+        }
+      }
+    },
+    "required" : [ "numbers" ]
+  }
+}

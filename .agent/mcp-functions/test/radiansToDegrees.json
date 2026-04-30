@@ -1,0 +1,13 @@
+{
+  "description" : "Converts a radian value to its equivalent in degrees",
+  "input" : {
+    "type" : "object",
+    "properties" : {
+      "number" : {
+        "type" : "number",
+        "description" : "The number in radians to convert to degrees"
+      }
+    },
+    "required" : [ "number" ]
+  }
+}
