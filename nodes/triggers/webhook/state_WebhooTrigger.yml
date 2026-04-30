@@ -6,4 +6,4 @@ position:
   y: 491
 next-step: state_SendNews
 parameters:
-  url: https://ky2.lo.test-ai.net/api/text-campaign-service/scenario-triggers/eab6e105-e3dc-4b17-86f5-109632c75f1e/invoke
+  url: https://agent.zfl-stage.lo.test-ai.net/api/text-campaign-service/scenario-triggers/8d32149f-ca4b-4827-9b6f-abd5d90ea1a0/invoke

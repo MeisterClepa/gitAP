@@ -2,13 +2,13 @@
 id: state_searchArticles
 name: searchArticles
 position:
-  x: 814
-  y: 59
+  x: 845
+  y: 13
 next-step: null
 parameters:
-  function-id: searchArticles
   type: USER
-  collection-name: SpaceArticles
+  collection: SpaceArticles
+  function: searchArticles
   is-tool: true
   parameters:
     query:

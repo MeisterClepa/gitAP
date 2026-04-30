@@ -6,9 +6,9 @@ position:
   y: 379
 next-step: state_LlmSendText
 parameters:
-  function-id: sendNews
   type: USER
-  collection-name: SpaceArticles
+  collection: SpaceArticles
+  function: sendNews
   is-tool: false
   parameters: {}
   context-config: null
