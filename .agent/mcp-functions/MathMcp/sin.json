@@ -1,0 +1,13 @@
+{
+  "description" : "Calculates the sine of a number in radians",
+  "input" : {
+    "type" : "object",
+    "properties" : {
+      "number" : {
+        "type" : "number",
+        "description" : "The number in radians to find the sine of"
+      }
+    },
+    "required" : [ "number" ]
+  }
+}
