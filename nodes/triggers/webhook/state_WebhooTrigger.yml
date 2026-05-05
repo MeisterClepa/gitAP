@@ -1,0 +1,9 @@
+---
+id: state_WebhooTrigger
+name: Вебхук
+position:
+  x: 392
+  y: 491
+next-step: state_SendNews
+parameters:
+  url: https://agentplatform.just-ai.com/api/text-campaign-service/scenario-triggers/42362698-ecb0-4253-9943-0b6d8c127d0b/invoke
