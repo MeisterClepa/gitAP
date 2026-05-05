@@ -1,0 +1,18 @@
+---
+id: function_realpyth_clamp_lofem
+name: clamp
+position:
+  x: 1255
+  y: 78
+next-step: function_pyth_senddata_stcnv
+parameters:
+  type: USER
+  collection: RealPyth
+  function: clamp
+  is-tool: false
+  parameters:
+    query:
+      type: NUMBER
+      value: 12.5
+      filled-ai: false
+  context-config: null

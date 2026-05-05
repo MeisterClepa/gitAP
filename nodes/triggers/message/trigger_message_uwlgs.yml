@@ -1,0 +1,9 @@
+---
+id: trigger_message_uwlgs
+name: Сообщение
+position:
+  x: 513
+  y: 141
+next-step: agent_blwax
+parameters:
+  placeholder: null

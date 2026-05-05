@@ -1,0 +1,12 @@
+---
+id: clamp
+name: clamp
+description: clamp
+response-description: 123
+parameters:
+- name: query
+  type: NUMBER
+  required: true
+  description: 123
+  properties: null
+  items: null
