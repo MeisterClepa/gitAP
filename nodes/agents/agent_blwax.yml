@@ -1,0 +1,30 @@
+---
+id: agent_blwax
+name: Агент
+position:
+  x: 675
+  y: 341
+next-step: function_realpyth_clamp_lofem
+parameters:
+  llm-model-key: null
+  llm-model-settings:
+    max-tokens: null
+    temperature: 0.6
+    top-p: 1.0
+    frequency-penalty: 0.0
+    presence-penalty: 0.0
+    verbose-mode: true
+  system-promts:
+    role: null
+    goal: null
+    instructions: null
+    query-override: null
+  tools: []
+  handoff-agents:
+    allowed-any: false
+    allowed-agent-node-ids: []
+  stay-in-agent: false
+  telephony-config: null
+  enable-context: true
+  chat-history-limit: 50
+  sequential-tool-calls-limit: 5
