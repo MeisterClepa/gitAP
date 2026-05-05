@@ -6,4 +6,4 @@ position:
   y: 491
 next-step: state_SendNews
 parameters:
-  url: https://agentplatform.just-ai.com/api/text-campaign-service/scenario-triggers/42362698-ecb0-4253-9943-0b6d8c127d0b/invoke
+  url: https://agentplatform.just-ai.com/api/text-campaign-service/scenario-triggers/a5c8725c-a8c1-4e17-850e-ad7ade6eb404/invoke
