@@ -1,0 +1,23 @@
+---
+id: function_agentcontext_addnote_lgtxn
+name: AgentContext.addNote
+position:
+  x: 682
+  y: -47
+next-step: agent_blwax
+parameters:
+  type: SYSTEM
+  collection: AgentContext
+  function: addNote
+  is-tool: false
+  parameters:
+    text:
+      type: STRING
+      value: null
+      filled-ai: false
+    agentIds:
+      type: ARRAY
+      value: null
+      items: null
+      filled-ai: false
+  context-config: null
