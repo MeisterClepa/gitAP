@@ -1,7 +1,0 @@
----
-description: 123
-dependencies:
-- key: requests
-  version: 0.3.0
-  code-name: requests
-  description: An streaming XHR abstraction that works in browsers and node.js

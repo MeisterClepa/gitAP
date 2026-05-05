@@ -109,9 +109,9 @@ recipients:
 
 ## Code Node (`nodes/code/`)
 
-Executes custom JavaScript code. Each code node is stored in its own subdirectory `nodes/code/<node-id>/`:
+Executes custom JavaScript or Python code. Each code node is stored in its own subdirectory `nodes/code/<node-id>/`:
 - `schema.yml` — node metadata (id, name, position, next-step)
-- `code.js` — JavaScript implementation (optional)
+- `code.js` or `code.py` — implementation file matching `parameters.language` (optional)
 
 ## Condition Node (`nodes/conditions/`)
 

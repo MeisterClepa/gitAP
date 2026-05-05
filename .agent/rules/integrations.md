@@ -137,4 +137,4 @@ Credentials are stored in `credentials/<group>/<key>.yml`. They contain only met
 
 - Integration and credential `key` values must be globally unique. When creating a new integration or credential, always append a short random suffix (5-6 lowercase alphanumeric characters) to the logical name. For example, use `food-db-nsubyd` instead of `food-db`, or `openai-llm-k8mxp2` instead of `openai-llm`. This prevents accidental collisions when keys are replaced during project synchronization.
 - The `key` is also used as the YAML filename (e.g. `integrations/llm/openai-llm-k8mxp2.yml`), so it must be a valid filename.
-- When referencing an integration key in code (inside `code.js` of code blocks or user functions), use the exact same key value. During project import, all old keys in code are automatically replaced with new ones, so unique keys prevent unintended replacements.
+- When referencing an integration key in code (inside `code.js`/`code.py` of code blocks or user functions), use the exact same key value. During project import, all old keys in code are automatically replaced with new ones, so unique keys prevent unintended replacements.
