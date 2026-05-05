@@ -1,0 +1,14 @@
+---
+id: function_spacearticles_sendnews_vdzaa
+name: sendNews
+position:
+  x: 1111
+  y: 647
+next-step: null
+parameters:
+  type: USER
+  collection: SpaceArticles
+  function: sendNews
+  is-tool: false
+  parameters: {}
+  context-config: null

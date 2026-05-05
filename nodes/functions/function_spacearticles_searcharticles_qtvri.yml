@@ -1,0 +1,18 @@
+---
+id: function_spacearticles_searcharticles_qtvri
+name: searchArticles
+position:
+  x: 1483
+  y: -2
+next-step: null
+parameters:
+  type: USER
+  collection: SpaceArticles
+  function: searchArticles
+  is-tool: false
+  parameters:
+    query:
+      type: STRING
+      value: null
+      filled-ai: false
+  context-config: null
