@@ -180,6 +180,53 @@ For detailed info about parameters and response, read the corresponding file.
 - `Log.error` — Logs an error message
   Schema: .agent/system-functions/Log/error.json
 
+## MCP Functions
+
+- `MathMcp.add` — Adds two numbers together
+  Schema: .agent/mcp-functions/MathMcp/add.json
+- `MathMcp.subtract` — Subtracts the second number from the first number
+  Schema: .agent/mcp-functions/MathMcp/subtract.json
+- `MathMcp.multiply` — Multiplies two numbers together
+  Schema: .agent/mcp-functions/MathMcp/multiply.json
+- `MathMcp.division` — Divides the first number by the second number
+  Schema: .agent/mcp-functions/MathMcp/division.json
+- `MathMcp.sum` — Adds any number of numbers together
+  Schema: .agent/mcp-functions/MathMcp/sum.json
+- `MathMcp.modulo` — Divides two numbers and returns the remainder
+  Schema: .agent/mcp-functions/MathMcp/modulo.json
+- `MathMcp.mean` — Calculates the arithmetic mean of a list of numbers
+  Schema: .agent/mcp-functions/MathMcp/mean.json
+- `MathMcp.median` — Calculates the median of a list of numbers
+  Schema: .agent/mcp-functions/MathMcp/median.json
+- `MathMcp.mode` — Finds the most common number in a list of numbers
+  Schema: .agent/mcp-functions/MathMcp/mode.json
+- `MathMcp.min` — Finds the minimum value from a list of numbers
+  Schema: .agent/mcp-functions/MathMcp/min.json
+- `MathMcp.max` — Finds the maximum value from a list of numbers
+  Schema: .agent/mcp-functions/MathMcp/max.json
+- `MathMcp.floor` — Rounds a number down to the nearest integer
+  Schema: .agent/mcp-functions/MathMcp/floor.json
+- `MathMcp.ceiling` — Rounds a number up to the nearest integer
+  Schema: .agent/mcp-functions/MathMcp/ceiling.json
+- `MathMcp.round` — Rounds a number to the nearest integer
+  Schema: .agent/mcp-functions/MathMcp/round.json
+- `MathMcp.sin` — Calculates the sine of a number in radians
+  Schema: .agent/mcp-functions/MathMcp/sin.json
+- `MathMcp.arcsin` — Calculates the arcsine of a number in radians
+  Schema: .agent/mcp-functions/MathMcp/arcsin.json
+- `MathMcp.cos` — Calculates the cosine of a number in radians
+  Schema: .agent/mcp-functions/MathMcp/cos.json
+- `MathMcp.arccos` — Calculates the arccosine of a number in radians
+  Schema: .agent/mcp-functions/MathMcp/arccos.json
+- `MathMcp.tan` — Calculates the tangent of a number in radians
+  Schema: .agent/mcp-functions/MathMcp/tan.json
+- `MathMcp.arctan` — Calculates the arctangent of a number in radians
+  Schema: .agent/mcp-functions/MathMcp/arctan.json
+- `MathMcp.radiansToDegrees` — Converts a radian value to its equivalent in degrees
+  Schema: .agent/mcp-functions/MathMcp/radiansToDegrees.json
+- `MathMcp.degreesToRadians` — Converts a degree value to its equivalent in radians
+  Schema: .agent/mcp-functions/MathMcp/degreesToRadians.json
+
 ## User Functions
 
 - `SpaceArticles.searchArticles` — Найти последние статьи по нужной теме

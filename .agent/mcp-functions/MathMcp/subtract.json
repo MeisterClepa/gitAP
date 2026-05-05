@@ -1,0 +1,17 @@
+{
+  "description" : "Subtracts the second number from the first number",
+  "input" : {
+    "type" : "object",
+    "properties" : {
+      "minuend" : {
+        "type" : "number",
+        "description" : "The number to subtract from (minuend)"
+      },
+      "subtrahend" : {
+        "type" : "number",
+        "description" : "The number being subtracted (subtrahend)"
+      }
+    },
+    "required" : [ "minuend", "subtrahend" ]
+  }
+}
