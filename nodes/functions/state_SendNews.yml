@@ -4,7 +4,7 @@ name: sendNews
 position:
   x: 831
   y: 379
-next-step: state_LlmSendText
+next-step: null
 parameters:
   type: USER
   collection: SpaceArticles
