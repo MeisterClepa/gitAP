@@ -2,8 +2,8 @@
 id: trigger_message_uwlgs
 name: Сообщение
 position:
-  x: 513
-  y: 141
+  x: 372
+  y: 149
 next-step: function_agentcontext_addnote_lgtxn
 parameters:
   placeholder: null

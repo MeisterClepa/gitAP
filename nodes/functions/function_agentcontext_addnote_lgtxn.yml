@@ -2,8 +2,8 @@
 id: function_agentcontext_addnote_lgtxn
 name: AgentContext.addNote
 position:
-  x: 682
-  y: -47
+  x: 498
+  y: 353
 next-step: agent_blwax
 parameters:
   type: SYSTEM
