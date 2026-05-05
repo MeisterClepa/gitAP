@@ -15,9 +15,8 @@ parameters:
       type: STRING
       value: null
       filled-ai: false
-    agentIds:
-      type: ARRAY
+    agentId:
+      type: STRING
       value: null
-      items: null
       filled-ai: false
   context-config: null

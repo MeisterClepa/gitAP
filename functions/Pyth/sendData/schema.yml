@@ -3,4 +3,4 @@ id: sendData
 name: sendData
 description: sendData
 response-description: null
-parameters: null
+parameters: []

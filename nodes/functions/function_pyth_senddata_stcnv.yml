@@ -10,5 +10,5 @@ parameters:
   collection: Pyth
   function: sendData
   is-tool: false
-  parameters: null
+  parameters: {}
   context-config: null
