@@ -2,8 +2,8 @@
 id: agent_blwax
 name: Агент
 position:
-  x: 675
-  y: 341
+  x: 938
+  y: 163
 next-step: function_realpyth_clamp_lofem
 parameters:
   llm-model-key: null

@@ -4,6 +4,6 @@ name: Сообщение
 position:
   x: 513
   y: 141
-next-step: function_reactions_sendtext_jlnjt
+next-step: function_agentcontext_addnote_lgtxn
 parameters:
   placeholder: null
