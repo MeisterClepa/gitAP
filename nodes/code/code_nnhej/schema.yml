@@ -1,0 +1,9 @@
+---
+id: code_nnhej
+name: Код
+position:
+  x: 697
+  y: 83
+next-step: null
+parameters:
+  language: PYTHON

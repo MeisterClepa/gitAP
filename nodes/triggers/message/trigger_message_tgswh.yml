@@ -1,0 +1,9 @@
+---
+id: trigger_message_tgswh
+name: Сообщение
+position:
+  x: 347
+  y: 35
+next-step: code_nnhej
+parameters:
+  placeholder: null
