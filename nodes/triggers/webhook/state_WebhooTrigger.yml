@@ -1,0 +1,10 @@
+---
+id: state_WebhooTrigger
+name: Вебхук
+position:
+  x: 392
+  y: 491
+next-step: state_SendNews
+parameters:
+  url: https://lts-ha-gw01.lo.test-ai.net/workflow-trigger/53ad0c05-4581-4846-bcc5-b0f9fd6728fe
+  mock-payload: null
