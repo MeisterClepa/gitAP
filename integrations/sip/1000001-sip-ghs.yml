@@ -1,0 +1,8 @@
+---
+key: 1000001-sip-ghs
+credential-key: 1000001-6444-bca
+name: sip
+host: voip02.lo.test-ai.net
+port: 5060
+lines-available: 3
+accept-incoming: true

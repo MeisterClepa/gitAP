@@ -1,0 +1,8 @@
+---
+key: 1000001-6255-ksd
+credential-key: 1000001-6255-ylu
+name: 6255
+host: voip02.lo.test-ai.net
+port: 5060
+lines-available: 3
+accept-incoming: false
