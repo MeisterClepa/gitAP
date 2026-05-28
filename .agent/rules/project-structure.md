@@ -22,8 +22,9 @@ This document describes the directory layout of an Agent Platform project.
 │   ├── functions/                  # Function call nodes
 │   │   └── <node-id>.yml
 │   ├── code/                       # Custom JavaScript code nodes
-│   │   ├── <node-id>.yml
-│   │   └── <node-id>.js           # Code stored separately
+│   │   └── <node-id>/
+│   │       ├── schema.yml          # Node definition
+│   │       └── code.js             # JavaScript implementation
 │   ├── conditions/                 # Conditional branching nodes
 │   │   └── <node-id>.yml
 │   └── triggers/                   # Trigger nodes (entry points)

@@ -1,5 +1,12 @@
 {
-  "type" : "object",
-  "properties" : { },
-  "required" : [ ]
+  "description" : "Gets the chat ID from the current request",
+  "input" : {
+    "type" : "object",
+    "properties" : { },
+    "required" : [ ]
+  },
+  "output" : {
+    "type" : "string",
+    "description" : "The chat ID"
+  }
 }

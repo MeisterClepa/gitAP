@@ -1,10 +1,17 @@
 {
-  "type" : "object",
-  "properties" : {
-    "agentId" : {
-      "type" : "string",
-      "description" : "Optional agent ID. If not provided, returns only common notes"
-    }
+  "description" : "Returns concatenated text (by time of addition)",
+  "input" : {
+    "type" : "object",
+    "properties" : {
+      "agentId" : {
+        "type" : "string",
+        "description" : "Optional agent ID. If not provided, returns only common notes"
+      }
+    },
+    "required" : [ ]
   },
-  "required" : [ ]
+  "output" : {
+    "type" : "string",
+    "description" : "Concatenated notes separated by newlines"
+  }
 }

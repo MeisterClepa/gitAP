@@ -1,12 +1,23 @@
 {
-  "type" : "object",
-  "properties" : {
-    "filters" : {
-      "type" : "object",
-      "description" : "Filter criteria",
-      "properties" : { },
-      "required" : [ ]
-    }
+  "description" : "Counts documents matching the filter",
+  "input" : {
+    "type" : "object",
+    "properties" : {
+      "dbIntegration" : {
+        "type" : "string",
+        "description" : ""
+      },
+      "filters" : {
+        "type" : "object",
+        "description" : "Filter criteria",
+        "properties" : { },
+        "required" : [ ]
+      }
+    },
+    "required" : [ "dbIntegration" ]
   },
-  "required" : [ ]
+  "output" : {
+    "type" : "number",
+    "description" : "Number of matching documents"
+  }
 }

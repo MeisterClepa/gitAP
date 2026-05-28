@@ -1,10 +1,17 @@
 {
-  "type" : "object",
-  "properties" : {
-    "agentId" : {
-      "type" : "string",
-      "description" : "Optional agent ID or 'all'. If 'all', clears all contexts"
-    }
+  "description" : "Clears the entire context (both text and KV)",
+  "input" : {
+    "type" : "object",
+    "properties" : {
+      "agentId" : {
+        "type" : "string",
+        "description" : "Optional agent ID or 'all'. If 'all', clears all contexts"
+      }
+    },
+    "required" : [ ]
   },
-  "required" : [ ]
+  "output" : {
+    "type" : "object",
+    "description" : "No return value"
+  }
 }

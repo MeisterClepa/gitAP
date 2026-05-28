@@ -1,14 +1,21 @@
 {
-  "type" : "object",
-  "properties" : {
-    "url" : {
-      "type" : "string",
-      "description" : "URL of the file"
+  "description" : "Sends a file as a response",
+  "input" : {
+    "type" : "object",
+    "properties" : {
+      "url" : {
+        "type" : "string",
+        "description" : "URL of the file"
+      },
+      "name" : {
+        "type" : "string",
+        "description" : "Name of the file"
+      }
     },
-    "name" : {
-      "type" : "string",
-      "description" : "Name of the file"
-    }
+    "required" : [ "url" ]
   },
-  "required" : [ "url" ]
+  "output" : {
+    "type" : "null",
+    "description" : "No return value"
+  }
 }

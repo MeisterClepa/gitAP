@@ -1,5 +1,13 @@
 {
-  "type" : "object",
-  "properties" : { },
-  "required" : [ ]
+  "description" : "Returns the SIP headers from the current request. Returns an empty object if not available",
+  "input" : {
+    "type" : "object",
+    "properties" : { },
+    "required" : [ ]
+  },
+  "output" : {
+    "type" : "object",
+    "description" : "An object containing SIP header names and their values",
+    "properties" : { }
+  }
 }

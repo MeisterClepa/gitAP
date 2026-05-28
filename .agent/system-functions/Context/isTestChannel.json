@@ -1,5 +1,12 @@
 {
-  "type" : "object",
-  "properties" : { },
-  "required" : [ ]
+  "description" : "Checks if the current channel is a test channel",
+  "input" : {
+    "type" : "object",
+    "properties" : { },
+    "required" : [ ]
+  },
+  "output" : {
+    "type" : "boolean",
+    "description" : "True if the channel is a test channel, false otherwise"
+  }
 }

@@ -1,10 +1,17 @@
 {
-  "type" : "object",
-  "properties" : {
-    "text" : {
-      "type" : "string",
-      "description" : "The text content to be sent"
-    }
+  "description" : "Sends a text message as a response",
+  "input" : {
+    "type" : "object",
+    "properties" : {
+      "text" : {
+        "type" : "string",
+        "description" : "The text content to be sent"
+      }
+    },
+    "required" : [ "text" ]
   },
-  "required" : [ "text" ]
+  "output" : {
+    "type" : "null",
+    "description" : "No return value"
+  }
 }
