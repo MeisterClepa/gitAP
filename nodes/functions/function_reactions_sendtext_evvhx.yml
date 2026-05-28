@@ -1,18 +1,18 @@
 ---
-id: state_SendText
+id: function_reactions_sendtext_evvhx
 name: Reactions.sendText
 position:
-  x: 1525
-  y: 378
+  x: 1037
+  y: -530
 next-step: null
 parameters:
-  type: SYSTEM
-  collection: Reactions
+  type: USER
+  collection: ""
   function: sendText
   is-tool: false
   parameters:
     text:
       type: STRING
-      value: "{{previousResult}}"
+      value: null
       filled-ai: false
   context-config: null

@@ -8,26 +8,3 @@ params: {
 },
 headers: {}
 })
-.then(function (response) {
-var body = typeof response.body === "string" ? JSON.parse(response.body) : response.body;
-
-// Сохраняем нужные данные о статьях
-var articles = (body.results || []).map(function (a) {
-    return {
-    title: a.title,
-    summary: a.summary,
-    url: a.url,
-    publishedAt: a.published_at
-    };
-});
-
-// Если статей нет
-if (articles.length === 0) {
-    return "No data";
-}
-
-return JSON.stringify(articles);
-})
-.catch(function (err) {
-return "Error fetching articles: " + err;
-});

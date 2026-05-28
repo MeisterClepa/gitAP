@@ -1,0 +1,9 @@
+---
+id: trigger_message_zsial
+name: Сообщение
+position:
+  x: 257
+  y: -472
+next-step: function_migr_clamp_cnkbl
+parameters:
+  placeholder: null

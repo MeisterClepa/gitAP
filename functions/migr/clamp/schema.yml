@@ -1,0 +1,102 @@
+---
+id: clamp
+name: clamp
+description: clamp
+response-description: 123
+parameters:
+- name: userId
+  type: NUMBER
+  required: true
+  description: Уникальный идентификатор пользователя
+  properties: null
+  items: null
+- name: id
+  type: NUMBER
+  required: true
+  description: Уникальный идентификатор задачи
+  properties: null
+  items: null
+- name: title
+  type: STRING
+  required: true
+  description: Название задачи
+  properties: null
+  items: null
+- name: completed
+  type: BOOLEAN
+  required: true
+  description: "Показывает, завершена ли задача: true или false"
+  properties: null
+  items: null
+- name: tags
+  type: ARRAY
+  required: false
+  description: "Список тегов, связанных с задачей"
+  properties: null
+  items:
+    name: ""
+    type: STRING
+    required: false
+    description: ""
+    properties: null
+    items: null
+- name: metadata
+  type: OBJECT
+  required: false
+  description: Дополнительные данные о задаче
+  properties:
+  - name: createdBy
+    type: STRING
+    required: false
+    description: Идентификатор или имя создателя задачи
+    properties: null
+    items: null
+  - name: priority
+    type: NUMBER
+    required: false
+    description: Приоритет задачи
+    properties: null
+    items: null
+  items: null
+- name: subtasks
+  type: ARRAY
+  required: false
+  description: Список подзадач
+  properties: null
+  items:
+    name: ""
+    type: OBJECT
+    required: false
+    description: ""
+    properties:
+    - name: id
+      type: NUMBER
+      required: false
+      description: Уникальный идентификатор подзадачи
+      properties: null
+      items: null
+    - name: title
+      type: STRING
+      required: false
+      description: Название подзадачи
+      properties: null
+      items: null
+    - name: done
+      type: BOOLEAN
+      required: false
+      description: "Показывает, завершена ли подзадача: true или false"
+      properties: null
+      items: null
+    items: null
+- name: credential
+  type: CREDENTIAL
+  required: false
+  description: Токен или API-ключ
+  properties: null
+  items: null
+- name: llmModel
+  type: LLM_MODEL
+  required: false
+  description: Имя модели для обработки задачи
+  properties: null
+  items: null
