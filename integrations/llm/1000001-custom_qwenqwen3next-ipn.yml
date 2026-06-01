@@ -1,6 +1,6 @@
 ---
-key: 1000001-custom_qwenqwen3next-jvk
-credential-key: 1000001-qwen-sko
+key: 1000001-custom_qwenqwen3next-ipn
+credential-key: 1000001-qwen-lrz
 name: CUSTOM - Qwen/Qwen3-Next-80B-A3B-Instruct
 provider: CUSTOM
 model: Qwen/Qwen3-Next-80B-A3B-Instruct
