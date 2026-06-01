@@ -1,13 +1,13 @@
 ---
-id: trigger_schedule_sxwnr
+id: state_SchedulerTrigger
 name: Планировщик
 position:
-  x: 689
-  y: 213
-next-step: null
+  x: 394
+  y: 261
+next-step: state_SendNews
 parameters:
   interval-seconds: null
-  cron: null
+  cron: 0 0 9 * * ?
   max-repeat-count: null
   end-after-date: null
   start-date-time: null
