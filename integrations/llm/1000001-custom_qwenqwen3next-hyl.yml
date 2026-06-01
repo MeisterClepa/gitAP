@@ -1,6 +1,6 @@
 ---
-key: 1000001-custom_qwenqwen3next-nym
-credential-key: 1000001-123-biy
+key: 1000001-custom_qwenqwen3next-hyl
+credential-key: 1000001-123-pni
 name: CUSTOM - Qwen/Qwen3-Next-80B-A3B-Instruct
 provider: CUSTOM
 model: Qwen/Qwen3-Next-80B-A3B-Instruct

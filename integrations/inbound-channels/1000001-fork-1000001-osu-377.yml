@@ -1,7 +1,8 @@
 ---
-key: 1000001-channels-1000001-YpB-373
+key: 1000001-fork-1000001-osu-377
 credential-key: null
 name: Chat API
 type: CHAT_API
 operator-channel-key: null
 settings: null
+origin-key: 1000001-channels-1000001-YpB-373
