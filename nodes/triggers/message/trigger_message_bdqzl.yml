@@ -1,0 +1,9 @@
+---
+id: trigger_message_bdqzl
+name: Сообщение
+position:
+  x: 775
+  y: 415
+next-step: null
+parameters:
+  placeholder: null

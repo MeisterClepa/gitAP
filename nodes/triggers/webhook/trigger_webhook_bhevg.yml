@@ -1,0 +1,10 @@
+---
+id: trigger_webhook_bhevg
+name: Вебхук
+position:
+  x: 651
+  y: 595
+next-step: null
+parameters:
+  url: https://test23.lo.test-ai.net/workflow-trigger/095927c6-72af-425e-9d33-c1b441a98c2c
+  mock-payload: null
