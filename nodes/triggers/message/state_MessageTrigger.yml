@@ -1,9 +1,9 @@
 ---
-id: trigger_message_efzpu
+id: state_MessageTrigger
 name: Сообщение
 position:
-  x: 531
-  y: -240
+  x: 391
+  y: -291
 next-step: state_Agent
 parameters:
   placeholder: null
