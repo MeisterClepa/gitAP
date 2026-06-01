@@ -6,9 +6,9 @@ position:
   y: 378
 next-step: null
 parameters:
-  function-id: 638b9db65f3b1def095c90f6
   type: SYSTEM
-  collection-name: null
+  collection: Reactions
+  function: sendText
   is-tool: false
   parameters:
     text:
@@ -16,3 +16,4 @@ parameters:
       value: "{{Context.getLastFunctionResult()}}"
       filled-ai: false
   context-config: null
+  hitl-tool-config: null
