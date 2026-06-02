@@ -12,3 +12,4 @@ parameters:
   is-tool: false
   parameters: {}
   context-config: null
+  hitl-tool-config: null

@@ -13,6 +13,7 @@ parameters:
   parameters:
     text:
       type: STRING
-      value: "{{previousResult}}"
+      value: "{{Context.getLastFunctionResult()}}"
       filled-ai: false
   context-config: null
+  hitl-tool-config: null
