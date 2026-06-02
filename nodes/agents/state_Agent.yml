@@ -2,11 +2,11 @@
 id: state_Agent
 name: Агент
 position:
-  x: 844
-  y: -290
+  x: 989
+  y: -314
 next-step: null
 parameters:
-  llm-model-key: 1000001-open_ai_gpt41-hmd
+  llm-model-key: 1000001-open_ai_gpt41-zgg
   llm-model-settings:
     max-tokens: 4000
     temperature: 0.6
