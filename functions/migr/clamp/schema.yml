@@ -100,3 +100,4 @@ parameters:
   description: Имя модели для обработки задачи
   properties: null
   items: null
+language: JAVASCRIPT

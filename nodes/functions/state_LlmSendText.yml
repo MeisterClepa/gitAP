@@ -21,3 +21,4 @@ parameters:
         \ ответе: \" + Context.getLastFunctionResult()}}"
       filled-ai: false
   context-config: null
+  hitl-tool-config: null

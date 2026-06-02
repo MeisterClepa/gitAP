@@ -16,3 +16,4 @@ parameters:
       value: "{{previousResult}}"
       filled-ai: false
   context-config: null
+  hitl-tool-config: null

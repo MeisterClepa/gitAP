@@ -4,7 +4,7 @@ name: clamp
 position:
   x: 593
   y: -542
-next-step: function_reactions_sendtext_evvhx
+next-step: null
 parameters:
   type: USER
   collection: migr
@@ -68,3 +68,4 @@ parameters:
       value: null
       filled-ai: false
   context-config: null
+  hitl-tool-config: null
