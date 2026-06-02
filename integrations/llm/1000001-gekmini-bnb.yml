@@ -1,0 +1,7 @@
+---
+key: 1000001-gekmini-bnb
+credential-key: 1000001-qwe34-rtx
+name: gekmini
+provider: GOOGLE
+model: gemini-3.1-pro-preview
+is-direct-access: true
