@@ -2,8 +2,8 @@
 id: function_agentcontext_addnote_dlzih
 name: AgentContext.addNote
 position:
-  x: 584
-  y: -80
+  x: 1179
+  y: -87
 next-step: null
 parameters:
   type: SYSTEM
