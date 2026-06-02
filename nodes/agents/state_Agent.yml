@@ -6,7 +6,7 @@ position:
   y: -290
 next-step: function_agentcontext_addnote_dlzih
 parameters:
-  llm-model-key: 1000001-open_ai_gpt41-gwt
+  llm-model-key: 1000001-open_ai_gpt41-dfo
   llm-model-settings:
     max-tokens: 4000
     temperature: 0.6

@@ -1,0 +1,10 @@
+---
+key: 1000001-custom_qwenqwen3235b-qul
+credential-key: 1000001-catvidzet-flo
+name: CUSTOM - Qwen/Qwen3-235B-A22B-Instruct-2507-tput
+provider: CUSTOM
+model: Qwen/Qwen3-235B-A22B-Instruct-2507-tput
+is-direct-access: true
+custom-url: https://api.together.xyz
+custom-headers:
+  "123123": 123123123
