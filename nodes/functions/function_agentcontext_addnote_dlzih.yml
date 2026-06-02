@@ -1,0 +1,23 @@
+---
+id: function_agentcontext_addnote_dlzih
+name: AgentContext.addNote
+position:
+  x: 1179
+  y: -148
+next-step: null
+parameters:
+  type: SYSTEM
+  collection: AgentContext
+  function: addNote
+  is-tool: false
+  parameters:
+    text:
+      type: STRING
+      value: null
+      filled-ai: false
+    agentId:
+      type: STRING
+      value: null
+      filled-ai: false
+  context-config: null
+  hitl-tool-config: null

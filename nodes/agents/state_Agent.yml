@@ -4,7 +4,7 @@ name: Агент
 position:
   x: 844
   y: -290
-next-step: null
+next-step: function_agentcontext_addnote_dlzih
 parameters:
   llm-model-key: 1000001-open_ai_gpt41-gwt
   llm-model-settings:
