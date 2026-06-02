@@ -6,5 +6,5 @@ position:
   y: 595
 next-step: null
 parameters:
-  url: https://test23.lo.test-ai.net/workflow-trigger/095927c6-72af-425e-9d33-c1b441a98c2c
+  url: https://lts-ha-ap01.lo.test-ai.net/workflow-trigger/7406704b-a63e-4526-b49b-b6f8aca2c682
   mock-payload: null
