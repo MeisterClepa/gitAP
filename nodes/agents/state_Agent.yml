@@ -2,8 +2,8 @@
 id: state_Agent
 name: Агент
 position:
-  x: 989
-  y: -314
+  x: 844
+  y: -290
 next-step: null
 parameters:
   llm-model-key: 1000001-open_ai_gpt41-zgg

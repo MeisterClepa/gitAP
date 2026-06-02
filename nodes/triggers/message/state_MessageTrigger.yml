@@ -2,8 +2,8 @@
 id: state_MessageTrigger
 name: Сообщение
 position:
-  x: 361
-  y: -268
+  x: 351
+  y: -147
 next-step: state_Agent
 parameters:
   placeholder: null
