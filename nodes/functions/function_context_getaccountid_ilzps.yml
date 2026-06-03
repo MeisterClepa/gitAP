@@ -1,0 +1,15 @@
+---
+id: function_context_getaccountid_ilzps
+name: Context.getAccountId
+position:
+  x: 977
+  y: 113
+next-step: function_reactions_sendtext_cmmer
+parameters:
+  type: SYSTEM
+  collection: Context
+  function: getAccountId
+  is-tool: false
+  parameters: {}
+  context-config: null
+  hitl-tool-config: null

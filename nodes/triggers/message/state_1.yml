@@ -1,0 +1,9 @@
+---
+id: state_1
+name: Сообщение
+position:
+  x: 661
+  y: 89
+next-step: function_context_getaccountid_ilzps
+parameters:
+  placeholder: null
