@@ -2,8 +2,8 @@
 id: state_1
 name: Сообщение
 position:
-  x: 657
-  y: 172
+  x: 586
+  y: 97
 next-step: function_context_getaccountid_ilzps
 parameters:
   placeholder: null
