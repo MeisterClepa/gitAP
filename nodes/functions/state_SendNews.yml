@@ -2,8 +2,8 @@
 id: state_SendNews
 name: sendNews
 position:
-  x: 831
-  y: 379
+  x: 822
+  y: 296
 next-step: state_LlmSendText
 parameters:
   type: USER
