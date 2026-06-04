@@ -1,9 +1,0 @@
----
-id: code_ollch
-name: Код
-position:
-  x: 672
-  y: -668
-next-step: null
-parameters:
-  language: JAVASCRIPT
