@@ -2,8 +2,8 @@
 id: condition_azcxo
 name: Условие
 position:
-  x: 1280
-  y: -320
+  x: 1282
+  y: -402
 next-step: null
 parameters:
   condition: null
