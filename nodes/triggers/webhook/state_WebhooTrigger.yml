@@ -6,5 +6,5 @@ position:
   y: 491
 next-step: state_SendNews
 parameters:
-  url: https://test23.lo.test-ai.net/workflow-trigger/1efaa82a-e8ae-448a-8f95-2f6837f21608
+  url: https://test23.lo.test-ai.net/workflow-trigger/c76a6ab8-3e5c-4386-b71b-508c1d330330
   mock-payload: null
