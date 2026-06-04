@@ -6,14 +6,14 @@ position:
   y: 376
 next-step: state_SendText
 parameters:
-  function-id: f6669500a86e3e91da27687a
   type: SYSTEM
-  collection-name: null
+  collection: Llm
+  function: sendText
   is-tool: false
   parameters:
     llmModelKey:
       type: LLM_MODEL
-      value: null
+      value: 1000001-open_ai_gpt41-yxn
       filled-ai: false
     text:
       type: STRING
@@ -21,3 +21,4 @@ parameters:
         \ ответе: \" + Context.getLastFunctionResult()}}"
       filled-ai: false
   context-config: null
+  hitl-tool-config: null
