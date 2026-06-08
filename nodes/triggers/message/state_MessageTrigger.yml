@@ -4,6 +4,6 @@ name: Сообщение
 position:
   x: 391
   y: -291
-next-step: state_Agent
+next-step: function_context_getaccountid_csrto
 parameters:
   placeholder: null
