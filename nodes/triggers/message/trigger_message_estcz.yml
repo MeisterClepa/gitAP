@@ -1,0 +1,9 @@
+---
+id: trigger_message_estcz
+name: Сообщение
+position:
+  x: -1
+  y: 48
+next-step: function_context_getaccountid_pagqk
+parameters:
+  placeholder: null

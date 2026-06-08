@@ -1,0 +1,16 @@
+---
+id: function_context_getaccountid_pagqk
+name: Context.getAccountId
+position:
+  x: 332
+  y: 11
+next-step: function_reactions_sendtext_rgugq
+parameters:
+  type: SYSTEM
+  collection: Context
+  function: getAccountId
+  is-tool: false
+  parameters: {}
+  context-config: null
+  hitl-tool-config: null
+  custom-headers: null
