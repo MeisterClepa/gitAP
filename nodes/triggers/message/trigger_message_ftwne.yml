@@ -1,0 +1,9 @@
+---
+id: trigger_message_ftwne
+name: Сообщение
+position:
+  x: 395
+  y: -217
+next-step: function_context_getaccountid_rqxxv
+parameters:
+  placeholder: null
