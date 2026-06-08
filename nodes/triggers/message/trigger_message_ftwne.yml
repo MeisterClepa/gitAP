@@ -2,8 +2,8 @@
 id: trigger_message_ftwne
 name: Сообщение
 position:
-  x: 243
-  y: -287
+  x: -163
+  y: -429
 next-step: function_context_getaccountid_rqxxv
 parameters:
   placeholder: null

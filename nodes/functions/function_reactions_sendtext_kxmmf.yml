@@ -2,8 +2,8 @@
 id: function_reactions_sendtext_kxmmf
 name: Reactions.sendText
 position:
-  x: 1006
-  y: -303
+  x: 730
+  y: -489
 next-step: null
 parameters:
   type: SYSTEM
