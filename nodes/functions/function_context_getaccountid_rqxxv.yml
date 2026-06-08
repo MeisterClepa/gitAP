@@ -2,8 +2,8 @@
 id: function_context_getaccountid_rqxxv
 name: Context.getAccountId
 position:
-  x: 599
-  y: -396
+  x: 584
+  y: -467
 next-step: function_reactions_sendtext_kxmmf
 parameters:
   type: SYSTEM
