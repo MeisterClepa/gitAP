@@ -1,9 +1,9 @@
 ---
-id: state_SendText
+id: function_reactions_sendtext_zdnit
 name: Reactions.sendText
 position:
-  x: 1525
-  y: 378
+  x: 1692
+  y: -303
 next-step: null
 parameters:
   type: SYSTEM
@@ -13,7 +13,7 @@ parameters:
   parameters:
     text:
       type: STRING
-      value: "{{Context.getLastFunctionResult()}}"
+      value: block
       filled-ai: false
   context-config: null
   custom-headers: null

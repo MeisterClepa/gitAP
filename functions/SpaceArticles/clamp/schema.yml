@@ -1,0 +1,12 @@
+---
+id: clamp
+name: clamp
+description: 123
+response-description: 123
+parameters:
+- name: url
+  type: STRING
+  required: true
+  description: 213
+  properties: null
+  items: null

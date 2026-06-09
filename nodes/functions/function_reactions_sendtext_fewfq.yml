@@ -1,0 +1,19 @@
+---
+id: function_reactions_sendtext_fewfq
+name: Reactions.sendText
+position:
+  x: 346
+  y: 214
+next-step: null
+parameters:
+  type: SYSTEM
+  collection: Reactions
+  function: sendText
+  is-tool: false
+  parameters:
+    text:
+      type: STRING
+      value: plan
+      filled-ai: false
+  context-config: null
+  custom-headers: null

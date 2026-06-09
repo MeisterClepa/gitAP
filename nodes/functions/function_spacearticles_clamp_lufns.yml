@@ -1,0 +1,19 @@
+---
+id: function_spacearticles_clamp_lufns
+name: clamp
+position:
+  x: 676
+  y: 18
+next-step: null
+parameters:
+  type: USER
+  collection: SpaceArticles
+  function: clamp
+  is-tool: true
+  parameters:
+    url:
+      type: STRING
+      value: https://webhook.site/43b59b81-260e-4b7c-a6ae-d93240bbe437
+      filled-ai: false
+  context-config: null
+  custom-headers: null

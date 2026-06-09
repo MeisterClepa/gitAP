@@ -1,0 +1,13 @@
+---
+id: trigger_schedule_ydcey
+name: Планировщик
+position:
+  x: 60
+  y: -109
+next-step: function_reactions_sendtext_fewfq
+parameters:
+  interval-seconds: 300
+  cron: null
+  max-repeat-count: null
+  end-after-date: null
+  start-date-time: 2026-06-09T09:11:34.943Z
