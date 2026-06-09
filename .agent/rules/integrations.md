@@ -8,9 +8,10 @@ Integrations are stored in `integrations/<type>/` directories. Each integration 
 ------------|------|----------|-------------|---------|
  `collection-name` | string | yes | Name of the function collection exposed by this MCP server |  |
  `credential-key` | string | no | Reference to credential used for authentication |  |
+ `custom-headers` | map | no | Custom HTTP headers sent with every request to the MCP server |  |
  `key` | string | yes | Unique integration key | my-mcp-server |
  `name` | string | yes | Human-readable integration name |  |
- `transport-type` | string | yes | Transport type |  |
+ `transport-type` | string | no | Transport type |  |
  `url` | string | yes | URL of the MCP server | https://mcp.example.com |
 
 ## SMTP Integration (`integrations/smtp/`)

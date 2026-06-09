@@ -13,7 +13,7 @@ parameters:
   parameters:
     llmModelKey:
       type: LLM_MODEL
-      value: 1000001-open_ai_gpt41-hnx
+      value: 1000001-open_ai_gpt41-nhc
       filled-ai: false
     text:
       type: STRING
@@ -22,3 +22,4 @@ parameters:
       filled-ai: false
   context-config: null
   hitl-tool-config: null
+  custom-headers: null

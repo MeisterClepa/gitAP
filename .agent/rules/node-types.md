@@ -74,6 +74,7 @@ Executes a user-defined or system function.
 ------------|------|----------|-------------|---------|
  `parameters.collection` | string | yes | Name of the collection this function belongs to |  |
  `parameters.context-config` | functioncontextconfig | no | Configuration for storing function result in conversation context |  |
+ `parameters.custom-headers` | map | no | Per-block custom HTTP headers (currently for MCP tools); values may be templates |  |
  `parameters.function` | string | yes | Function name |  |
  `parameters.hitl-tool-config` | hitltoolconfig | no | Human-in-the-loop tool confirmation configuration |  |
  `parameters.is-tool` | boolean | yes | Whether this function is exposed as a tool for LLM agent |  |

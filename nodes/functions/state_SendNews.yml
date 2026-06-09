@@ -13,3 +13,4 @@ parameters:
   parameters: {}
   context-config: null
   hitl-tool-config: null
+  custom-headers: null
