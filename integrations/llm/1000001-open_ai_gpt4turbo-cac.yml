@@ -1,7 +1,0 @@
----
-key: 1000001-open_ai_gpt4turbo-cac
-credential-key: 1000001-3-vyy
-name: 3
-provider: OPEN_AI
-model: gpt-4-turbo
-is-direct-access: true
