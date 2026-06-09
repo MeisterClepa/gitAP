@@ -3,7 +3,7 @@
 User functions are stored in `functions/<collection-name>/<function-name>/` directories.
 Each function directory contains:
 - `schema.yml` — function metadata and parameter definitions
-- `code.js` or `code.py` — implementation file matching `language` (optional)
+- `code.js` — function implementation in JavaScript (optional)
 
 ## schema.yml Fields
 
@@ -11,7 +11,6 @@ Each function directory contains:
 ------------|------|----------|-------------|---------|
  `description` | string | yes | Function description for LLM tool calling |  |
  `id` | string | yes | Unique function identifier |  |
- `language` | string | yes | Function language |  |
  `name` | string | yes | Function name | sendEmail |
  `parameters` | list | no | List of function input parameters |  |
  `response-description` | string | no | Description of what the function returns |  |
@@ -46,5 +45,5 @@ Each function directory contains:
 ## Rules
 
 - Function IDs must be camelCase and must NOT contain dashes. Example: `saveFoodEntry`, not `save-food-entry`.
-- Function code language is defined by the parent collection `language`.
-- Function parameters are available as top-level variables in the implementation file. For example, if a function has a parameter `userId`, use `userId` directly — not `params.userId` or `arguments.userId`.
+- Function code is always in JavaScript and stored in separate `.js` files.
+- Function parameters are available as top-level variables in `code.js`. For example, if a function has a parameter `userId`, use `userId` directly — not `params.userId` or `arguments.userId`.

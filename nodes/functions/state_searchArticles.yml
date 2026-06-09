@@ -16,4 +16,4 @@ parameters:
       value: ""
       filled-ai: true
   context-config: null
-  hitl-tool-config: null
+  custom-headers: null

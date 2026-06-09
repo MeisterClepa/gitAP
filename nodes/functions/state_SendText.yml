@@ -16,4 +16,4 @@ parameters:
       value: "{{Context.getLastFunctionResult()}}"
       filled-ai: false
   context-config: null
-  hitl-tool-config: null
+  custom-headers: null

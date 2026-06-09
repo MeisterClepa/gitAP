@@ -11,4 +11,3 @@ parameters:
   description: "Термин на английском языке, по которому нужно найти статьи"
   properties: null
   items: null
-language: JAVASCRIPT

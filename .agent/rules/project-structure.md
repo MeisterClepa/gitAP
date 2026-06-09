@@ -21,10 +21,10 @@ This document describes the directory layout of an Agent Platform project.
 │   │   └── <node-id>.yml
 │   ├── functions/                  # Function call nodes
 │   │   └── <node-id>.yml
-│   ├── code/                       # Custom JavaScript/Python code nodes
+│   ├── code/                       # Custom JavaScript code nodes
 │   │   └── <node-id>/
 │   │       ├── schema.yml          # Node definition
-│   │       └── code.js|code.py     # Implementation
+│   │       └── code.js             # JavaScript implementation
 │   ├── conditions/                 # Conditional branching nodes
 │   │   └── <node-id>.yml
 │   └── triggers/                   # Trigger nodes (entry points)
@@ -36,7 +36,7 @@ This document describes the directory layout of an Agent Platform project.
 │   └── <collection-name>/
 │       └── <function-name>/
 │           ├── schema.yml          # Function definition and parameters
-│           └── code.js|code.py     # Function implementation
+│           └── code.js             # Function implementation (JavaScript)
 ├── integrations/
 │   ├── mcp/                        # MCP server integrations
 │   ├── smtp/                       # SMTP email integrations

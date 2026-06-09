@@ -2,8 +2,8 @@
 id: state_SendNews
 name: sendNews
 position:
-  x: 822
-  y: 296
+  x: 831
+  y: 379
 next-step: state_LlmSendText
 parameters:
   type: USER
@@ -12,4 +12,4 @@ parameters:
   is-tool: false
   parameters: {}
   context-config: null
-  hitl-tool-config: null
+  custom-headers: null
