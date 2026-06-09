@@ -1,8 +1,0 @@
----
-key: 1000001-4-plz
-credential-key: null
-name: 4
-provider: OPEN_AI
-model: just-ai/openai-proxy/gpt-4.1
-is-direct-access: false
-origin-key: 1000001-4-dpz
