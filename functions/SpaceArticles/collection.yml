@@ -5,3 +5,4 @@ dependencies:
   version: 1.17.0
   code-name: axios
   description: Promise based HTTP client for the browser and node.js
+language: JAVASCRIPT

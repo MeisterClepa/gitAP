@@ -1,0 +1,8 @@
+---
+key: 1000001-123123-niv
+credential-key: 1000001-sip-vou
+name: 123123
+host: voip02.lo.test-ai.net
+port: 6367
+lines-available: 1
+accept-incoming: true

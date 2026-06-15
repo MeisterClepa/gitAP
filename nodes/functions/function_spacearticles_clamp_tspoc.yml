@@ -2,8 +2,8 @@
 id: function_spacearticles_clamp_tspoc
 name: clamp
 position:
-  x: 474
-  y: -304
+  x: 516
+  y: -511
 next-step: state_Agent
 parameters:
   type: USER
@@ -16,4 +16,5 @@ parameters:
       value: https://webhook.site/43b59b81-260e-4b7c-a6ae-d93240bbe437
       filled-ai: false
   context-config: null
+  hitl-tool-config: null
   custom-headers: null

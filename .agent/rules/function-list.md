@@ -182,10 +182,10 @@ For detailed info about parameters and response, read the corresponding file.
 
 ## User Functions
 
+- `SpaceArticles.clamp` — 123
+  Directory: functions/SpaceArticles/clamp/
 - `SpaceArticles.searchArticles` — Найти последние статьи по нужной теме
   Directory: functions/SpaceArticles/searchArticles/
 - `SpaceArticles.sendNews` — Получить последние новости и составить пост
   Directory: functions/SpaceArticles/sendNews/
-- `SpaceArticles.clamp` — 123
-  Directory: functions/SpaceArticles/clamp/
 

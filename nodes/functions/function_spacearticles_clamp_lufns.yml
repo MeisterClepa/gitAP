@@ -16,4 +16,5 @@ parameters:
       value: https://webhook.site/43b59b81-260e-4b7c-a6ae-d93240bbe437
       filled-ai: false
   context-config: null
+  hitl-tool-config: null
   custom-headers: null

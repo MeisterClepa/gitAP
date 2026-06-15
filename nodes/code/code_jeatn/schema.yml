@@ -5,4 +5,5 @@ position:
   x: 1355
   y: -328
 next-step: function_reactions_sendtext_zdnit
-parameters: {}
+parameters:
+  language: JAVASCRIPT
