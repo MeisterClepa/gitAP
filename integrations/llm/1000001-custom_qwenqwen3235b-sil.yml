@@ -1,6 +1,6 @@
 ---
-key: 1000001-custom_qwenqwen3235b-odr
-credential-key: 1000001-test-ohk
+key: 1000001-custom_qwenqwen3235b-sil
+credential-key: 1000001-test-kyq
 name: CUSTOM - Qwen/Qwen3-235B-A22B-Instruct-2507-tput
 provider: CUSTOM
 model: Qwen/Qwen3-235B-A22B-Instruct-2507-tput
