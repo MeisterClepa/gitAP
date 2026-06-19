@@ -1,6 +1,6 @@
 ---
-key: 1000101512-123-kcs
-credential-key: 1000101512-llm2-yik
+key: 1000101512-123-gao
+credential-key: 1000101512-llm2-ufl
 name: 123
 provider: OPEN_AI
 model: gpt-5-mini
