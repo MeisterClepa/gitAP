@@ -1,19 +1,19 @@
 ---
-id: state_SendText
-name: Reactions.sendText
+id: function_spacearticles_searcharticles_pjtbv
+name: searchArticles
 position:
-  x: 1525
-  y: 378
+  x: 831
+  y: -395
 next-step: null
 parameters:
-  type: SYSTEM
-  collection: Reactions
-  function: sendText
+  type: USER
+  collection: SpaceArticles
+  function: searchArticles
   is-tool: false
   parameters:
-    text:
+    query:
       type: STRING
-      value: "{{Context.getLastFunctionResult()}}"
+      value: null
       filled-ai: false
   context-config: null
   hitl-tool-config: null

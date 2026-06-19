@@ -1,0 +1,25 @@
+---
+id: function_log_info_yyhge
+name: Log.info
+position:
+  x: 804
+  y: -224
+next-step: null
+parameters:
+  type: SYSTEM
+  collection: Log
+  function: info
+  is-tool: false
+  parameters:
+    message:
+      type: STRING
+      value: что-то работает
+      filled-ai: false
+    data:
+      type: OBJECT
+      value: null
+      properties: {}
+      filled-ai: false
+  context-config: null
+  hitl-tool-config: null
+  custom-headers: null

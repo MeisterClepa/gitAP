@@ -1,0 +1,10 @@
+---
+id: trigger_webhook_ghqer
+name: Вебхук
+position:
+  x: 420
+  y: -477
+next-step: function_spacearticles_searcharticles_pjtbv
+parameters:
+  url: https://jaicp.zfl-stage.lo.test-ai.net/workflow-trigger/925e3bc9-2fe8-444a-b524-a37e14034277
+  mock-payload: null

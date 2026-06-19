@@ -7,7 +7,7 @@ response-description: Функция получает релевантные с�
 parameters:
 - name: query
   type: STRING
-  required: false
+  required: true
   description: "Термин на английском языке, по которому нужно найти статьи"
   properties: null
   items: null
