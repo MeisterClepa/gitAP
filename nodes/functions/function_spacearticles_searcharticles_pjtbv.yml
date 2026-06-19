@@ -13,7 +13,7 @@ parameters:
   parameters:
     query:
       type: STRING
-      value: Elon Musk
+      value: null
       filled-ai: false
   context-config: null
   hitl-tool-config: null
