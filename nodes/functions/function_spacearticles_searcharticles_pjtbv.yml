@@ -2,8 +2,8 @@
 id: function_spacearticles_searcharticles_pjtbv
 name: searchArticles
 position:
-  x: 831
-  y: -395
+  x: 928
+  y: -415
 next-step: null
 parameters:
   type: USER
@@ -13,7 +13,7 @@ parameters:
   parameters:
     query:
       type: STRING
-      value: null
+      value: 123
       filled-ai: false
   context-config: null
   hitl-tool-config: null
