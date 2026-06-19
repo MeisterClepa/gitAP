@@ -190,4 +190,6 @@ For detailed info about parameters and response, read the corresponding file.
   Directory: functions/SpaceArticles/searchArticles/
 - `SpaceArticles.sendNews` — Получить последние новости и составить пост
   Directory: functions/SpaceArticles/sendNews/
+- `test.sendData` — sendData
+  Directory: functions/test/sendData/
 
