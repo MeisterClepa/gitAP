@@ -1,1 +1,0 @@
-sdk.context.get_bot_id()
