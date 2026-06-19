@@ -1,8 +1,0 @@
----
-description: test
-dependencies:
-- key: requests
-  version: 2.34.0.dev1
-  code-name: requests
-  description: Python HTTP for Humans.
-language: PYTHON

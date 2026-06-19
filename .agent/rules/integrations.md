@@ -8,8 +8,10 @@ Integrations are stored in `integrations/<type>/` directories. Each integration 
 ------------|------|----------|-------------|---------|
  `collection-name` | string | yes | Name of the function collection exposed by this MCP server |  |
  `credential-key` | string | no | Reference to credential used for authentication |  |
+ `custom-headers` | map | no | Custom HTTP headers sent with every request to the MCP server |  |
  `key` | string | yes | Unique integration key | my-mcp-server |
  `name` | string | yes | Human-readable integration name |  |
+ `transport-type` | string | no | Transport type |  |
  `url` | string | yes | URL of the MCP server | https://mcp.example.com |
 
 ## SMTP Integration (`integrations/smtp/`)
@@ -31,6 +33,8 @@ Integrations are stored in `integrations/<type>/` directories. Each integration 
 | YAML Field | Type | Required | Description | Example |
 ------------|------|----------|-------------|---------|
  `credential-key` | string | no | Reference to credential used for authentication |  |
+ `custom-headers` | jsonnode | no | Custom headers for direct access LLM model |  |
+ `custom-url` | string | no | Custom URL for direct access LLM model |  |
  `is-direct-access` | boolean | yes | Whether this is a direct access (custom) LLM model |  |
  `key` | string | yes | Unique integration key | openai-gpt4 |
  `model` | string | yes | Model identifier | gpt-4 |
@@ -54,7 +58,6 @@ Unless the user explicitly asks for direct access, always use `is-direct-access:
 | YAML Field | Type | Required | Description | Example |
 ------------|------|----------|-------------|---------|
  `credential-key` | string | no | Reference to credential used for authentication |  |
- `is-auto-deploy` | boolean | yes | Whether auto-deploy is enabled for this channel |  |
  `key` | string | yes | Unique channel key |  |
  `name` | string | yes | Human-readable channel name |  |
  `operator-channel-key` | string | no | Key of the linked operator channel |  |

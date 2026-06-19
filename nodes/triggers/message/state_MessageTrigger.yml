@@ -1,9 +1,9 @@
 ---
-id: trigger_message_tgswh
+id: state_MessageTrigger
 name: Сообщение
 position:
-  x: 347
-  y: 35
-next-step: code_nnhej
+  x: 391
+  y: -291
+next-step: state_Agent
 parameters:
   placeholder: null

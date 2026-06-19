@@ -74,7 +74,9 @@ Executes a user-defined or system function.
 ------------|------|----------|-------------|---------|
  `parameters.collection` | string | yes | Name of the collection this function belongs to |  |
  `parameters.context-config` | functioncontextconfig | no | Configuration for storing function result in conversation context |  |
+ `parameters.custom-headers` | map | no | Per-block custom HTTP headers (currently for MCP tools); values may be templates |  |
  `parameters.function` | string | yes | Function name |  |
+ `parameters.hitl-tool-config` | hitltoolconfig | no | Human-in-the-loop tool confirmation configuration |  |
  `parameters.is-tool` | boolean | yes | Whether this function is exposed as a tool for LLM agent |  |
  `parameters.parameters` | map | no | Map of parameter name to parameter value with type info |  |
  `parameters.type` | string | yes | Function source type: USER, SYSTEM oк MCP | USER |
@@ -136,6 +138,7 @@ Evaluates a JavaScript condition and branches the flow.
 
 | YAML Field | Type | Required | Description | Example |
 ------------|------|----------|-------------|---------|
+ `parameters.mock-payload` | webhooktriggerpayloaddto | no | Mock payload used to pre-fill the test-trigger form on the UI |  |
  `parameters.url` | string | no | Webhook URL path for this trigger |  |
 
 ## Trigger: Message (`nodes/triggers/message/`)
@@ -147,6 +150,7 @@ Triggers when a user sends a message. No additional parameters.
 | YAML Field | Type | Required | Description | Example |
 ------------|------|----------|-------------|---------|
  `parameters.filter-rule` | map | no | Email filter rules for IMAP trigger |  |
+ `parameters.mock-payload` | imaptriggerpayloaddto | no | Mock payload used to pre-fill the test-trigger form on the UI |  |
 
 ## Node Layout Rules
 
