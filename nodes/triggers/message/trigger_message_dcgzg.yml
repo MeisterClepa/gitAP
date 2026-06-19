@@ -1,0 +1,9 @@
+---
+id: trigger_message_dcgzg
+name: Сообщение
+position:
+  x: 725
+  y: 248
+next-step: code_ekueo
+parameters:
+  placeholder: null

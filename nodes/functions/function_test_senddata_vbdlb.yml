@@ -1,0 +1,16 @@
+---
+id: function_test_senddata_vbdlb
+name: sendData
+position:
+  x: 1371
+  y: 200
+next-step: null
+parameters:
+  type: USER
+  collection: test
+  function: sendData
+  is-tool: false
+  parameters: {}
+  context-config: null
+  hitl-tool-config: null
+  custom-headers: null

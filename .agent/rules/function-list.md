@@ -184,3 +184,8 @@ For detailed info about parameters and response, read the corresponding file.
 - `Log.error` — Logs an error message
   Schema: .agent/system-functions/Log/error.json
 
+## User Functions
+
+- `test.sendData` — 123
+  Directory: functions/test/sendData/
+

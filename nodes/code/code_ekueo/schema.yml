@@ -1,0 +1,9 @@
+---
+id: code_ekueo
+name: Код
+position:
+  x: 1044
+  y: 220
+next-step: function_test_senddata_vbdlb
+parameters:
+  language: PYTHON
