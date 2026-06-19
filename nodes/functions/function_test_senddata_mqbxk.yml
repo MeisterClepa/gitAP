@@ -2,8 +2,8 @@
 id: function_test_senddata_mqbxk
 name: sendData
 position:
-  x: 543
-  y: -474
+  x: 566
+  y: -497
 next-step: null
 parameters:
   type: USER
