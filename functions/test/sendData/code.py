@@ -1,2 +1,2 @@
    # your code goes here
-   return 123
+   return 123456
