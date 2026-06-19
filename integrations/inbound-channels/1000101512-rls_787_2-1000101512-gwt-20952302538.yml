@@ -1,7 +1,8 @@
 ---
-key: 1000101512-rls_787-1000101512-DNo-20952298508
+key: 1000101512-rls_787_2-1000101512-gwt-20952302538
 credential-key: null
 name: Чат-виджет
 type: CHAT_WIDGET
 operator-channel-key: null
 settings: null
+origin-key: 1000101512-rls_787-1000101512-DNo-20952298508

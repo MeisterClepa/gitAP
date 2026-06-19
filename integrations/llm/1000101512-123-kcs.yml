@@ -1,0 +1,8 @@
+---
+key: 1000101512-123-kcs
+credential-key: 1000101512-llm2-yik
+name: 123
+provider: OPEN_AI
+model: gpt-5-mini
+is-direct-access: true
+origin-key: 1000101512-123-rbg
