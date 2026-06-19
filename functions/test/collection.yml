@@ -1,8 +1,0 @@
----
-description: 123
-dependencies:
-- key: humanize
-  version: 4.15.0
-  code-name: humanize
-  description: Python humanize utilities
-language: PYTHON

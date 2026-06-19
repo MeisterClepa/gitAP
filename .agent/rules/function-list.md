@@ -184,12 +184,3 @@ For detailed info about parameters and response, read the corresponding file.
 - `Log.error` — Logs an error message
   Schema: .agent/system-functions/Log/error.json
 
-## User Functions
-
-- `SpaceArticles.searchArticles` — Найти последние статьи по нужной теме
-  Directory: functions/SpaceArticles/searchArticles/
-- `SpaceArticles.sendNews` — Получить последние новости и составить пост
-  Directory: functions/SpaceArticles/sendNews/
-- `test.sendData` — sendData
-  Directory: functions/test/sendData/
-

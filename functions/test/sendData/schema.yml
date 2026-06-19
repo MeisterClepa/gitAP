@@ -1,7 +1,0 @@
----
-id: sendData
-name: sendData
-description: sendData
-response-description: 1234
-parameters: []
-language: PYTHON
