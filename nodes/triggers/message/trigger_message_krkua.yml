@@ -2,8 +2,8 @@
 id: trigger_message_krkua
 name: Сообщение
 position:
-  x: -270
-  y: 795
+  x: -278
+  y: 750
 next-step: cycle_hjbuj
 parameters:
   placeholder: null

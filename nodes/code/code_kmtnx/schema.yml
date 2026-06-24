@@ -2,8 +2,8 @@
 id: code_kmtnx
 name: Код
 position:
-  x: 511
-  y: 1033
+  x: 224
+  y: 1215
 next-step: function_context_get_pvnzm
 parameters:
   language: JAVASCRIPT

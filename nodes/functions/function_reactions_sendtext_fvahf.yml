@@ -2,8 +2,8 @@
 id: function_reactions_sendtext_fvahf
 name: Reactions.sendText
 position:
-  x: 1058
-  y: 1041
+  x: 915
+  y: 1011
 next-step: null
 parameters:
   type: SYSTEM
