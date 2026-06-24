@@ -13,16 +13,16 @@ For detailed info about parameters and response, read the corresponding file.
   Schema: .agent/system-functions/Context/getChannelType.json
 - `Context.getBotId` — Gets the bot ID from the current request
   Schema: .agent/system-functions/Context/getBotId.json
-- `Context.isAsyncChannel` — Checks if the current channel is asynchronous
-  Schema: .agent/system-functions/Context/isAsyncChannel.json
 - `Context.isTestChannel` — Checks if the current channel is a test channel
   Schema: .agent/system-functions/Context/isTestChannel.json
+- `Context.isAsyncChannel` — Checks if the current channel is asynchronous
+  Schema: .agent/system-functions/Context/isAsyncChannel.json
 - `Context.getRequestId` — Gets the question ID from the current request
   Schema: .agent/system-functions/Context/getRequestId.json
-- `Context.getChatId` — Gets the chat ID from the current request
-  Schema: .agent/system-functions/Context/getChatId.json
 - `Context.getMessageContent` — Gets the content of the message from the current request
   Schema: .agent/system-functions/Context/getMessageContent.json
+- `Context.getChatId` — Gets the chat ID from the current request
+  Schema: .agent/system-functions/Context/getChatId.json
 - `Context.getSessionId` — Gets the session ID from the current request
   Schema: .agent/system-functions/Context/getSessionId.json
 - `Context.getClientInfo` — Gets the client information from the current request
@@ -45,10 +45,10 @@ For detailed info about parameters and response, read the corresponding file.
   Schema: .agent/system-functions/Db/countByFilters.json
 - `Db.put` — Saves a document by documentKey (upsert operation)
   Schema: .agent/system-functions/Db/put.json
-- `Db.delete` — Deletes a document by documentKey
-  Schema: .agent/system-functions/Db/delete.json
 - `Db.deleteByFilters` — Deletes multiple documents by filter
   Schema: .agent/system-functions/Db/deleteByFilters.json
+- `Db.delete` — Deletes a document by documentKey
+  Schema: .agent/system-functions/Db/delete.json
 - `Db.updateByFilters` — Updates documents matching the filter
   Schema: .agent/system-functions/Db/updateByFilters.json
 - `Email.send` — Sends an email using the specified SMTP integration
@@ -93,14 +93,14 @@ For detailed info about parameters and response, read the corresponding file.
   Schema: .agent/system-functions/Reactions/sendLocation.json
 - `Reactions.sendRawRequest` — Sends a raw request as a response for advanced use cases
   Schema: .agent/system-functions/Reactions/sendRawRequest.json
-- `Telegram.sendImage` — Sends an image by URL to a Telegram chat
-  Schema: .agent/system-functions/Telegram/sendImage.json
 - `Telegram.sendVoice` — Sends a voice message to a Telegram chat
   Schema: .agent/system-functions/Telegram/sendVoice.json
 - `Telegram.sendText` — Sends a text message to a Telegram chat
   Schema: .agent/system-functions/Telegram/sendText.json
 - `Telegram.sendAudio` — Sends an audio file to a Telegram chat
   Schema: .agent/system-functions/Telegram/sendAudio.json
+- `Telegram.sendImage` — Sends an image by URL to a Telegram chat
+  Schema: .agent/system-functions/Telegram/sendImage.json
 - `Telegram.sendButtons` — Sends a message with inline keyboard buttons to a Telegram chat
   Schema: .agent/system-functions/Telegram/sendButtons.json
 - `SessionDb.get` — Finds a single document by documentKey
