@@ -1,0 +1,20 @@
+---
+id: function_reactions_sendtext_dveeq
+name: Reactions.sendText
+position:
+  x: 956
+  y: 57
+next-step: null
+parameters:
+  type: SYSTEM
+  collection: Reactions
+  function: sendText
+  is-tool: false
+  parameters:
+    text:
+      type: STRING
+      value: конец цикла
+      filled-ai: false
+  context-config: null
+  hitl-tool-config: null
+  custom-headers: null

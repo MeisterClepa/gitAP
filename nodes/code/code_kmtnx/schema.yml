@@ -1,0 +1,9 @@
+---
+id: code_kmtnx
+name: Код
+position:
+  x: 511
+  y: 1033
+next-step: function_context_get_pvnzm
+parameters:
+  language: JAVASCRIPT

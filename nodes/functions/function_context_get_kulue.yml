@@ -1,0 +1,20 @@
+---
+id: function_context_get_kulue
+name: Context.get
+position:
+  x: 84
+  y: 1182
+next-step: null
+parameters:
+  type: SYSTEM
+  collection: Context
+  function: get
+  is-tool: false
+  parameters:
+    key:
+      type: STRING
+      value: 123
+      filled-ai: false
+  context-config: null
+  hitl-tool-config: null
+  custom-headers: null

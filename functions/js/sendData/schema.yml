@@ -1,0 +1,13 @@
+---
+id: sendData
+name: sendData
+description: sendData
+response-description: 123
+parameters:
+- name: test
+  type: NUMBER
+  required: true
+  description: 123
+  properties: null
+  items: null
+language: JAVASCRIPT

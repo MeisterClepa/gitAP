@@ -1,0 +1,20 @@
+---
+id: function_reactions_sendtext_fvahf
+name: Reactions.sendText
+position:
+  x: 1058
+  y: 1041
+next-step: null
+parameters:
+  type: SYSTEM
+  collection: Reactions
+  function: sendText
+  is-tool: false
+  parameters:
+    text:
+      type: STRING
+      value: "{{previousResult}}"
+      filled-ai: false
+  context-config: null
+  hitl-tool-config: null
+  custom-headers: null
