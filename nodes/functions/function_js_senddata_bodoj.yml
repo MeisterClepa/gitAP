@@ -1,0 +1,16 @@
+---
+id: function_js_senddata_bodoj
+name: sendData
+position:
+  x: -20
+  y: 1064
+next-step: null
+parameters:
+  type: USER
+  collection: js
+  function: sendData
+  is-tool: false
+  parameters: {}
+  context-config: null
+  hitl-tool-config: null
+  custom-headers: null
