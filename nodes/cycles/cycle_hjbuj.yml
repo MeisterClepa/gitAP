@@ -2,14 +2,14 @@
 id: cycle_hjbuj
 name: Цикл
 position:
-  x: -39
-  y: 594
+  x: -64
+  y: 581
 next-step: function_reactions_sendtext_degss
 parameters:
   mode: FOR
   start: 1
   step: 1
-  condition-value: 3
+  condition-value: 5
   condition-operator: LOWER
   array-expression: null
   batch-size: null

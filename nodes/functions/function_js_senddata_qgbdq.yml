@@ -1,16 +1,18 @@
 ---
-id: function_js_senddata_bodoj
+id: function_js_senddata_qgbdq
 name: sendData
 position:
-  x: -42
-  y: 1512
+  x: 272
+  y: 945
 next-step: null
 parameters:
   type: USER
   collection: js
   function: sendData
-  is-tool: false
+  is-tool: true
   parameters: {}
   context-config: null
-  hitl-tool-config: null
+  hitl-tool-config:
+    enabled: true
+    approval-question: Confirm action?
   custom-headers: null

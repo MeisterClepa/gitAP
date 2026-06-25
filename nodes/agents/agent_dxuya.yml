@@ -2,8 +2,8 @@
 id: agent_dxuya
 name: Агент
 position:
-  x: 346
-  y: 712
+  x: 280
+  y: 768
 next-step: null
 parameters:
   llm-model-key: 1000001-open_ai_gpt41-ntv
@@ -19,7 +19,8 @@ parameters:
     goal: веди диалог
     instructions: ""
     query-override: null
-  tools: []
+  tools:
+  - function_js_senddata_qgbdq
   handoff-agents:
     allowed-any: false
     allowed-agent-node-ids: []
