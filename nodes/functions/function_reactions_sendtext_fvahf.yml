@@ -2,8 +2,8 @@
 id: function_reactions_sendtext_fvahf
 name: Reactions.sendText
 position:
-  x: 656
-  y: 715
+  x: 325
+  y: 1062
 next-step: null
 parameters:
   type: SYSTEM
@@ -13,7 +13,7 @@ parameters:
   parameters:
     text:
       type: STRING
-      value: 123
+      value: "{{previousResult}}"
       filled-ai: false
   context-config: null
   hitl-tool-config: null

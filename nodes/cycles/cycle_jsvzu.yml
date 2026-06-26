@@ -1,0 +1,18 @@
+---
+id: cycle_jsvzu
+name: Цикл
+position:
+  x: 545
+  y: 58
+next-step: null
+parameters:
+  mode: FOR
+  start: 1
+  step: 1
+  condition-value: 10
+  condition-operator: LOWER
+  array-expression: null
+  batch-size: null
+  condition: null
+  max-iterations-count: null
+  loop-step: null

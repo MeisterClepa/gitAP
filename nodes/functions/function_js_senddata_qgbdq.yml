@@ -2,8 +2,8 @@
 id: function_js_senddata_qgbdq
 name: sendData
 position:
-  x: 272
-  y: 945
+  x: 667
+  y: 693
 next-step: null
 parameters:
   type: USER

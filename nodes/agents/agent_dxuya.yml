@@ -2,8 +2,8 @@
 id: agent_dxuya
 name: Агент
 position:
-  x: 280
-  y: 768
+  x: 667
+  y: 484
 next-step: null
 parameters:
   llm-model-key: 1000001-open_ai_gpt41-ntv
@@ -16,7 +16,7 @@ parameters:
     verbose-mode: true
   system-promts:
     role: помощник
-    goal: веди диалог
+    goal: рассказывай как эта цикла используется
     instructions: ""
     query-override: null
   tools:

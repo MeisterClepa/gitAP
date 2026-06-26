@@ -1,4 +1,4 @@
-const end = Date.now() + 4000;
+const end = Date.now() + 3000;
 
 while (Date.now() < end) {
     // busy wait

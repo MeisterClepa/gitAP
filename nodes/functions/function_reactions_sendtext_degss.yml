@@ -2,8 +2,8 @@
 id: function_reactions_sendtext_degss
 name: Reactions.sendText
 position:
-  x: 371
-  y: 438
+  x: 861
+  y: 250
 next-step: null
 parameters:
   type: SYSTEM

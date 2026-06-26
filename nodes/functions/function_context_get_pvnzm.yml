@@ -2,8 +2,8 @@
 id: function_context_get_pvnzm
 name: Context.get
 position:
-  x: 684
-  y: 1452
+  x: 243
+  y: 844
 next-step: function_reactions_sendtext_fvahf
 parameters:
   type: SYSTEM
@@ -13,7 +13,7 @@ parameters:
   parameters:
     key:
       type: STRING
-      value: /cycle_hjbuj.iteration
+      value: /cycle_hjbuj.value
       filled-ai: false
   context-config: null
   hitl-tool-config: null
