@@ -2,8 +2,8 @@
 id: function_log_info_yyhge
 name: Log.info
 position:
-  x: 966
-  y: -222
+  x: 698
+  y: -250
 next-step: null
 parameters:
   type: SYSTEM

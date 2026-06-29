@@ -2,8 +2,8 @@
 id: state_MessageTrigger
 name: Сообщение
 position:
-  x: 184
-  y: -401
-next-step: function_test_senddata_mqbxk
+  x: 72
+  y: -745
+next-step: function_sh_clamp_sjzrf
 parameters:
   placeholder: null

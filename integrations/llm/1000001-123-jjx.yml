@@ -1,6 +1,6 @@
 ---
-key: 1000101512-123-ars
-credential-key: 1000101512-llm2-qwn
+key: 1000001-123-jjx
+credential-key: 1000001-llm2-uba
 name: 123
 provider: OPEN_AI
 model: gpt-5-mini
