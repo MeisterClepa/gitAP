@@ -184,3 +184,10 @@ For detailed info about parameters and response, read the corresponding file.
 - `Tts.synthesize` — Converts text to speech using the specified TTS integration and returns an audio URL
   Schema: .agent/system-functions/Tts/synthesize.json
 
+## User Functions
+
+- `sh.clamp` — clamp
+  Directory: functions/sh/clamp/
+- `sh.assert` — assert
+  Directory: functions/sh/assert/
+
