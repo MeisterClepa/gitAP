@@ -4,6 +4,6 @@ name: Сообщение
 position:
   x: 897
   y: 280
-next-step: null
+next-step: function_asr_recognize_yzhfe
 parameters:
   placeholder: null
