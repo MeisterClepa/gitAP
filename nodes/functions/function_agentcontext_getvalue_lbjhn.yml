@@ -1,0 +1,24 @@
+---
+id: function_agentcontext_getvalue_lbjhn
+name: getValue
+position:
+  x: 644
+  y: 513
+next-step: null
+parameters:
+  type: SYSTEM
+  collection: AgentContext
+  function: getValue
+  is-tool: false
+  parameters:
+    key:
+      type: STRING
+      value: null
+      filled-ai: false
+    agentId:
+      type: STRING
+      value: null
+      filled-ai: false
+  context-config: null
+  hitl-tool-config: null
+  custom-headers: null

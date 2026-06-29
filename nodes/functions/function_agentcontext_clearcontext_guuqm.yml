@@ -1,0 +1,20 @@
+---
+id: function_agentcontext_clearcontext_guuqm
+name: clearContext
+position:
+  x: 1204
+  y: 113
+next-step: null
+parameters:
+  type: SYSTEM
+  collection: AgentContext
+  function: clearContext
+  is-tool: false
+  parameters:
+    agentId:
+      type: STRING
+      value: null
+      filled-ai: false
+  context-config: null
+  hitl-tool-config: null
+  custom-headers: null

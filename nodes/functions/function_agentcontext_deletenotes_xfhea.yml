@@ -1,0 +1,20 @@
+---
+id: function_agentcontext_deletenotes_xfhea
+name: deleteNotes
+position:
+  x: 644
+  y: 313
+next-step: null
+parameters:
+  type: SYSTEM
+  collection: AgentContext
+  function: deleteNotes
+  is-tool: false
+  parameters:
+    agentId:
+      type: STRING
+      value: null
+      filled-ai: false
+  context-config: null
+  hitl-tool-config: null
+  custom-headers: null
