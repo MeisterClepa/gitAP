@@ -1,9 +1,0 @@
----
-id: trigger_message_pwzim
-name: Сообщение
-position:
-  x: 695
-  y: 179
-next-step: function_agentcontext_addnote_bwgnl
-parameters:
-  placeholder: null

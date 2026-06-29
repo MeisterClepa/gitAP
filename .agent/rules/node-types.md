@@ -24,11 +24,13 @@ An LLM-powered agent node that can use tools and hand off to other agents.
  `parameters.handoff-agents` | handoffagents | no | Configuration for agent handoff (transfer to other agents) |  |
  `parameters.llm-model-key` | string | no | Key of the LLM model to use | openai-gpt4 |
  `parameters.llm-model-settings` | agentllmsettings | no | LLM generation settings (temperature, maxTokens, etc.) |  |
- `parameters.sequential-tool-calls-limit` | number | yes | Maximum number of sequential tool calls before forcing a response | 5 |
+ `parameters.sequential-tool-calls-limit` | number | yes | Maximum number of sequential tool calls before forcing a response | 10 |
  `parameters.stay-in-agent` | boolean | yes | Whether to keep conversation within this agent after tool execution |  |
  `parameters.system-promts` | agentsystempromts | no | System prompts configuration for the agent |  |
  `parameters.telephony-config` | telephonyconfig | no | Telephony-specific configuration (barge-in, fillers) |  |
  `parameters.tools` | list | no | List of tool node IDs available to this agent |  |
+ `parameters.total-response-timeout` | timeoutconfig | no | Total response timeout configuration |  |
+ `parameters.unique-tools-count-limit` | number | yes | Maximum number of unique tools that can be called by the agent | 10 |
 
 ### System Prompts
 
@@ -46,6 +48,8 @@ An LLM-powered agent node that can use tools and hand off to other agents.
  `parameters.llm-model-settings.frequency-penalty` | float | yes | Frequency penalty to reduce repetition | 0.0 |
  `parameters.llm-model-settings.max-tokens` | number | no | Maximum number of tokens in LLM response | 2048 |
  `parameters.llm-model-settings.presence-penalty` | float | yes | Presence penalty to encourage topic diversity | 0.0 |
+ `parameters.llm-model-settings.structured-output-enabled` | boolean | yes | Enable structured output mode (JSON Schema response). Incompatible with stayInAgent and verboseMode. |  |
+ `parameters.llm-model-settings.structured-output-schema` | objectnode | no | JSON Schema for structured output. Required when structuredOutputEnabled is true. |  |
  `parameters.llm-model-settings.temperature` | float | yes | Sampling temperature (0.0 = deterministic, 1.0 = creative) | 0.7 |
  `parameters.llm-model-settings.top-p` | float | yes | Top-p (nucleus) sampling parameter | 1.0 |
  `parameters.llm-model-settings.verbose-mode` | boolean | yes | Whether to include verbose LLM output in logs |  |
