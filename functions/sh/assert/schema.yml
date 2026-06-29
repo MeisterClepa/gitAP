@@ -4,7 +4,7 @@ name: assert
 description: assert
 response-description: 1234
 parameters:
-- name: query
+- name: querys
   type: STRING
   required: true
   description: "Термин на английском языке, по которому нужно найти статьи"

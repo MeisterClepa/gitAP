@@ -186,8 +186,8 @@ For detailed info about parameters and response, read the corresponding file.
 
 ## User Functions
 
-- `sh.clamp` — clamp
-  Directory: functions/sh/clamp/
 - `sh.assert` — assert
   Directory: functions/sh/assert/
+- `sh.clamp` — clamp
+  Directory: functions/sh/clamp/
 
