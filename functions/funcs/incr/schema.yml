@@ -1,0 +1,13 @@
+---
+id: incr
+name: incr
+description: incr
+response-description: result
+parameters:
+- name: value
+  type: NUMBER
+  required: true
+  description: a
+  properties: null
+  items: null
+language: JAVASCRIPT
