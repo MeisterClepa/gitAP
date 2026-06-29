@@ -186,10 +186,10 @@ For detailed info about parameters and response, read the corresponding file.
 
 ## User Functions
 
-- `pytc.clamp` — clamp
-  Directory: functions/pytc/clamp/
-- `sh.assert` — assert
-  Directory: functions/sh/assert/
 - `sh.clamp` — clamp
   Directory: functions/sh/clamp/
+- `sh.assert` — assert
+  Directory: functions/sh/assert/
+- `pytc.clamp` — clamp
+  Directory: functions/pytc/clamp/
 
