@@ -1,0 +1,9 @@
+---
+id: trigger_message_pflyg
+name: Сообщение
+position:
+  x: 897
+  y: 280
+next-step: null
+parameters:
+  placeholder: null
