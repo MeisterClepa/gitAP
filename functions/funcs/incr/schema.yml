@@ -4,7 +4,7 @@ name: incr
 description: incr
 response-description: result
 parameters:
-- name: value2sdc
+- name: value
   type: NUMBER
   required: true
   description: a
