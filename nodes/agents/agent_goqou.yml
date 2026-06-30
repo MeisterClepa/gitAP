@@ -20,7 +20,7 @@ parameters:
     role: помщник
     goal: веди диалог
     instructions: ""
-    query-override: привет
+    query-override: ""
   tools:
   - function_sh_clamp_gxqtr
   handoff-agents:

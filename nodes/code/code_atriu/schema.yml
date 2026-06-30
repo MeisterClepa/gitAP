@@ -1,0 +1,9 @@
+---
+id: code_atriu
+name: Код
+position:
+  x: 514
+  y: -166
+next-step: null
+parameters:
+  language: PYTHON
