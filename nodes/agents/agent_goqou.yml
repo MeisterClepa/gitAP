@@ -2,8 +2,8 @@
 id: agent_goqou
 name: Агент
 position:
-  x: 967
-  y: -617
+  x: 1075
+  y: -695
 next-step: null
 parameters:
   llm-model-key: 1000001-open_ai_gpt51-jov
@@ -21,8 +21,7 @@ parameters:
     goal: веди диалог
     instructions: ""
     query-override: ""
-  tools:
-  - function_sh_clamp_gxqtr
+  tools: []
   handoff-agents:
     allowed-any: false
     allowed-agent-node-ids: []

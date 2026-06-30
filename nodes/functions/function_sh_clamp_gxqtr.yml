@@ -2,19 +2,19 @@
 id: function_sh_clamp_gxqtr
 name: sh.clamp
 position:
-  x: 1278
-  y: -440
-next-step: null
+  x: 1166
+  y: -422
+next-step: code_atriu
 parameters:
   type: USER
   collection: sh
   function: clamp
-  is-tool: true
+  is-tool: false
   parameters:
     query:
       type: STRING
-      value: "{{previousResult}}"
-      filled-ai: true
+      value: 312313
+      filled-ai: false
   context-config: null
   hitl-tool-config: null
   custom-headers: null

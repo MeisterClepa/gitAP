@@ -2,8 +2,8 @@
 id: function_reactions_sendtext_valid
 name: Reactions.sendText
 position:
-  x: 995
-  y: -190
+  x: 1897
+  y: -449
 next-step: null
 parameters:
   type: SYSTEM
@@ -13,7 +13,7 @@ parameters:
   parameters:
     text:
       type: STRING
-      value: выход
+      value: "{{previousResult}}"
       filled-ai: false
   context-config: null
   hitl-tool-config: null

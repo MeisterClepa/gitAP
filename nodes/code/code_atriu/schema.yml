@@ -2,8 +2,8 @@
 id: code_atriu
 name: Код
 position:
-  x: 514
-  y: -166
-next-step: null
+  x: 1551
+  y: -438
+next-step: function_reactions_sendtext_valid
 parameters:
   language: PYTHON
