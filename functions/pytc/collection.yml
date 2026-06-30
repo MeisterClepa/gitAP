@@ -1,8 +1,0 @@
----
-description: pytc
-dependencies:
-- key: humanize
-  version: 4.16.0
-  code-name: humanize
-  description: Python humanize utilities
-language: PYTHON

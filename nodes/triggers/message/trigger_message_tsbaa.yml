@@ -1,9 +1,0 @@
----
-id: trigger_message_tsbaa
-name: Сообщение
-position:
-  x: 759
-  y: 276
-next-step: function_pytc_humanize_uyahe
-parameters:
-  placeholder: null
