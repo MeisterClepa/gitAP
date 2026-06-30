@@ -1,2 +1,2 @@
  // your code goes here
-    return value + 1236;
+    return value + 1;
