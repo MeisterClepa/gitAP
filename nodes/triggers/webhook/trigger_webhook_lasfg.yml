@@ -1,0 +1,10 @@
+---
+id: trigger_webhook_lasfg
+name: Вебхук
+position:
+  x: 508
+  y: -654
+next-step: agent_goqou
+parameters:
+  url: https://test23.lo.test-ai.net/workflow-trigger/3f8b0ed9-d262-4d32-8d0b-0b96df705c33
+  mock-payload: null

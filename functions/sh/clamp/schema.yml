@@ -3,5 +3,11 @@ id: clamp
 name: clamp
 description: clamp
 response-description: 123
-parameters: []
+parameters:
+- name: query
+  type: STRING
+  required: true
+  description: 123
+  properties: null
+  items: null
 language: JAVASCRIPT

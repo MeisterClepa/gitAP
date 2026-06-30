@@ -1,0 +1,20 @@
+---
+id: function_sh_clamp_gxqtr
+name: sh.clamp
+position:
+  x: 1278
+  y: -440
+next-step: null
+parameters:
+  type: USER
+  collection: sh
+  function: clamp
+  is-tool: true
+  parameters:
+    query:
+      type: STRING
+      value: "{{previousResult}}"
+      filled-ai: true
+  context-config: null
+  hitl-tool-config: null
+  custom-headers: null

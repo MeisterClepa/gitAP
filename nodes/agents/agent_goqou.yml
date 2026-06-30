@@ -1,0 +1,37 @@
+---
+id: agent_goqou
+name: Агент
+position:
+  x: 967
+  y: -617
+next-step: null
+parameters:
+  llm-model-key: 1000001-open_ai_gpt51-jov
+  llm-model-settings:
+    max-tokens: 4000
+    temperature: 0.6
+    top-p: 1.0
+    frequency-penalty: 0.0
+    presence-penalty: 0.0
+    verbose-mode: true
+    structured-output-enabled: false
+    structured-output-schema: null
+  system-promts:
+    role: помщник
+    goal: веди диалог
+    instructions: ""
+    query-override: привет
+  tools:
+  - function_sh_clamp_gxqtr
+  handoff-agents:
+    allowed-any: false
+    allowed-agent-node-ids: []
+  stay-in-agent: false
+  telephony-config: null
+  enable-context: true
+  chat-history-limit: 50
+  sequential-tool-calls-limit: 10
+  unique-tools-count-limit: 10
+  total-response-timeout:
+    timeout: 30
+    timeout-unit: SECOND
