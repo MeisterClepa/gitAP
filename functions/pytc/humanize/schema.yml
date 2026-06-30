@@ -4,7 +4,7 @@ name: humanize
 description: 123
 response-description: 123
 parameters:
-- name: query
+- name: querysda
   type: STRING
   required: true
   description: qw3

@@ -1,3 +1,2 @@
-   # your code goes here
-   import humanize
-   return humanize.naturalsize(123456789)
+async def humanize(querys):
+async def humanize(querys):
