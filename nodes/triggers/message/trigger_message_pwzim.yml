@@ -1,9 +1,0 @@
----
-id: trigger_message_pwzim
-name: Сообщение
-position:
-  x: 575
-  y: -434
-next-step: agent_goqou
-parameters:
-  placeholder: null
