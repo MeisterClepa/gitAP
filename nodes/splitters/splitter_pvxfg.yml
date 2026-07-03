@@ -7,4 +7,5 @@ position:
 next-step: null
 next-error-step: null
 parameters:
-  next-steps: null
+  next-steps:
+  - agent_guruh

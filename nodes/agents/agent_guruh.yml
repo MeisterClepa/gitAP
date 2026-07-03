@@ -4,7 +4,7 @@ name: Агент
 position:
   x: 1502
   y: -103
-next-step: null
+next-step: collector_fqlat
 next-error-step: code_syapj
 parameters:
   llm-model-key: null
