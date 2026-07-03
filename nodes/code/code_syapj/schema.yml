@@ -2,9 +2,9 @@
 id: code_syapj
 name: Код
 position:
-  x: 1105
-  y: 311
+  x: 1085
+  y: 270
 next-step: null
-next-error-step: null
+next-error-step: function_context_getlaststateerror_xwyhp
 parameters:
   language: JAVASCRIPT
