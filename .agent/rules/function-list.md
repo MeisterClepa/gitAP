@@ -51,6 +51,8 @@ For detailed info about parameters and response, read the corresponding file.
   Schema: .agent/system-functions/Context/getLastFunctionResult.json
 - `Context.getChatHistory` — Retrieves the chat history for the current account
   Schema: .agent/system-functions/Context/getChatHistory.json
+- `Context.getLastStateError` — Gets the structured error of the previously failed node, routed via its error connector
+  Schema: .agent/system-functions/Context/getLastStateError.json
 - `Credentials.get` — Retrieves credential information by its key
   Schema: .agent/system-functions/Credentials/get.json
 - `Db.get` — Finds a single document by documentKey in the specified database collection
@@ -179,11 +181,4 @@ For detailed info about parameters and response, read the corresponding file.
   Schema: .agent/system-functions/Telegram/sendButtons.json
 - `Tts.synthesize` — Converts text to speech using the specified TTS integration and returns an audio URL
   Schema: .agent/system-functions/Tts/synthesize.json
-
-## User Functions
-
-- `sh.assert` — assert
-  Directory: functions/sh/assert/
-- `sh.clamp` — clamp
-  Directory: functions/sh/clamp/
 

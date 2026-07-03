@@ -1,7 +1,0 @@
----
-key: 1000001-open_ai_gpt51-jov
-credential-key: null
-name: OPEN_AI - gpt-5.1
-provider: OPEN_AI
-model: just-ai/openai-proxy/gpt-5.1
-is-direct-access: false

@@ -9,6 +9,7 @@ All YAML files use **kebab-case** field naming (e.g. `llm-model-key`, `next-step
 ------------|------|----------|-------------|---------|
  `id` | string | yes | Unique node identifier | agent-1 |
  `name` | string | yes | Human-readable node name | Main Agent |
+ `next-error-step` | string | no | ID of the node to execute when this node fails (error fallback) |  |
  `next-step` | string | no | ID of the next node to execute after this one |  |
  `parameters` | params | yes | Node-type-specific parameters (varies by node type) |  |
  `position` | position | no | Node position on the visual canvas |  |
