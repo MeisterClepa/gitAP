@@ -4,7 +4,7 @@ name: Сообщение
 position:
   x: 721
   y: 277
-next-step: function_http_get_hovle
+next-step: code_syapj
 next-error-step: null
 parameters:
   placeholder: null
