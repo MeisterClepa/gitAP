@@ -1,0 +1,10 @@
+---
+id: splitter_pvxfg
+name: Разветвление
+position:
+  x: 1138
+  y: -2
+next-step: null
+next-error-step: null
+parameters:
+  next-steps: null

@@ -1,0 +1,10 @@
+---
+id: collector_fqlat
+name: Слияние
+position:
+  x: 1891
+  y: 87
+next-step: null
+next-error-step: null
+parameters:
+  mode: AWAIT_ALL

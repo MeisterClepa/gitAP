@@ -1,0 +1,10 @@
+---
+id: trigger_message_fxbfn
+name: Сообщение
+position:
+  x: 865
+  y: -192
+next-step: null
+next-error-step: null
+parameters:
+  placeholder: null
