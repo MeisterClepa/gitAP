@@ -5,7 +5,7 @@ position:
   x: 1070
   y: 291
 next-step: function_reactions_sendtext_gifxo
-next-error-step: function_context_getlaststateerror_xwyhp
+next-error-step: null
 parameters:
   type: SYSTEM
   collection: Http
