@@ -1,0 +1,10 @@
+---
+id: collector_pudrh
+name: Слияние
+position:
+  x: 1264
+  y: -233
+next-step: null
+next-error-step: null
+parameters:
+  mode: AWAIT_ALL

@@ -1,0 +1,31 @@
+---
+id: function_http_get_hovle
+name: Http.get
+position:
+  x: 1070
+  y: 291
+next-step: function_reactions_sendtext_gifxo
+next-error-step: function_context_getlaststateerror_xwyhp
+parameters:
+  type: SYSTEM
+  collection: Http
+  function: get
+  is-tool: false
+  parameters:
+    url:
+      type: STRING
+      value: https://webhook.site/#!/view/86cf1ed0-693c-4c69-sdxvbvc n43453456мммм
+      filled-ai: false
+    params:
+      type: OBJECT
+      value: null
+      properties: {}
+      filled-ai: false
+    headers:
+      type: OBJECT
+      value: null
+      properties: {}
+      filled-ai: false
+  context-config: null
+  hitl-tool-config: null
+  custom-headers: null
