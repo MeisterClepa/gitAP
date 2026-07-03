@@ -5,6 +5,6 @@ position:
   x: 1105
   y: 311
 next-step: null
-next-error-step: function_context_getlaststateerror_xwyhp
+next-error-step: null
 parameters:
   language: JAVASCRIPT
