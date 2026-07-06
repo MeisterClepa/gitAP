@@ -5,7 +5,7 @@ position:
   x: 1502
   y: -103
 next-step: null
-next-error-step: code_syapj
+next-error-step: null
 parameters:
   llm-model-key: null
   llm-model-settings:
