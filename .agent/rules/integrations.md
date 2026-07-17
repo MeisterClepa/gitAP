@@ -130,6 +130,7 @@ Credentials are stored in `credentials/<group>/<key>.yml`. They contain only met
 
 | YAML Field | Type | Required | Description | Example |
 ------------|------|----------|-------------|---------|
+ `expired-at` | instant | no | Credential expiration date-time (ISO-8601), preserved across export/import | 2026-01-01T00:00:00Z |
  `group` | string | no | Credential group | LLM |
  `key` | string | yes | Unique credential key used for referencing | openai-cred |
  `name` | string | yes | Human-readable credential name | OpenAI API Key |
