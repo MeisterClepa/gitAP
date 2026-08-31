@@ -7,7 +7,7 @@ position:
 next-step: null
 next-error-step: null
 parameters:
-  llm-model-key: 1000001-open_ai_gpt41-jtx
+  llm-model-key: 1000001-open_ai_gpt41-eyh
   llm-model-settings:
     max-tokens: 4000
     temperature: 0.6
@@ -31,7 +31,7 @@ parameters:
       1. Проанализируй последние сообщения в чате.
       2. Составь один абзац текста с основными событиями, переведи на русский язык. Ссылки и даты не включай.
       3. Отправь пользователю.
-    query-override: null
+    query-override: ""
   tools:
   - state_searchArticles
   handoff-agents:
@@ -44,4 +44,8 @@ parameters:
   sequential-tool-calls-limit: 5
   unique-tools-count-limit: 10
   total-response-timeout: null
-  prompt-expert-mode: null
+  prompt-expert-mode:
+    enabled: true
+    custom-prompt: test test
+    system-tools:
+      switchToState: false
