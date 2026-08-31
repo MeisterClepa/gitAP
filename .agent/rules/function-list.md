@@ -49,6 +49,8 @@ For detailed info about parameters and response, read the corresponding file.
   Schema: .agent/system-functions/Context/getRawRequest.json
 - `Context.getLastFunctionResult` — Gets the result of the previously executed function
   Schema: .agent/system-functions/Context/getLastFunctionResult.json
+- `Context.getLastStateError` — Gets the structured error of the previously failed node, routed via its error connector
+  Schema: .agent/system-functions/Context/getLastStateError.json
 - `Context.getChatHistory` — Retrieves the chat history for the current account
   Schema: .agent/system-functions/Context/getChatHistory.json
 - `Credentials.get` — Retrieves credential information by its key
@@ -186,6 +188,8 @@ For detailed info about parameters and response, read the corresponding file.
 
 ## User Functions
 
-- `sh.assert` — assert
-  Directory: functions/sh/assert/
+- `SpaceArticles.searchArticles` — Найти последние статьи по нужной теме
+  Directory: functions/SpaceArticles/searchArticles/
+- `SpaceArticles.sendNews` — Получить последние новости и составить пост
+  Directory: functions/SpaceArticles/sendNews/
 

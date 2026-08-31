@@ -1,8 +1,0 @@
----
-description: sh
-dependencies:
-- key: axios
-  version: 1.18.1
-  code-name: axios
-  description: Promise based HTTP client for the browser and node.js
-language: JAVASCRIPT

@@ -1,0 +1,10 @@
+---
+id: state_MessageTrigger
+name: Сообщение
+position:
+  x: 391
+  y: -291
+next-step: state_Agent
+next-error-step: null
+parameters:
+  placeholder: null

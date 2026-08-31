@@ -1,9 +1,0 @@
----
-id: trigger_message_tndst
-name: Сообщение
-position:
-  x: 774
-  y: 177
-next-step: null
-parameters:
-  placeholder: null
