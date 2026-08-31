@@ -7,7 +7,7 @@ position:
 next-step: null
 next-error-step: null
 parameters:
-  llm-model-key: 1000001-open_ai_gpt41-eyh
+  llm-model-key: 1000001-open_ai_gpt41-jtx
   llm-model-settings:
     max-tokens: 4000
     temperature: 0.6
@@ -46,6 +46,6 @@ parameters:
   total-response-timeout: null
   prompt-expert-mode:
     enabled: true
-    custom-prompt: test test
+    custom-prompt: test test1
     system-tools:
       switchToState: false
