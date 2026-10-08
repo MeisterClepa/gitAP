@@ -1,0 +1,17 @@
+---
+id: function_test_world_awplq
+name: test.world
+position:
+  x: 549
+  y: 304
+next-step: null
+next-error-step: null
+parameters:
+  type: USER
+  collection: test
+  function: world
+  is-tool: false
+  parameters: {}
+  context-config: null
+  hitl-tool-config: null
+  custom-headers: null
