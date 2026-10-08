@@ -2,8 +2,8 @@
 id: function_agentcontext_addnote_nvshc
 name: AgentContext.addNote
 position:
-  x: 824
-  y: 227
+  x: 700
+  y: -19
 next-step: null
 next-error-step: null
 parameters:
