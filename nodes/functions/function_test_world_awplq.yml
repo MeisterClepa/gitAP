@@ -2,8 +2,8 @@
 id: function_test_world_awplq
 name: test.world
 position:
-  x: 549
-  y: 304
+  x: 396
+  y: 270
 next-step: null
 next-error-step: null
 parameters:

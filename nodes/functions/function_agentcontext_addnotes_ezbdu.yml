@@ -1,0 +1,27 @@
+---
+id: function_agentcontext_addnotes_ezbdu
+name: AgentContext.addNotes
+position:
+  x: 1104
+  y: 227
+next-step: null
+next-error-step: null
+parameters:
+  type: SYSTEM
+  collection: AgentContext
+  function: addNotes
+  is-tool: false
+  parameters:
+    texts:
+      type: ARRAY
+      value: null
+      items: null
+      filled-ai: false
+    agentIds:
+      type: ARRAY
+      value: null
+      items: null
+      filled-ai: false
+  context-config: null
+  hitl-tool-config: null
+  custom-headers: null
