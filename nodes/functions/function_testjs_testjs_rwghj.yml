@@ -1,15 +1,15 @@
 ---
-id: function_test_world_awplq
-name: test.world
+id: function_testjs_testjs_rwghj
+name: testjs.testjs
 position:
-  x: 433
-  y: 277
+  x: 538
+  y: 406
 next-step: null
 next-error-step: null
 parameters:
   type: USER
-  collection: test
-  function: world
+  collection: testjs
+  function: testjs
   is-tool: false
   parameters: {}
   context-config: null

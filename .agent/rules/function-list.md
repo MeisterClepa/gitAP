@@ -190,4 +190,6 @@ For detailed info about parameters and response, read the corresponding file.
 
 - `test.world` — world
   Directory: functions/test/world/
+- `testjs.testjs` — testjs
+  Directory: functions/testjs/testjs/
 
