@@ -2,8 +2,8 @@
 id: function_testjs_testjs_rwghj
 name: testjs.testjs
 position:
-  x: 538
-  y: 406
+  x: 499
+  y: 242
 next-step: null
 next-error-step: null
 parameters:
