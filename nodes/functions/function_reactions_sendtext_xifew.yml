@@ -1,0 +1,21 @@
+---
+id: function_reactions_sendtext_xifew
+name: Reactions.sendText
+position:
+  x: 805
+  y: -64
+next-step: null
+next-error-step: null
+parameters:
+  type: SYSTEM
+  collection: Reactions
+  function: sendText
+  is-tool: false
+  parameters:
+    text:
+      type: STRING
+      value: sg
+      filled-ai: false
+  context-config: null
+  hitl-tool-config: null
+  custom-headers: null
