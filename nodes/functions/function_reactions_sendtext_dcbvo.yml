@@ -14,7 +14,7 @@ parameters:
   parameters:
     text:
       type: STRING
-      value: "{{Context.getLastFunctionResult()}}"
+      value: "{{Context.getLastFunctionResult()}}sdfsf"
       filled-ai: false
   context-config: null
   hitl-tool-config: null
