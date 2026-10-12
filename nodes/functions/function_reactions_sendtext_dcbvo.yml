@@ -2,8 +2,8 @@
 id: function_reactions_sendtext_dcbvo
 name: Reactions.sendText
 position:
-  x: 1006
-  y: 389
+  x: 993
+  y: 380
 next-step: null
 next-error-step: null
 parameters:
