@@ -1,0 +1,26 @@
+---
+id: function_log_debug_scisk
+name: Log.debug
+position:
+  x: 893
+  y: 134
+next-step: null
+next-error-step: null
+parameters:
+  type: SYSTEM
+  collection: Log
+  function: debug
+  is-tool: false
+  parameters:
+    message:
+      type: STRING
+      value: 2343
+      filled-ai: false
+    data:
+      type: OBJECT
+      value: null
+      properties: {}
+      filled-ai: false
+  context-config: null
+  hitl-tool-config: null
+  custom-headers: null
