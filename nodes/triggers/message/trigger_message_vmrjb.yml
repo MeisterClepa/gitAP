@@ -1,0 +1,10 @@
+---
+id: trigger_message_vmrjb
+name: Сообщение
+position:
+  x: 696
+  y: 378
+next-step: function_reactions_sendtext_dcbvo
+next-error-step: null
+parameters:
+  placeholder: null
