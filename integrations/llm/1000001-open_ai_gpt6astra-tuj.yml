@@ -1,0 +1,7 @@
+---
+key: 1000001-open_ai_gpt6astra-tuj
+credential-key: null
+name: OPEN_AI - gpt-6-astra
+provider: OPEN_AI
+model: just-ai/openai-proxy/gpt-6-astra
+is-direct-access: false
