@@ -14,7 +14,7 @@ parameters:
   parameters:
     text:
       type: STRING
-      value: "{{Context.getLastFunctionResult(апувмив)}}"
+      value: "{{Context.getLastFunctionResult(апувмxcvxcvив)}}"
       filled-ai: false
   context-config: null
   hitl-tool-config: null
