@@ -49,6 +49,8 @@ For detailed info about parameters and response, read the corresponding file.
   Schema: .agent/system-functions/Context/getRawRequest.json
 - `Context.getLastFunctionResult` — Gets the result of the previously executed function
   Schema: .agent/system-functions/Context/getLastFunctionResult.json
+- `Context.getLastStateError` — Gets the structured error of the previously failed node, routed via its error connector
+  Schema: .agent/system-functions/Context/getLastStateError.json
 - `Context.getChatHistory` — Retrieves the chat history for the current account
   Schema: .agent/system-functions/Context/getChatHistory.json
 - `Credentials.get` — Retrieves credential information by its key
@@ -67,6 +69,10 @@ For detailed info about parameters and response, read the corresponding file.
   Schema: .agent/system-functions/Db/deleteByFilters.json
 - `Db.updateByFilters` — Updates documents matching the filter
   Schema: .agent/system-functions/Db/updateByFilters.json
+- `Dialer.transferCall` — Transfers the active phone call to another phone number. The transfer result can be retrieved using getTransferStatus after the transfer completes.
+  Schema: .agent/system-functions/Dialer/transferCall.json
+- `Dialer.getTransferStatus` — Gets the result of the last call transfer. Returns SUCCESS, FAIL, TIMEOUT, or NOT_AVAILABLE if no transfer has been made yet.
+  Schema: .agent/system-functions/Dialer/getTransferStatus.json
 - `Dialer.getCaller` — Returns the phone number of the client. Returns null if rawRequest is not available
   Schema: .agent/system-functions/Dialer/getCaller.json
 - `Dialer.hangUp` — Terminates the current call. On telephony channels sends a hangup reply, on other channels sends an optional text message
@@ -179,11 +185,4 @@ For detailed info about parameters and response, read the corresponding file.
   Schema: .agent/system-functions/Telegram/sendButtons.json
 - `Tts.synthesize` — Converts text to speech using the specified TTS integration and returns an audio URL
   Schema: .agent/system-functions/Tts/synthesize.json
-
-## User Functions
-
-- `Pyth.sendData` — sendData
-  Directory: functions/Pyth/sendData/
-- `RealPyth.clamp` — clamp
-  Directory: functions/RealPyth/clamp/
 

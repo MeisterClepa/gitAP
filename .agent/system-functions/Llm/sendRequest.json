@@ -9,7 +9,7 @@
       },
       "messages" : {
         "type" : "array",
-        "description" : "Array of message objects with role and content",
+        "description" : "Conversation sent to the model, oldest message first",
         "items" : {
           "type" : "object",
           "description" : "",
@@ -20,26 +20,26 @@
             },
             "text" : {
               "type" : "string",
-              "description" : "Text content"
+              "description" : "Message text"
             },
             "images" : {
               "type" : "array",
-              "description" : "Images content",
+              "description" : "Images attached to the message",
               "items" : {
                 "type" : "object",
                 "description" : "",
                 "properties" : {
                   "url" : {
                     "type" : "string",
-                    "description" : ""
+                    "description" : "Image URL"
                   },
                   "description" : {
                     "type" : "string",
-                    "description" : ""
+                    "description" : "What to pay attention to in the image"
                   },
                   "mimeType" : {
                     "type" : "string",
-                    "description" : ""
+                    "description" : "Image mime type, needed by Gemini only"
                   }
                 },
                 "required" : [ "url" ]
@@ -47,18 +47,18 @@
             },
             "toolCalls" : {
               "type" : "array",
-              "description" : "Optional tool calls made by this message",
+              "description" : "Tool calls the model asked for in its previous reply. Fill in only when you continue a tool-calling loop: return them together with that assistant message. Leave empty for a plain request",
               "items" : {
                 "type" : "object",
                 "description" : "",
                 "properties" : {
                   "id" : {
                     "type" : "string",
-                    "description" : ""
+                    "description" : "Tool call identifier from the model reply"
                   },
                   "name" : {
                     "type" : "string",
-                    "description" : ""
+                    "description" : "Name of the tool the model asked to call"
                   },
                   "arguments" : {
                     "type" : "object",
@@ -69,6 +69,10 @@
                 },
                 "required" : [ ]
               }
+            },
+            "toolCallId" : {
+              "type" : "string",
+              "description" : "Identifier of the tool call this message answers. Filled in for messages with role tool"
             }
           },
           "required" : [ "role" ]
@@ -76,18 +80,18 @@
       },
       "tools" : {
         "type" : "array",
-        "description" : "Available tools for the LLM to use",
+        "description" : "Tools you offer the model. Needed only for a manual tool-calling loop: instead of text the model may answer with tool calls, and the scenario runs the tool itself and sends the result back with role tool. Leave empty for a plain request",
         "items" : {
           "type" : "object",
           "description" : "",
           "properties" : {
             "name" : {
               "type" : "string",
-              "description" : "Tool name"
+              "description" : "Tool name the model refers to"
             },
             "description" : {
               "type" : "string",
-              "description" : "Tool description"
+              "description" : "What the tool does — the model chooses the tool by this text"
             },
             "parameters" : {
               "type" : "object",
@@ -113,7 +117,7 @@
       },
       "responseFormat" : {
         "type" : "object",
-        "description" : "JSON Schema for the response format",
+        "description" : "Optional. JSON Schema of a structured answer. Without it the model answers with plain text in the text field",
         "properties" : { },
         "required" : [ ]
       },
