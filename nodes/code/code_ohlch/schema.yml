@@ -2,8 +2,8 @@
 id: code_ohlch
 name: Код
 position:
-  x: 1062
-  y: 193
+  x: 1036
+  y: 194
 next-step: null
 next-error-step: null
 parameters:
