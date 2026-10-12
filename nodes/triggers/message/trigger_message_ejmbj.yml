@@ -1,0 +1,10 @@
+---
+id: trigger_message_ejmbj
+name: Сообщение
+position:
+  x: 816
+  y: 23
+next-step: null
+next-error-step: null
+parameters:
+  placeholder: null
