@@ -14,7 +14,7 @@ parameters:
   parameters:
     text:
       type: STRING
-      value: "{{Context.getLastFunctionResult(апувмxcvxcvив)}}"
+      value: TESTABC123
       filled-ai: false
   context-config: null
   hitl-tool-config: null
