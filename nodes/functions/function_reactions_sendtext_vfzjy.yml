@@ -2,8 +2,8 @@
 id: function_reactions_sendtext_vfzjy
 name: Reactions.sendText
 position:
-  x: 944
-  y: 219
+  x: 895
+  y: 167
 next-step: null
 next-error-step: null
 parameters:
