@@ -4,7 +4,7 @@ name: Сообщение
 position:
   x: 605
   y: 218
-next-step: null
+next-step: function_reactions_sendtext_vfzjy
 next-error-step: null
 parameters:
   placeholder: null
