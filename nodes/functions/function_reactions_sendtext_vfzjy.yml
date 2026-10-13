@@ -14,7 +14,7 @@ parameters:
   parameters:
     text:
       type: STRING
-      value: 123sdgfsdhb
+      value: 123
       filled-ai: false
   context-config: null
   hitl-tool-config: null
