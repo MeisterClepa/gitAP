@@ -2,8 +2,8 @@
 id: trigger_message_vuhtn
 name: Сообщение
 position:
-  x: 613
-  y: 153
+  x: 543
+  y: 183
 next-step: function_reactions_sendtext_vfzjy
 next-error-step: null
 parameters:
