@@ -1,0 +1,57 @@
+---
+id: agent_vxfhe
+name: Агент
+position:
+  x: 1182
+  y: 0
+next-step: function_reactions_sendtext_rnbxz
+next-error-step: null
+parameters:
+  llm-model-key: 1000001-open_ai_gpt41-ppc
+  llm-model-settings:
+    max-tokens: 4000
+    temperature: 0.6
+    top-p: 1.0
+    frequency-penalty: 0.0
+    presence-penalty: 0.0
+    verbose-mode: true
+    structured-output-enabled: false
+    structured-output-schema: null
+  system-promts:
+    role: 123
+    goal: 123
+    instructions: vvvvv
+    query-override: "{{111111111}}"
+  tools: []
+  handoff-agents:
+    allowed-any: true
+    allowed-agent-node-ids: []
+  stay-in-agent: false
+  telephony-config:
+    enabled: true
+    llm-response-timeout-ms: 10000
+    barge-in-config:
+      barge-in: FORCED
+      barge-in-trigger: FINAL
+      no-interrupt-time: 0
+    fillers-phrase-config:
+      activation-delay-ms: 333
+      filler-phrases-list: []
+      is-pre-tool-enabled: true
+    silence-reprompt-config:
+      timeout-ms: 5555
+      max-repeats: 5
+      phrases: []
+      exhausted-action: DO_NOTHING
+  enable-context: true
+  use-dynamic-tools: true
+  chat-history-limit: 1111
+  sequential-tool-calls-limit: 11
+  unique-tools-count-limit: 5555
+  total-response-timeout:
+    timeout: 3333
+    timeout-unit: MINUTE
+  prompt-expert-mode:
+    enabled: false
+    custom-prompt: ""
+    system-tools: null
