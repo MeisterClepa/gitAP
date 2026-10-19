@@ -29,7 +29,7 @@ parameters:
   stay-in-agent: false
   telephony-config:
     enabled: true
-    llm-response-timeout-ms: 10000
+    llm-response-timeout-ms: 12310000
     barge-in-config:
       barge-in: FORCED
       barge-in-trigger: FINAL
