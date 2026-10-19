@@ -14,8 +14,7 @@ parameters:
   parameters:
     text:
       type: STRING
-      value: "Напиши алгоритм поиска циклов в ориентированном графе, оцени сложнос\
-        ть, сравни DFS, Tarjan и Kosaraju."
+      value: dfsfsf
       filled-ai: false
   context-config: null
   hitl-tool-config: null
