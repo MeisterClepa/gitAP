@@ -2,8 +2,8 @@
 id: function_reactions_sendtext_rnbxz
 name: Reactions.sendText
 position:
-  x: 826
-  y: 158
+  x: 763
+  y: 141
 next-step: null
 next-error-step: agent_vxfhe
 parameters:
