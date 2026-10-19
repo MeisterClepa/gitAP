@@ -10,7 +10,7 @@ All YAML files use **kebab-case** field naming.
 - Language: `ru`
 - Engine version: `1`
 
-## Documentation
+## Documentation23
 
 Detailed format documentation is in `.agent/rules/`:
 
