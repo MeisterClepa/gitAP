@@ -2,8 +2,8 @@
 id: function_reactions_sendtext_rnbxz
 name: Reactions.sendText
 position:
-  x: 763
-  y: 141
+  x: 785
+  y: 11
 next-step: null
 next-error-step: agent_vxfhe
 parameters:
@@ -14,7 +14,7 @@ parameters:
   parameters:
     text:
       type: STRING
-      value: dfsfsf
+      value: dfsfsfjk
       filled-ai: false
   context-config: null
   hitl-tool-config: null
