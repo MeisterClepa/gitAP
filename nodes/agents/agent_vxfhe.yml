@@ -2,12 +2,12 @@
 id: agent_vxfhe
 name: Агент
 position:
-  x: 1070
-  y: -56
+  x: 1182
+  y: 0
 next-step: function_reactions_sendtext_rnbxz
 next-error-step: null
 parameters:
-  llm-model-key: 1000001-open_ai_gpt41-zgq
+  llm-model-key: 1000001-open_ai_gpt41-ppc
   llm-model-settings:
     max-tokens: 4000
     temperature: 0.6
@@ -29,13 +29,13 @@ parameters:
   stay-in-agent: false
   telephony-config:
     enabled: true
-    llm-response-timeout-ms: 12310000
+    llm-response-timeout-ms: 10000
     barge-in-config:
       barge-in: FORCED
       barge-in-trigger: FINAL
       no-interrupt-time: 0
     fillers-phrase-config:
-      activation-delay-ms: 3334
+      activation-delay-ms: 333
       filler-phrases-list: []
       is-pre-tool-enabled: true
     silence-reprompt-config:
