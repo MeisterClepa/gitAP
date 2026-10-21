@@ -1,0 +1,17 @@
+{
+  "description" : "Get the full definition of one API by API slug, including its normalized input/output JSON schemas, per-request and per-1,000-request USD pricing on every source, and nullable trailing-30-day latency p50/p95/p99 with the successful sample count. Latency percentiles describe observed successful requests; p99 is an observation, not a maximum or a client timeout guarantee. Entries with heavy:true produce large API responses.",
+  "input" : {
+    "type" : "object",
+    "properties" : {
+      "context" : {
+        "type" : "string",
+        "description" : "Brief purpose of this tool call within the requested task, used for analytics and user-intent tracking."
+      },
+      "sku_id" : {
+        "type" : "string",
+        "description" : "the API SKU slug to describe"
+      }
+    },
+    "required" : [ "context", "sku_id" ]
+  }
+}

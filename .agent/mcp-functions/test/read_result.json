@@ -1,0 +1,25 @@
+{
+  "description" : "Read or reshape a previously paid API result without executing or paying again. `result_id` identifies the full cached result; fields/max_items/summary/jq control its presentation, including row selection and slicing large fields. Results are cached ~15 min and are private to the authenticated account; an expired id returns result_expired.",
+  "input" : {
+    "type" : "object",
+    "properties" : {
+      "context" : {
+        "type" : "string",
+        "description" : "Brief purpose of this tool call within the requested task, used for analytics and user-intent tracking."
+      },
+      "jq" : {
+        "type" : "string",
+        "description" : "optional: a jq expression to reshape the result; its output replaces 'output'. Example: '.data | {title, description, md: .markdown[:3500]}'. Sandboxed 250ms/2MB budget"
+      },
+      "result_id" : {
+        "type" : "string",
+        "description" : "the resultId returned by a prior run_api call (cached ~15 min)"
+      },
+      "summary" : {
+        "type" : "boolean",
+        "description" : "optional: return only a structural outline (top-level keys, item counts, per-field byte sizes) instead of the full data"
+      }
+    },
+    "required" : [ "context", "result_id" ]
+  }
+}

@@ -186,3 +186,26 @@ For detailed info about parameters and response, read the corresponding file.
 - `Log.error` — Logs an error message
   Schema: .agent/system-functions/Log/error.json
 
+## MCP Functions
+
+- `test.get_api` — Get the full definition of one API by API slug, including its normalized input/output JSON schemas, per-request and per-1,000-request USD pricing on every source, and nullable trailing-30-day latency p50/p95/p99 with the successful sample count. Latency percentiles describe observed successful requests; p99 is an observation, not a maximum or a client timeout guarantee. Entries with heavy:true produce large API responses.
+  Schema: .agent/mcp-functions/test/get_api.json
+- `test.get_balance` — Get the remaining wallet balance (in USD) for the AnyAPI key supplied as a Bearer token. Requires a valid AnyAPI key.
+  Schema: .agent/mcp-functions/test/get_balance.json
+- `test.get_request` — Inspect or resume a durable AnyAPI request by request_id. This reads AnyAPI's stored state and never repeats the paid provider dispatch. While status is queued or running, retryAfterSeconds gives the minimum interval between status checks.
+  Schema: .agent/mcp-functions/test/get_request.json
+- `test.list_apis` — Browse available AnyAPI APIs as lightweight summaries (id, name, category, USD pricing), optionally filtered by category. Descriptions and schemas are omitted to keep catalog responses small. Each pricing offer carries both `maxUsd` (billed per request) and `maxPer1kUsd` (the same price per 1,000 requests).
+  Schema: .agent/mcp-functions/test/list_apis.json
+- `test.quote_api` — Get the exact input-aware execution price for an API, free and without a key. Nothing is charged or executed. `sku_id` and `input` identify the proposed execution; pricing resolves exactly as it does for execution, and input validation can return invalid_input without a charge. Returns maxCostUsd (the ceiling reserved), minCostUsd (the likely charge), and the base/per-item breakdown explaining why they differ. These are USD amounts for this one call, not per-1,000-request catalog comparison rates.
+  Schema: .agent/mcp-functions/test/quote_api.json
+- `test.read_result` — Read or reshape a previously paid API result without executing or paying again. `result_id` identifies the full cached result; fields/max_items/summary/jq control its presentation, including row selection and slicing large fields. Results are cached ~15 min and are private to the authenticated account; an expired id returns result_expired.
+  Schema: .agent/mcp-functions/test/read_result.json
+- `test.report_bug` — Submit a defect report to AnyAPI about wrong, empty, or malformed API data for valid input, misleading or unactionable errors, incorrect prices or schemas, or retries that failed unexpectedly. Free, never charged. `summary` is required and contains one line; optional `request_id` identifies the stored request and its upstream error body without requiring the payload in the report.
+  Schema: .agent/mcp-functions/test/report_bug.json
+- `test.run_api` — Execute an API by API slug with a normalized input payload. Every input schema is strict: unknown fields are rejected, not ignored, and field names can differ between related APIs. Inputs must conform to the endpoint's schema, not its description. Published latency p50/p95/p99 and sample counts describe observed successful requests; p99 is an observation, not a maximum or a client timeout guarantee. Requires a valid AnyAPI key as a Bearer token. Charges the USD wallet. Some failed wallet-funded requests incur processing charges passed through at cost, with no markup; the error message shows the amount charged. Results can be large. `fields` keeps selected keys, `max_items` caps returned rows, and `summary` returns an outline; these controls reduce response size without changing the charge.
+  Schema: .agent/mcp-functions/test/run_api.json
+- `test.search_apis` — Search APIs by meaning and keyword across name, slug, and description, returning matches with their descriptions but without schemas, ranked most relevant first. At least one of `query`, `category`, or `platform` is required, in any combination; `category` or `platform` without `query` enumerates that scope. `limit` caps matches (default 25, maximum 50). Each result carries a `relevance` score in (0,1] relative to the top match; a relevance floor drops weak matches, so `total` counts relevant matches before the limit. `ranking` identifies meaning-based ('semantic') or substring ('keyword') matching. Entries with heavy:true produce large API responses. Search results omit input schemas; API inputs require the endpoint's strict schema, whose field names can differ between related APIs.
+  Schema: .agent/mcp-functions/test/search_apis.json
+- `test.send_feedback` — Submit non-defect feedback to AnyAPI about an API you could not find in the catalog, a missing result field, confusing documentation or tool descriptions, or an improvement that would make a task easier. Free, never charged. `summary` is required and contains one line; optional `details` describes the task or suggestion.
+  Schema: .agent/mcp-functions/test/send_feedback.json
+

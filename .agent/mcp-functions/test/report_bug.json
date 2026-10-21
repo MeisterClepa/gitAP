@@ -1,0 +1,33 @@
+{
+  "description" : "Submit a defect report to AnyAPI about wrong, empty, or malformed API data for valid input, misleading or unactionable errors, incorrect prices or schemas, or retries that failed unexpectedly. Free, never charged. `summary` is required and contains one line; optional `request_id` identifies the stored request and its upstream error body without requiring the payload in the report.",
+  "input" : {
+    "type" : "object",
+    "properties" : {
+      "contact" : {
+        "type" : "string",
+        "description" : "optional: an email address for a reply; trial keys have no reachable account contact"
+      },
+      "context" : {
+        "type" : "string",
+        "description" : "Brief purpose of this tool call within the requested task, used for analytics and user-intent tracking."
+      },
+      "details" : {
+        "type" : "string",
+        "description" : "optional: what you expected, what you got, and anything you already tried"
+      },
+      "request_id" : {
+        "type" : "string",
+        "description" : "optional: the requestId or resultId from the run that went wrong. This is the single most useful field: it reaches the stored run, its attempts, and any upstream error body, so you do not need to paste the payload"
+      },
+      "sku" : {
+        "type" : "string",
+        "description" : "optional: the sku_id this is about, e.g. 'instagram.reels_search'"
+      },
+      "summary" : {
+        "type" : "string",
+        "description" : "one line saying what went wrong or what you want to tell us"
+      }
+    },
+    "required" : [ "context", "summary" ]
+  }
+}
