@@ -1,7 +1,0 @@
----
-id: test
-name: test
-description: 123
-response-description: 123
-parameters: []
-language: PYTHON

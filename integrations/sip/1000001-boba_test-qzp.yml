@@ -1,0 +1,8 @@
+---
+key: 1000001-boba_test-qzp
+credential-key: 1000001-boba-csc
+name: Боба Тест
+host: 62.105.132.84
+port: 5061
+lines-available: 5
+accept-incoming: false
