@@ -1,0 +1,17 @@
+---
+id: function_py2_senddata_befdb
+name: py2.sendData
+position:
+  x: 882
+  y: 162
+next-step: null
+next-error-step: null
+parameters:
+  type: USER
+  collection: py2
+  function: sendData
+  is-tool: false
+  parameters: {}
+  context-config: null
+  hitl-tool-config: null
+  custom-headers: null
