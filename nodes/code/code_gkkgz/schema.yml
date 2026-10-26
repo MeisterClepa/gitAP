@@ -1,0 +1,10 @@
+---
+id: code_gkkgz
+name: Код
+position:
+  x: 838
+  y: 318
+next-step: null
+next-error-step: null
+parameters:
+  language: PYTHON

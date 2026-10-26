@@ -1,8 +1,9 @@
 ---
-key: 1000001-123-jbh
+key: 1000001-123-alf
 credential-key: null
 name: 123
 transport-type: STREAMABLE_HTTP
 collection-name: test
 url: https://api.getanyapi.com/mcp
 custom-headers: null
+origin-key: 1000001-123-jbh

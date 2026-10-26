@@ -49,10 +49,10 @@ For detailed info about parameters and response, read the corresponding file.
   Schema: .agent/system-functions/Context/getRawRequest.json
 - `Context.getLastFunctionResult` — Gets the result of the previously executed function
   Schema: .agent/system-functions/Context/getLastFunctionResult.json
-- `Context.getChatHistory` — Retrieves the chat history for the current account
-  Schema: .agent/system-functions/Context/getChatHistory.json
 - `Context.getLastStateError` — Gets the structured error of the previously failed node, routed via its error connector
   Schema: .agent/system-functions/Context/getLastStateError.json
+- `Context.getChatHistory` — Retrieves the chat history for the current account
+  Schema: .agent/system-functions/Context/getChatHistory.json
 - `Credentials.get` — Retrieves credential information by its key
   Schema: .agent/system-functions/Credentials/get.json
 - `Db.get` — Finds a single document by documentKey in the specified database collection
@@ -69,6 +69,36 @@ For detailed info about parameters and response, read the corresponding file.
   Schema: .agent/system-functions/Db/deleteByFilters.json
 - `Db.updateByFilters` — Updates documents matching the filter
   Schema: .agent/system-functions/Db/updateByFilters.json
+- `Dialer.transferCall` — Transfers the active phone call to another phone number. The transfer result can be retrieved using getTransferStatus after the transfer completes.
+  Schema: .agent/system-functions/Dialer/transferCall.json
+- `Dialer.getTransferStatus` — Gets the result of the last call transfer. Returns SUCCESS, FAIL, TIMEOUT, or NOT_AVAILABLE if no transfer has been made yet.
+  Schema: .agent/system-functions/Dialer/getTransferStatus.json
+- `Dialer.getCaller` — Returns the phone number of the client. Returns null if rawRequest is not available
+  Schema: .agent/system-functions/Dialer/getCaller.json
+- `Dialer.hangUp` — Terminates the current call. On telephony channels sends a hangup reply, on other channels sends an optional text message
+  Schema: .agent/system-functions/Dialer/hangUp.json
+- `Dialer.isIncomingCall` — Checks whether the current call is incoming or outgoing. A call is incoming if there is no outgoing call ID
+  Schema: .agent/system-functions/Dialer/isIncomingCall.json
+- `Dialer.setNoInputTimeout` — Changes the timeout for waiting for a response from the client. Value is clamped to [100, 20000] ms
+  Schema: .agent/system-functions/Dialer/setNoInputTimeout.json
+- `Dialer.getAbonentTimezone` — Returns the timezone offset of the client as a formatted string (e.g. '+03:00:00'). Returns null if not available
+  Schema: .agent/system-functions/Dialer/getAbonentTimezone.json
+- `Dialer.getCallNotConnectedReason` — Returns the reason why an outgoing call was not connected. Returns null if not available
+  Schema: .agent/system-functions/Dialer/getCallNotConnectedReason.json
+- `Dialer.getCampaignSchedule` — Returns the schedule of the dialing campaign. Returns null if not available
+  Schema: .agent/system-functions/Dialer/getCampaignSchedule.json
+- `Dialer.getDialHistory` — Returns the history of completed and available dial attempts for the current number. Returns null if not available
+  Schema: .agent/system-functions/Dialer/getDialHistory.json
+- `Dialer.getPayload` — Returns the payload data associated with the dialed number. Returns an empty object if not available
+  Schema: .agent/system-functions/Dialer/getPayload.json
+- `Dialer.getRetryIntervals` — Returns the durations of pauses between dial retry attempts. Returns null if not available
+  Schema: .agent/system-functions/Dialer/getRetryIntervals.json
+- `Dialer.getRKCallID` — Returns the identifier of the outgoing call. Returns null if not on a resterisk channel
+  Schema: .agent/system-functions/Dialer/getRKCallID.json
+- `Dialer.getSipHeaders` — Returns the SIP headers from the current request. Returns an empty object if not available
+  Schema: .agent/system-functions/Dialer/getSipHeaders.json
+- `Dialer.redial` — Schedules a new series of retry attempts to dial the number. Requires startDateTime or localTimeFrom at least
+  Schema: .agent/system-functions/Dialer/redial.json
 - `Email.send` — Sends an email using the specified SMTP integration
   Schema: .agent/system-functions/Email/send.json
 - `Http.get` — Sends an HTTP GET request to the specified URL
@@ -91,6 +121,16 @@ For detailed info about parameters and response, read the corresponding file.
   Schema: .agent/system-functions/Llm/getChatHistory.json
 - `Llm.summarizeText` — Summarizes long text to a specified size while preserving key information.
   Schema: .agent/system-functions/Llm/summarizeText.json
+- `Log.info` — Logs an informational message
+  Schema: .agent/system-functions/Log/info.json
+- `Log.debug` — Logs a debug message
+  Schema: .agent/system-functions/Log/debug.json
+- `Log.trace` — Logs a trace message
+  Schema: .agent/system-functions/Log/trace.json
+- `Log.warn` — Logs a warning message
+  Schema: .agent/system-functions/Log/warn.json
+- `Log.error` — Logs an error message
+  Schema: .agent/system-functions/Log/error.json
 - `ProjectRouter.callProject` — Calls external project by chat api token and optional custom data
   Schema: .agent/system-functions/ProjectRouter/callProject.json
 - `ProjectRouter.switchTo` — Switches the conversation context to another project.
@@ -145,46 +185,6 @@ For detailed info about parameters and response, read the corresponding file.
   Schema: .agent/system-functions/Telegram/sendButtons.json
 - `Tts.synthesize` — Converts text to speech using the specified TTS integration and returns an audio URL
   Schema: .agent/system-functions/Tts/synthesize.json
-- `Dialer.getCaller` — Returns the phone number of the client. Returns null if rawRequest is not available
-  Schema: .agent/system-functions/Dialer/getCaller.json
-- `Dialer.hangUp` — Terminates the current call. On telephony channels sends a hangup reply, on other channels sends an optional text message
-  Schema: .agent/system-functions/Dialer/hangUp.json
-- `Dialer.isIncomingCall` — Checks whether the current call is incoming or outgoing. A call is incoming if there is no outgoing call ID
-  Schema: .agent/system-functions/Dialer/isIncomingCall.json
-- `Dialer.setNoInputTimeout` — Changes the timeout for waiting for a response from the client. Value is clamped to [100, 20000] ms
-  Schema: .agent/system-functions/Dialer/setNoInputTimeout.json
-- `Dialer.getAbonentTimezone` — Returns the timezone offset of the client as a formatted string (e.g. '+03:00:00'). Returns null if not available
-  Schema: .agent/system-functions/Dialer/getAbonentTimezone.json
-- `Dialer.getCallNotConnectedReason` — Returns the reason why an outgoing call was not connected. Returns null if not available
-  Schema: .agent/system-functions/Dialer/getCallNotConnectedReason.json
-- `Dialer.getCampaignSchedule` — Returns the schedule of the dialing campaign. Returns null if not available
-  Schema: .agent/system-functions/Dialer/getCampaignSchedule.json
-- `Dialer.getDialHistory` — Returns the history of completed and available dial attempts for the current number. Returns null if not available
-  Schema: .agent/system-functions/Dialer/getDialHistory.json
-- `Dialer.getPayload` — Returns the payload data associated with the dialed number. Returns an empty object if not available
-  Schema: .agent/system-functions/Dialer/getPayload.json
-- `Dialer.getRetryIntervals` — Returns the durations of pauses between dial retry attempts. Returns null if not available
-  Schema: .agent/system-functions/Dialer/getRetryIntervals.json
-- `Dialer.getRKCallID` — Returns the identifier of the outgoing call. Returns null if not on a resterisk channel
-  Schema: .agent/system-functions/Dialer/getRKCallID.json
-- `Dialer.getSipHeaders` — Returns the SIP headers from the current request. Returns an empty object if not available
-  Schema: .agent/system-functions/Dialer/getSipHeaders.json
-- `Dialer.redial` — Schedules a new series of retry attempts to dial the number. Requires startDateTime or localTimeFrom at least
-  Schema: .agent/system-functions/Dialer/redial.json
-- `Dialer.transferCall` — Transfers the active phone call to another phone number. The transfer result can be retrieved using getTransferStatus after the transfer completes.
-  Schema: .agent/system-functions/Dialer/transferCall.json
-- `Dialer.getTransferStatus` — Gets the result of the last call transfer. Returns SUCCESS, FAIL, TIMEOUT, or NOT_AVAILABLE if no transfer has been made yet.
-  Schema: .agent/system-functions/Dialer/getTransferStatus.json
-- `Log.info` — Logs an informational message
-  Schema: .agent/system-functions/Log/info.json
-- `Log.debug` — Logs a debug message
-  Schema: .agent/system-functions/Log/debug.json
-- `Log.trace` — Logs a trace message
-  Schema: .agent/system-functions/Log/trace.json
-- `Log.warn` — Logs a warning message
-  Schema: .agent/system-functions/Log/warn.json
-- `Log.error` — Logs an error message
-  Schema: .agent/system-functions/Log/error.json
 
 ## MCP Functions
 
