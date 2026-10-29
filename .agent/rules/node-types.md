@@ -87,7 +87,6 @@ Executes a user-defined or system function.
  `parameters.hitl-tool-config` | hitltoolconfig | no | Human-in-the-loop tool confirmation configuration |  |
  `parameters.is-tool` | boolean | yes | Whether this function is exposed as a tool for LLM agent |  |
  `parameters.parameters` | map | no | Map of parameter name to parameter value with type info |  |
- `parameters.resilience-config` | functionresilienceconfig | no | Timeout, retry count and fallback applied when the function call fails |  |
  `parameters.type` | string | yes | Function source type: USER, SYSTEM oк MCP | USER |
 
 Each entry in `parameters.parameters` map is a parameter name mapped to an object with `type`, `value`, and `filled-ai` fields.
