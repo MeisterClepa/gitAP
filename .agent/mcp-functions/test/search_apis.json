@@ -1,0 +1,25 @@
+{
+  "description" : "Search APIs by meaning and keyword across name, slug, and description, returning matches with their descriptions but without schemas, ranked most relevant first. At least one of `query`, `category`, or `platform` is required, in any combination; `category` or `platform` without `query` enumerates that scope. `limit` caps matches (default 25, maximum 50). Each result carries a `relevance` score in (0,1] relative to the top match; a relevance floor drops weak matches, so `total` counts relevant matches before the limit. `ranking` identifies meaning-based ('semantic') or substring ('keyword') matching. Entries with heavy:true produce large API responses. Search results omit input schemas; API inputs require the endpoint's strict schema, whose field names can differ between related APIs.",
+  "input" : {
+    "type" : "object",
+    "properties" : {
+      "category" : {
+        "type" : "string",
+        "description" : "optional category slug to narrow the search"
+      },
+      "context" : {
+        "type" : "string",
+        "description" : "Brief purpose of this tool call within the requested task, used for analytics and user-intent tracking."
+      },
+      "platform" : {
+        "type" : "string",
+        "description" : "optional API slug prefix to narrow the search"
+      },
+      "query" : {
+        "type" : "string",
+        "description" : "free-text search over API name, slug, and description; optional when category or platform is given"
+      }
+    },
+    "required" : [ "context" ]
+  }
+}

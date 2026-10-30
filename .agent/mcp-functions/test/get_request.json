@@ -1,0 +1,17 @@
+{
+  "description" : "Inspect or resume a durable AnyAPI request by request_id. This reads AnyAPI's stored state and never repeats the paid provider dispatch. While status is queued or running, retryAfterSeconds gives the minimum interval between status checks.",
+  "input" : {
+    "type" : "object",
+    "properties" : {
+      "context" : {
+        "type" : "string",
+        "description" : "Brief purpose of this tool call within the requested task, used for analytics and user-intent tracking."
+      },
+      "request_id" : {
+        "type" : "string",
+        "description" : "durable request identifier returned by run_api"
+      }
+    },
+    "required" : [ "context", "request_id" ]
+  }
+}

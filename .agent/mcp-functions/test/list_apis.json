@@ -1,0 +1,17 @@
+{
+  "description" : "Browse available AnyAPI APIs as lightweight summaries (id, name, category, USD pricing), optionally filtered by category. Descriptions and schemas are omitted to keep catalog responses small. Each pricing offer carries both `maxUsd` (billed per request) and `maxPer1kUsd` (the same price per 1,000 requests).",
+  "input" : {
+    "type" : "object",
+    "properties" : {
+      "category" : {
+        "type" : "string",
+        "description" : "optional category slug to filter by"
+      },
+      "context" : {
+        "type" : "string",
+        "description" : "Brief purpose of this tool call within the requested task, used for analytics and user-intent tracking."
+      }
+    },
+    "required" : [ "context" ]
+  }
+}

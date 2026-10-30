@@ -1,0 +1,23 @@
+{
+  "description" : "Get the exact input-aware execution price for an API, free and without a key. Nothing is charged or executed. `sku_id` and `input` identify the proposed execution; pricing resolves exactly as it does for execution, and input validation can return invalid_input without a charge. Returns maxCostUsd (the ceiling reserved), minCostUsd (the likely charge), and the base/per-item breakdown explaining why they differ. These are USD amounts for this one call, not per-1,000-request catalog comparison rates.",
+  "input" : {
+    "type" : "object",
+    "properties" : {
+      "context" : {
+        "type" : "string",
+        "description" : "Brief purpose of this tool call within the requested task, used for analytics and user-intent tracking."
+      },
+      "input" : {
+        "type" : "object",
+        "description" : "the exact normalized input payload being priced; the quote resolves pricing the same way execution does",
+        "properties" : { },
+        "required" : [ ]
+      },
+      "sku_id" : {
+        "type" : "string",
+        "description" : "the API SKU slug to price"
+      }
+    },
+    "required" : [ "context", "input", "sku_id" ]
+  }
+}

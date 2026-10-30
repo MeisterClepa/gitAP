@@ -1,0 +1,13 @@
+{
+  "description" : "Get the remaining wallet balance (in USD) for the AnyAPI key supplied as a Bearer token. Requires a valid AnyAPI key.",
+  "input" : {
+    "type" : "object",
+    "properties" : {
+      "context" : {
+        "type" : "string",
+        "description" : "Brief purpose of this tool call within the requested task, used for analytics and user-intent tracking."
+      }
+    },
+    "required" : [ "context" ]
+  }
+}
