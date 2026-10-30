@@ -2,8 +2,8 @@
 id: function_py2_senddata_befdb
 name: py2.sendData
 position:
-  x: 882
-  y: 162
+  x: 783
+  y: 171
 next-step: null
 next-error-step: null
 parameters:
