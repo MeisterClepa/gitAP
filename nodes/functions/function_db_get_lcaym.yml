@@ -1,0 +1,26 @@
+---
+id: function_db_get_lcaym
+name: Db.get
+position:
+  x: 805
+  y: 200
+next-step: function_reactions_sendtext_ahxvq
+next-error-step: null
+parameters:
+  type: SYSTEM
+  collection: Db
+  function: get
+  is-tool: false
+  parameters:
+    dbIntegration:
+      type: INTEGRATION_DB
+      value: 1000001-git_db-hyw
+      filled-ai: false
+    documentKey:
+      type: STRING
+      value: 42
+      filled-ai: false
+  context-config: null
+  hitl-tool-config: null
+  resilience-config: null
+  custom-headers: null

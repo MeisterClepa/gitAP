@@ -1,6 +1,7 @@
 ---
-key: 1000001-git_db-tst
+key: 1000001-git_db-hyw
 name: git_db
 scope: PROJECT
 versioned-in-git: true
 document-count: 2
+origin-key: 1000001-git_db-tst

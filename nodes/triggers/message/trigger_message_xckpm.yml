@@ -2,9 +2,9 @@
 id: trigger_message_xckpm
 name: Сообщение
 position:
-  x: 667
-  y: 291
-next-step: null
+  x: 499
+  y: 216
+next-step: function_db_get_lcaym
 next-error-step: null
 parameters:
   placeholder: null
