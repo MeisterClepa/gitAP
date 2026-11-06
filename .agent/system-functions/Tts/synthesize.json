@@ -1,0 +1,65 @@
+{
+  "description" : "Converts text to speech using the specified TTS integration and returns an audio URL. Not needed in a voice channel: the bot's replies there are synthesized automatically with the channel's TTS settings",
+  "input" : {
+    "type" : "object",
+    "properties" : {
+      "ttsIntegrationKey" : {
+        "type" : "string",
+        "description" : "The key of the text-to-speech integration to use"
+      },
+      "text" : {
+        "type" : "string",
+        "description" : "The text content to convert to speech"
+      },
+      "languageCode" : {
+        "type" : "string",
+        "description" : "Language code for speech synthesis (defaults to 'RU')"
+      },
+      "audioFormat" : {
+        "type" : "string",
+        "description" : "Audio format for the output file (defaults to 'WAV')"
+      }
+    },
+    "required" : [ "ttsIntegrationKey", "text" ]
+  },
+  "output" : {
+    "type" : "object",
+    "description" : "Synthesis result with the URL to the generated audio file",
+    "properties" : {
+      "settings" : {
+        "type" : "object",
+        "description" : "TTS settings used for synthesis"
+      },
+      "result" : {
+        "type" : "object",
+        "description" : "Synthesis result data",
+        "properties" : {
+          "url" : {
+            "type" : "string",
+            "description" : "URL to access the generated audio file"
+          }
+        },
+        "required" : [ "url" ]
+      },
+      "billing" : {
+        "type" : "object",
+        "description" : "Charge for an internal integration, billed from the account balance; absent for a custom integration",
+        "properties" : {
+          "resource" : {
+            "type" : "string",
+            "description" : "Billing resource, for example synthesis/yandex-tts"
+          },
+          "amount" : {
+            "type" : "integer",
+            "description" : "Charged characters; 0 when the audio came from the cache"
+          },
+          "charged" : {
+            "type" : "boolean",
+            "description" : "Whether billing confirmed the charge"
+          }
+        }
+      }
+    },
+    "required" : [ "settings", "result" ]
+  }
+}
