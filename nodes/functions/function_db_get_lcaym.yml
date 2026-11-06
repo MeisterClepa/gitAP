@@ -18,7 +18,7 @@ parameters:
       filled-ai: false
     documentKey:
       type: STRING
-      value: 42
+      value: news
       filled-ai: false
   context-config: null
   hitl-tool-config: null
