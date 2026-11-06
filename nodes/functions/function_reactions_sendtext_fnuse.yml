@@ -1,0 +1,22 @@
+---
+id: function_reactions_sendtext_fnuse
+name: Reactions.sendText
+position:
+  x: 785
+  y: 403
+next-step: null
+next-error-step: null
+parameters:
+  type: SYSTEM
+  collection: Reactions
+  function: sendText
+  is-tool: false
+  parameters:
+    text:
+      type: STRING
+      value: 1
+      filled-ai: false
+  context-config: null
+  hitl-tool-config: null
+  resilience-config: null
+  custom-headers: null
