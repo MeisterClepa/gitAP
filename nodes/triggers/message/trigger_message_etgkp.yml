@@ -4,7 +4,7 @@ name: Сообщение
 position:
   x: 643
   y: 301
-next-step: null
+next-step: agent_uarcd
 next-error-step: null
 parameters:
   placeholder: null
