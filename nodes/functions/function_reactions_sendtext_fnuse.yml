@@ -14,7 +14,7 @@ parameters:
   parameters:
     text:
       type: STRING
-      value: 133
+      value: 133ыва
       filled-ai: false
   context-config: null
   hitl-tool-config: null
