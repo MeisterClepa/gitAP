@@ -1,0 +1,54 @@
+{
+  "description" : "Recognizes audio content using the specified ASR integration. Not needed in a voice channel: the caller's speech there is recognized automatically with the channel's ASR settings",
+  "input" : {
+    "type" : "object",
+    "properties" : {
+      "asrIntegrationKey" : {
+        "type" : "string",
+        "description" : "Key identifying the ASR integration to use for recognition"
+      },
+      "audioUrl" : {
+        "type" : "string",
+        "description" : "URL to the audio file that needs to be recognized"
+      }
+    },
+    "required" : [ "asrIntegrationKey", "audioUrl" ]
+  },
+  "output" : {
+    "type" : "object",
+    "description" : "Recognition result",
+    "properties" : {
+      "metadata" : {
+        "type" : "object",
+        "description" : "ASR metadata information"
+      },
+      "settings" : {
+        "type" : "object",
+        "description" : "ASR settings used for recognition"
+      },
+      "result" : {
+        "type" : "object",
+        "description" : "ASR recognition result data"
+      },
+      "billing" : {
+        "type" : "object",
+        "description" : "Charge for an internal integration, billed from the account balance; absent for a custom integration",
+        "properties" : {
+          "resource" : {
+            "type" : "string",
+            "description" : "Billing resource, for example asr/yandex-asr"
+          },
+          "amount" : {
+            "type" : "integer",
+            "description" : "Charged seconds of audio"
+          },
+          "charged" : {
+            "type" : "boolean",
+            "description" : "Whether billing confirmed the charge"
+          }
+        }
+      }
+    },
+    "required" : [ "metadata", "settings", "result" ]
+  }
+}
