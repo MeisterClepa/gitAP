@@ -14,7 +14,7 @@ parameters:
   parameters:
     text:
       type: STRING
-      value: 1
+      value: 12
       filled-ai: false
   context-config: null
   hitl-tool-config: null
