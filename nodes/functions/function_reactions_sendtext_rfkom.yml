@@ -1,0 +1,22 @@
+---
+id: function_reactions_sendtext_rfkom
+name: Reactions.sendText
+position:
+  x: 775
+  y: 431
+next-step: null
+next-error-step: null
+parameters:
+  type: SYSTEM
+  collection: Reactions
+  function: sendText
+  is-tool: false
+  parameters:
+    text:
+      type: STRING
+      value: null
+      filled-ai: false
+  context-config: null
+  hitl-tool-config: null
+  resilience-config: null
+  custom-headers: null
