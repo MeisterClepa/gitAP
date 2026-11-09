@@ -2,8 +2,8 @@
 id: agent_uarcd
 name: Агент
 position:
-  x: 730
-  y: 413
+  x: 732
+  y: 683
 next-step: null
 next-error-step: null
 parameters:
