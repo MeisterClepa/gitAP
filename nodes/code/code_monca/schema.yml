@@ -1,0 +1,10 @@
+---
+id: code_monca
+name: Код
+position:
+  x: 787
+  y: 483
+next-step: null
+next-error-step: null
+parameters:
+  language: PYTHON
