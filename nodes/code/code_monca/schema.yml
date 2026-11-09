@@ -2,8 +2,8 @@
 id: code_monca
 name: Код
 position:
-  x: 787
-  y: 483
+  x: 802
+  y: 421
 next-step: null
 next-error-step: null
 parameters:
