@@ -1,0 +1,43 @@
+{
+  "description" : "Gets the last context switch (or context return) entry: type, fromBot, fromProduct, toBot, toProduct, toState and customData. Project types (fromProduct/toProduct) are JAICP, AGENT or AIMYLOGIC",
+  "input" : {
+    "type" : "object",
+    "properties" : { },
+    "required" : [ ]
+  },
+  "output" : {
+    "type" : [ "object", "null" ],
+    "description" : "The last switch entry, or null if no switch occurred",
+    "properties" : {
+      "type" : {
+        "type" : [ "string", "null" ],
+        "description" : "context-switch or context-return"
+      },
+      "fromBot" : {
+        "type" : [ "string", "null" ],
+        "description" : "Id of the bot the transition came from"
+      },
+      "fromProduct" : {
+        "type" : [ "string", "null" ],
+        "description" : "Project type of the source bot: JAICP, AGENT or AIMYLOGIC"
+      },
+      "toBot" : {
+        "type" : [ "string", "null" ],
+        "description" : "Id of the bot the transition goes to"
+      },
+      "toProduct" : {
+        "type" : [ "string", "null" ],
+        "description" : "Project type of the target bot: JAICP, AGENT or AIMYLOGIC"
+      },
+      "toState" : {
+        "type" : [ "string", "null" ],
+        "description" : "Target state"
+      },
+      "customData" : {
+        "type" : "object",
+        "description" : "Custom data passed with the switch (only for Agent Platform targets)",
+        "properties" : { }
+      }
+    }
+  }
+}
