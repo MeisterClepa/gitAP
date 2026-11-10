@@ -1,0 +1,22 @@
+---
+id: function_reactions_sendtext_rfmdq
+name: Reactions.sendText
+position:
+  x: 367
+  y: -220
+next-step: null
+next-error-step: null
+parameters:
+  type: SYSTEM
+  collection: Reactions
+  function: sendText
+  is-tool: false
+  parameters:
+    text:
+      type: STRING
+      value: rty
+      filled-ai: false
+  context-config: null
+  hitl-tool-config: null
+  resilience-config: null
+  custom-headers: null
