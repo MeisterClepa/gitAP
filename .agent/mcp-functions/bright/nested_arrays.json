@@ -1,0 +1,50 @@
+{
+  "description" : "Баг A внутри object и массива объектов, nullable элементы массива.",
+  "input" : {
+    "type" : "object",
+    "properties" : {
+      "items" : {
+        "type" : "array",
+        "description" : "",
+        "items" : {
+          "type" : "object",
+          "description" : "",
+          "properties" : {
+            "id" : {
+              "type" : "string",
+              "description" : ""
+            },
+            "active" : {
+              "type" : "boolean",
+              "description" : ""
+            }
+          },
+          "required" : [ "id", "active" ]
+        }
+      },
+      "matrix" : {
+        "type" : "array",
+        "description" : "",
+        "items" : {
+          "type" : "array",
+          "items" : {
+            "type" : "number",
+            "description" : ""
+          }
+        }
+      },
+      "parent" : {
+        "type" : "object",
+        "description" : "",
+        "properties" : {
+          "child" : {
+            "type" : "string",
+            "description" : ""
+          }
+        },
+        "required" : [ "child" ]
+      }
+    },
+    "required" : [ "items", "matrix", "parent" ]
+  }
+}

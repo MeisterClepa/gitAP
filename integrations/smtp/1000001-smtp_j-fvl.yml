@@ -1,0 +1,9 @@
+---
+key: 1000001-smtp_j-fvl
+name: smtp j
+host: ""
+port: null
+sender: ""
+is-ssl-enabled: false
+is-tls-enabled: false
+is-direct-access: false
