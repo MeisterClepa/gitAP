@@ -23,7 +23,7 @@ An LLM-powered agent node that can use tools and hand off to other agents.
  `parameters.chat-history-limit` | number | yes | Maximum number of chat history messages to include | 50 |
  `parameters.enable-context` | boolean | yes | Whether to include conversation context in LLM calls |  |
  `parameters.handoff-agents` | handoffagents | no | Configuration for agent handoff (transfer to other agents) |  |
- `parameters.llm-model-key` | string | no | Key of the LLM model to use | openai-gpt4 |
+ `parameters.llm-model-key` | string | no | `id` of the LLM integration to use (see integrations/llm) | openai-llm-k8mxp2 |
  `parameters.llm-model-settings` | agentllmsettings | no | LLM generation settings (temperature, maxTokens, etc.) |  |
  `parameters.prompt-expert-mode` | agentpromptexpertmode | no | Manual control over the system prompt and the engine's built-in agent tools |  |
  `parameters.sequential-tool-calls-limit` | number | yes | Maximum number of sequential tool calls before forcing a response | 10 |
@@ -159,6 +159,7 @@ Triggers when a user sends a message. No additional parameters.
 | YAML Field | Type | Required | Description | Example |
 ------------|------|----------|-------------|---------|
  `parameters.filter-rule` | map | no | Email filter rules for IMAP trigger |  |
+ `parameters.imap-integration-key` | string | no | Declaration id of the IMAP integration the trigger reads mail from |  |
  `parameters.mock-payload` | imaptriggerpayloaddto | no | Mock payload used to pre-fill the test-trigger form on the UI |  |
 
 ## Node Layout Rules

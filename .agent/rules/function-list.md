@@ -19,7 +19,7 @@ For detailed info about parameters and response, read the corresponding file.
   Schema: .agent/system-functions/AgentContext/deleteValue.json
 - `AgentContext.clearContext` — Clears the entire context (both text and KV)
   Schema: .agent/system-functions/AgentContext/clearContext.json
-- `Asr.recognize` — Recognizes audio content using the specified ASR integration. Not needed in a voice channel: the caller's speech there is recognized automatically with the channel's ASR settings
+- `Asr.recognize` — Recognizes audio content using the specified ASR integration
   Schema: .agent/system-functions/Asr/recognize.json
 - `Context.getAccountId` — Gets the account ID from the current request's bot ID
   Schema: .agent/system-functions/Context/getAccountId.json
@@ -185,6 +185,6 @@ For detailed info about parameters and response, read the corresponding file.
   Schema: .agent/system-functions/Telegram/sendVoice.json
 - `Telegram.sendButtons` — Sends a message with inline keyboard buttons to a Telegram chat
   Schema: .agent/system-functions/Telegram/sendButtons.json
-- `Tts.synthesize` — Converts text to speech using the specified TTS integration and returns an audio URL. Not needed in a voice channel: the bot's replies there are synthesized automatically with the channel's TTS settings
+- `Tts.synthesize` — Converts text to speech using the specified TTS integration and returns an audio URL
   Schema: .agent/system-functions/Tts/synthesize.json
 
