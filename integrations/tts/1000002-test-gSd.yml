@@ -1,0 +1,10 @@
+---
+key: 1000002-test-gSd
+name: test
+provider-type: DYNAMIC
+access-type: INTERNAL
+settings:
+  type: DYNAMIC
+  providerKey: DEFAULT
+  settings:
+    voice: lea

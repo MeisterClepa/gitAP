@@ -1,0 +1,9 @@
+---
+key: 1000002-test_asr-ChY
+name: test asr
+provider-type: DYNAMIC
+access-type: INTERNAL
+settings:
+  type: DYNAMIC
+  providerKey: DEFAULT
+  settings: {}

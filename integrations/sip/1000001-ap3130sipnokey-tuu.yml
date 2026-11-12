@@ -1,7 +1,0 @@
----
-key: 1000001-ap3130sipnokey-tuu
-name: ap3130sipnokey
-host: 203.0.113.10
-port: 5060
-lines-available: 3
-accept-incoming: false
