@@ -1,6 +1,0 @@
----
-key: 1000001-open_ai_gpt52-oiq
-name: OPEN_AI - gpt-5.2
-provider: OPEN_AI
-model: gpt-5.2
-is-direct-access: true

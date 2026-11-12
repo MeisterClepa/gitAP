@@ -1,6 +1,0 @@
----
-key: 1000001-open_ai_gpt54-xeb
-name: OPEN_AI - gpt-5.4
-provider: OPEN_AI
-model: just-ai/openai-proxy/gpt-5.4
-is-direct-access: false
