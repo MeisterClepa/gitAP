@@ -1,5 +1,5 @@
 {
-  "description" : "Converts text to speech using the specified TTS integration and returns an audio URL",
+  "description" : "Converts text to speech using the specified TTS integration and returns an audio URL. Not needed in a voice channel: the bot's replies there are synthesized automatically with the channel's TTS settings",
   "input" : {
     "type" : "object",
     "properties" : {
@@ -24,13 +24,42 @@
   },
   "output" : {
     "type" : "object",
-    "description" : "Object containing the URL to the generated audio file",
+    "description" : "Synthesis result with the URL to the generated audio file",
     "properties" : {
-      "audioUrl" : {
-        "type" : "string",
-        "description" : "URL to access the generated audio file"
+      "settings" : {
+        "type" : "object",
+        "description" : "TTS settings used for synthesis"
+      },
+      "result" : {
+        "type" : "object",
+        "description" : "Synthesis result data",
+        "properties" : {
+          "url" : {
+            "type" : "string",
+            "description" : "URL to access the generated audio file"
+          }
+        },
+        "required" : [ "url" ]
+      },
+      "billing" : {
+        "type" : "object",
+        "description" : "Charge for an internal integration, billed from the account balance; absent for a custom integration",
+        "properties" : {
+          "resource" : {
+            "type" : "string",
+            "description" : "Billing resource, for example synthesis/yandex-tts"
+          },
+          "amount" : {
+            "type" : "integer",
+            "description" : "Charged characters; 0 when the audio came from the cache"
+          },
+          "charged" : {
+            "type" : "boolean",
+            "description" : "Whether billing confirmed the charge"
+          }
+        }
       }
     },
-    "required" : [ "audioUrl" ]
+    "required" : [ "settings", "result" ]
   }
 }

@@ -32,12 +32,13 @@ Integrations are stored in `integrations/<type>/` directories. Each integration 
 
 | YAML Field | Type | Required | Description | Example |
 ------------|------|----------|-------------|---------|
+ `api-type` | string | no | API the model is called through; absent means chat completions | RESPONSES |
  `credential-key` | string | no | Reference to credential used for authentication |  |
  `custom-headers` | jsonnode | no | Custom headers for direct access LLM model |  |
  `custom-url` | string | no | Custom URL for direct access LLM model |  |
  `is-direct-access` | boolean | yes | Whether this is a direct access (custom) LLM model |  |
  `key` | string | yes | Unique integration key | openai-gpt4 |
- `model` | string | yes | Model identifier | gpt-4 |
+ `model` | string | no | Model identifier; may be absent for direct access LLM serving a single model | gpt-4 |
  `name` | string | yes | Human-readable integration name |  |
  `provider` | string | yes | LLM provider name | OpenAI |
 
@@ -49,9 +50,11 @@ Unless the user explicitly asks for direct access, always use `is-direct-access:
 
 | YAML Field | Type | Required | Description | Example |
 ------------|------|----------|-------------|---------|
+ `document-count` | number | no | Number of documents committed next to this file |  |
  `key` | string | yes | Unique database key |  |
  `name` | string | yes | Human-readable database name |  |
  `scope` | string | yes | Database scope: PROJECT or ACCOUNT | PROJECT |
+ `versioned-in-git` | boolean | yes | Whether the documents of this database are versioned together with the project |  |
 
 ## Inbound Channel (`integrations/inbound-channels/`)
 
@@ -130,6 +133,7 @@ Credentials are stored in `credentials/<group>/<key>.yml`. They contain only met
 
 | YAML Field | Type | Required | Description | Example |
 ------------|------|----------|-------------|---------|
+ `expired-at` | instant | no | Credential expiration date-time (ISO-8601), preserved across export/import | 2026-01-01T00:00:00Z |
  `group` | string | no | Credential group | LLM |
  `key` | string | yes | Unique credential key used for referencing | openai-cred |
  `name` | string | yes | Human-readable credential name | OpenAI API Key |
