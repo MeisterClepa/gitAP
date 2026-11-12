@@ -188,28 +188,3 @@ For detailed info about parameters and response, read the corresponding file.
 - `Tts.synthesize` — Converts text to speech using the specified TTS integration and returns an audio URL
   Schema: .agent/system-functions/Tts/synthesize.json
 
-## MCP Functions
-
-- `bright.basic_types` — Контроль: простые типы, enum, необязательное поле с default.
-  Schema: .agent/mcp-functions/bright/basic_types.json
-- `bright.nullable_types` — Баг A: required-поля с type-массивом, включая null первым.
-  Schema: .agent/mcp-functions/bright/nullable_types.json
-- `bright.required_vs_nullable` — Независимость required и nullable: обязательный null допустим, отсутствие ключа нет.
-  Schema: .agent/mcp-functions/bright/required_vs_nullable.json
-- `bright.anyof_scalar` — Контроль: anyOf со скалярным типом и null.
-  Schema: .agent/mcp-functions/bright/anyof_scalar.json
-- `bright.anyof_allof` — Баг B: anyOf -> allOf -> object; required-вложенное nullable поле.
-  Schema: .agent/mcp-functions/bright/anyof_allof.json
-- `bright.allof_merge` — allOf из двух частей: сохранить свойства и required обеих частей.
-  Schema: .agent/mcp-functions/bright/allof_merge.json
-- `bright.nested_arrays` — Баг A внутри object и массива объектов, nullable элементы массива.
-  Schema: .agent/mcp-functions/bright/nested_arrays.json
-- `bright.union_types` — Несколько ненулевых типов: нельзя незаметно сужать к первому.
-  Schema: .agent/mcp-functions/bright/union_types.json
-- `bright.generic_shapes` — Fallback: свободная схема, enum без type, map и null-only.
-  Schema: .agent/mcp-functions/bright/generic_shapes.json
-- `bright.local_ref` — Локальный $ref: свойства определены в $defs.
-  Schema: .agent/mcp-functions/bright/local_ref.json
-- `bright.SearchV2` — Синтетическая репродукция по описанию клиента, не копия отсутствующего вложения.
-  Schema: .agent/mcp-functions/bright/SearchV2.json
-
