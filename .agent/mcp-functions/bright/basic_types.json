@@ -1,0 +1,41 @@
+{
+  "description" : "Контроль: простые типы, enum, необязательное поле с default.",
+  "input" : {
+    "type" : "object",
+    "properties" : {
+      "text" : {
+        "type" : "string",
+        "description" : ""
+      },
+      "count" : {
+        "type" : "integer",
+        "description" : ""
+      },
+      "ratio" : {
+        "type" : "number",
+        "description" : ""
+      },
+      "enabled" : {
+        "type" : "boolean",
+        "description" : ""
+      },
+      "tags" : {
+        "type" : "array",
+        "description" : "",
+        "items" : {
+          "type" : "string",
+          "description" : ""
+        }
+      },
+      "mode" : {
+        "type" : "string",
+        "description" : ""
+      },
+      "note" : {
+        "type" : "string",
+        "description" : ""
+      }
+    },
+    "required" : [ "text", "count", "ratio", "enabled", "tags", "mode" ]
+  }
+}

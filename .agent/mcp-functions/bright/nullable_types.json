@@ -1,0 +1,48 @@
+{
+  "description" : "Баг A: required-поля с type-массивом, включая null первым.",
+  "input" : {
+    "type" : "object",
+    "properties" : {
+      "text" : {
+        "type" : "string",
+        "description" : ""
+      },
+      "count" : {
+        "type" : "integer",
+        "description" : ""
+      },
+      "ratio" : {
+        "type" : "number",
+        "description" : ""
+      },
+      "enabled" : {
+        "type" : "boolean",
+        "description" : ""
+      },
+      "items" : {
+        "type" : "array",
+        "description" : "",
+        "items" : {
+          "type" : "string",
+          "description" : ""
+        }
+      },
+      "record" : {
+        "type" : "object",
+        "description" : "",
+        "properties" : {
+          "label" : {
+            "type" : "string",
+            "description" : ""
+          }
+        },
+        "required" : [ "label" ]
+      },
+      "nullFirst" : {
+        "type" : "string",
+        "description" : ""
+      }
+    },
+    "required" : [ "text", "count", "ratio", "enabled", "items", "record", "nullFirst" ]
+  }
+}
