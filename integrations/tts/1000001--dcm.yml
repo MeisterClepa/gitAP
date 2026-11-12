@@ -1,0 +1,9 @@
+---
+key: 1000001--dcm
+name: ттс
+provider-type: SBER
+access-type: CUSTOM
+settings:
+  type: SBER
+  voice: Nec_8000
+  languageCode: ru-RU

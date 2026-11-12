@@ -1,0 +1,7 @@
+---
+key: 1000001-test-nPY
+name: test
+provider-type: SBER
+access-type: CUSTOM
+settings:
+  type: SBER
