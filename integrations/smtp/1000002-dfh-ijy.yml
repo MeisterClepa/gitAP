@@ -1,0 +1,9 @@
+---
+key: 1000002-dfh-ijy
+name: dfh
+host: sandbox.smtp.mailtrap.io
+port: 587
+sender: efreegor@yandex.ru
+is-ssl-enabled: false
+is-tls-enabled: false
+is-direct-access: true
