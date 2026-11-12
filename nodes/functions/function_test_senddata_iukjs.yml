@@ -1,19 +1,19 @@
 ---
-id: function_credentials_get_myzva
-name: Credentials.get
+id: function_test_senddata_iukjs
+name: test.sendData
 position:
-  x: 610
-  y: -104
+  x: 566
+  y: 52
 next-step: agent_itmlf
 next-error-step: null
 parameters:
-  type: SYSTEM
-  collection: Credentials
-  function: get
+  type: USER
+  collection: test
+  function: sendData
   is-tool: false
   parameters:
-    credentialKey:
-      type: STRING
+    query:
+      type: CREDENTIAL
       value: 1000002-llm-xlu
       filled-ai: false
   context-config: null

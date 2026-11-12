@@ -1,0 +1,13 @@
+---
+id: sendData
+name: sendData
+description: 123
+response-description: 1234
+parameters:
+- name: query
+  type: CREDENTIAL
+  required: true
+  description: 123
+  properties: null
+  items: null
+language: JAVASCRIPT
