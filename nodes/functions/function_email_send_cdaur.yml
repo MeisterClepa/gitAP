@@ -14,7 +14,7 @@ parameters:
   parameters:
     smtpIntegration:
       type: INTEGRATION_SMTP
-      value: 1000001-smtp_real-xdn
+      value: null
       filled-ai: false
     recipients:
       type: ARRAY

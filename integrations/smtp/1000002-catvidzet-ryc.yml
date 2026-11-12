@@ -1,9 +1,9 @@
 ---
-key: 1000001-smtp_real-xdn
-name: smtp real
+key: 1000002-catvidzet-ryc
+name: Чат-виджет
 host: sandbox.smtp.mailtrap.io
-port: 2525
+port: 587
 sender: efreegor@yandex.ru
 is-ssl-enabled: false
-is-tls-enabled: true
+is-tls-enabled: false
 is-direct-access: true
