@@ -1,7 +1,0 @@
----
-key: 1000002-trash-ves
-name: trash
-host: voip02.lo.test-ai.net
-port: 5060
-lines-available: 3
-accept-incoming: true
