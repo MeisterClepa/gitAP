@@ -2,8 +2,8 @@
 id: function_test_senddata_iukjs
 name: test.sendData
 position:
-  x: 359
-  y: -298
+  x: 521
+  y: -556
 next-step: null
 next-error-step: null
 parameters:
