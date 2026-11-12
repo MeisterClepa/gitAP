@@ -1,6 +1,0 @@
----
-key: 1000002-open_ai_gpt4-pem
-name: OPEN_AI - gpt-4
-provider: OPEN_AI
-model: gpt-4
-is-direct-access: true

@@ -2,8 +2,8 @@
 id: trigger_message_grelk
 name: Сообщение
 position:
-  x: 168
-  y: -180
+  x: 185
+  y: -548
 next-step: function_test_senddata_iukjs
 next-error-step: null
 parameters:
