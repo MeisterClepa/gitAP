@@ -1,8 +1,0 @@
-{
-  "description" : "Локальный $ref: свойства определены в $defs.",
-  "input" : {
-    "type" : "object",
-    "properties" : { },
-    "required" : [ ]
-  }
-}
