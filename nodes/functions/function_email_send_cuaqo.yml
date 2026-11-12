@@ -2,8 +2,8 @@
 id: function_email_send_cuaqo
 name: Email.send
 position:
-  x: 1258
-  y: -73
+  x: 1244
+  y: -110
 next-step: null
 next-error-step: null
 parameters:
@@ -14,7 +14,7 @@ parameters:
   parameters:
     smtpIntegration:
       type: INTEGRATION_SMTP
-      value: 1000002-smtp-pmp
+      value: null
       filled-ai: false
     recipients:
       type: ARRAY

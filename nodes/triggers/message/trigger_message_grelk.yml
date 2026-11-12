@@ -2,8 +2,8 @@
 id: trigger_message_grelk
 name: Сообщение
 position:
-  x: 353
-  y: -77
+  x: 307
+  y: -98
 next-step: function_credentials_get_myzva
 next-error-step: null
 parameters:

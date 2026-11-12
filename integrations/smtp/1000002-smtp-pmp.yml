@@ -1,9 +1,0 @@
----
-key: 1000002-smtp-pmp
-name: smtp
-host: sandbox.smtp.mailtrap.io
-port: 2525
-sender: efreegor@yandex.ru
-is-ssl-enabled: false
-is-tls-enabled: false
-is-direct-access: true
