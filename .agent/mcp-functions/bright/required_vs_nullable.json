@@ -1,0 +1,25 @@
+{
+  "description" : "Независимость required и nullable: обязательный null допустим, отсутствие ключа нет.",
+  "input" : {
+    "type" : "object",
+    "properties" : {
+      "requiredText" : {
+        "type" : "string",
+        "description" : ""
+      },
+      "requiredNullable" : {
+        "type" : "string",
+        "description" : ""
+      },
+      "optionalText" : {
+        "type" : "string",
+        "description" : ""
+      },
+      "optionalNullable" : {
+        "type" : "string",
+        "description" : ""
+      }
+    },
+    "required" : [ "requiredText", "requiredNullable" ]
+  }
+}
