@@ -1,0 +1,22 @@
+---
+id: function_test_senddata_iukjs
+name: test.sendData
+position:
+  x: 566
+  y: 52
+next-step: agent_itmlf
+next-error-step: null
+parameters:
+  type: USER
+  collection: test
+  function: sendData
+  is-tool: false
+  parameters:
+    query:
+      type: CREDENTIAL
+      value: 1000002-llm-xlu
+      filled-ai: false
+  context-config: null
+  hitl-tool-config: null
+  resilience-config: null
+  custom-headers: null

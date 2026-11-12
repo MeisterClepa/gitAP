@@ -4,7 +4,7 @@ name: Сообщение
 position:
   x: 307
   y: -98
-next-step: null
+next-step: function_test_senddata_iukjs
 next-error-step: null
 parameters:
   placeholder: null
