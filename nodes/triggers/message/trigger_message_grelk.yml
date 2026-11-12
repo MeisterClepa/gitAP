@@ -1,0 +1,10 @@
+---
+id: trigger_message_grelk
+name: Сообщение
+position:
+  x: 353
+  y: -77
+next-step: function_credentials_get_sqmzq
+next-error-step: null
+parameters:
+  placeholder: null
