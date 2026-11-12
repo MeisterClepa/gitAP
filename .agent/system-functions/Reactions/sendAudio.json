@@ -10,6 +10,12 @@
       "name" : {
         "type" : "string",
         "description" : "Name of the audio file"
+      },
+      "httpHeaders" : {
+        "type" : "object",
+        "description" : "HTTP headers for downloading the file in the telephony channel, e.g. Authorization for private storage",
+        "properties" : { },
+        "required" : [ ]
       }
     },
     "required" : [ "url" ]

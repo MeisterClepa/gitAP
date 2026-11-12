@@ -50,7 +50,7 @@ This document describes the directory layout of an Agent Platform project.
 │   ├── imap/                       # IMAP email integrations
 │   └── jayguard/                   # Jayguard security integrations
 └── credentials/
-    └── <group>/                    # Credential group (e.g. channel, sip, other)
+    └── <group>/                    # Credential group (e.g. llm, smtp, other)
         └── <key>.yml               # Credential metadata (no secrets)
 ```
 
@@ -61,7 +61,7 @@ This document describes the directory layout of an Agent Platform project.
 - **Trigger nodes** are entry points — they start a scenario when an event occurs.
 - **Functions** contain reusable business logic written in JavaScript.
 - **Integrations** connect the project to external services (LLMs, email, databases, etc.).
-- **Credentials** are stored in `credentials/<group>/<key>.yml` — actual secrets are managed outside the file structure. Integrations have no credential in the files: it is bound on each stand.
+- **Credentials** are stored in `credentials/<group>/<key>.yml` — actual secrets are managed outside the file structure.
 
 ## Rules
 
