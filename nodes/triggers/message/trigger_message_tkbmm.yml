@@ -2,8 +2,8 @@
 id: trigger_message_tkbmm
 name: Сообщение
 position:
-  x: 219
-  y: 50
+  x: 200
+  y: 85
 next-step: function_email_send_cdaur
 next-error-step: null
 parameters:

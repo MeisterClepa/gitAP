@@ -2,8 +2,8 @@
 id: function_email_send_cdaur
 name: Email.send
 position:
-  x: 555
-  y: 83
+  x: 896
+  y: 74
 next-step: null
 next-error-step: null
 parameters:
