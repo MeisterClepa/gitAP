@@ -2,7 +2,7 @@
 key: 1000001-smtp_real-xdn
 name: smtp real
 host: sandbox.smtp.mailtrap.io
-port: 25
+port: 2525
 sender: efreegor@yandex.ru
 is-ssl-enabled: false
 is-tls-enabled: true
