@@ -1,7 +1,0 @@
----
-key: 1000001-mcp_real-fki
-name: mcp real
-transport-type: STREAMABLE_HTTP
-collection-name: bright
-url: http://192.168.241.252:8765/mcp/
-custom-headers: null
