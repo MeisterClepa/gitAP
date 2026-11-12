@@ -2,8 +2,8 @@
 id: agent_itmlf
 name: Агент
 position:
-  x: 924
-  y: -90
+  x: 888
+  y: -189
 next-step: function_email_send_cuaqo
 next-error-step: null
 parameters:

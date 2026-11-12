@@ -2,8 +2,8 @@
 id: function_test_senddata_iukjs
 name: test.sendData
 position:
-  x: 566
-  y: 52
+  x: 547
+  y: -140
 next-step: agent_itmlf
 next-error-step: null
 parameters:
