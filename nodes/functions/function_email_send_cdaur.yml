@@ -2,9 +2,9 @@
 id: function_email_send_cdaur
 name: Email.send
 position:
-  x: 896
-  y: 74
-next-step: null
+  x: 822
+  y: 82
+next-step: agent_jozjo
 next-error-step: null
 parameters:
   type: SYSTEM
